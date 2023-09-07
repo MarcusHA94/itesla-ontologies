@@ -1,0 +1,1472 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy/"
+     xml:base="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_00484c53_f7ef_4ca7_8bdf_b87951c641ac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_00484c53_f7ef_4ca7_8bdf_b87951c641ac">
+        <rdfs:label xml:lang="en">energy_infrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_03735b07_9798_4435_977a_841c46fb42ca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_03735b07_9798_4435_977a_841c46fb42ca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_391c9a9a_9f72_46ca_96df_5ff5233e15db"/>
+        <rdfs:label xml:lang="en">irrigationAndAgricultural_domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0598b126_06f9_4f84_9190_3c7f6c12afd4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0598b126_06f9_4f84_9190_3c7f6c12afd4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_9c1de027_f5ad_4453_98f5_04283819368a"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c470e939_eebb_4a7d_84b7_98a50c1ec84c"/>
+        <rdfs:label xml:lang="en">tunnel_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_083e3e39_a179_4097_a87c_f10e499be3e3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_083e3e39_a179_4097_a87c_f10e499be3e3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_9c1de027_f5ad_4453_98f5_04283819368a"/>
+        <rdfs:label xml:lang="en">station_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_09bbec00_b04d_4ef4_8d2a_39979d4c3be4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_09bbec00_b04d_4ef4_8d2a_39979d4c3be4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7dd73c24_83d0_4fd4_a887_45479836df7a"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_9c1de027_f5ad_4453_98f5_04283819368a"/>
+        <rdfs:label xml:lang="en">road_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0b469296_b426_4348_b4c4_2270266fce28 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0b469296_b426_4348_b4c4_2270266fce28">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_bbb9ccb7_f09f_4dc9_a815_d02e45e35423"/>
+        <rdfs:label xml:lang="en">privateAirport_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0c49dc82_92c5_4c53_b25f_bf813c7a0f2b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0c49dc82_92c5_4c53_b25f_bf813c7a0f2b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_1694c9e3_2f3a_4298_9562_0277275436b6"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7dd73c24_83d0_4fd4_a887_45479836df7a"/>
+        <rdfs:label xml:lang="en">marine_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_113235f8_6435_4b65_96a3_812a2204351a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_113235f8_6435_4b65_96a3_812a2204351a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5989df54_0e8e_4eae_a48d_57e0471fa86a"/>
+        <rdfs:label xml:lang="en">beamBridge_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_15801faa_8d5b_4fe4_a1c9_9f4a0eaa2c92 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_15801faa_8d5b_4fe4_a1c9_9f4a0eaa2c92">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_28eb6a60_9bed_4f0f_b8bd_bc736e44642d"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:label xml:lang="en">substation_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_16567118_179a_4b90_8947_e7769b9dd537 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_16567118_179a_4b90_8947_e7769b9dd537">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0c49dc82_92c5_4c53_b25f_bf813c7a0f2b"/>
+        <rdfs:label xml:lang="en">sea_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_1694c9e3_2f3a_4298_9562_0277275436b6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_1694c9e3_2f3a_4298_9562_0277275436b6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e193db5f_b0c7_4e36_bcd3_4b8edad5a38e"/>
+        <rdfs:label xml:lang="en">water_domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_17ada895_1400_4af6_9c38_ece1eb1e3e6f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_17ada895_1400_4af6_9c38_ece1eb1e3e6f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ed3d03e3_2984_4c20_9a43_f10d999d7862"/>
+        <rdfs:label xml:lang="en">collectionSystem_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_17eda0f0_0f48_4c8b_a7e5_2c3b488d0d64 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_17eda0f0_0f48_4c8b_a7e5_2c3b488d0d64">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7dd73c24_83d0_4fd4_a887_45479836df7a"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_9c1de027_f5ad_4453_98f5_04283819368a"/>
+        <rdfs:label xml:lang="en">cyclePath_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_186fe893_9e68_46c5_b533_b1089444e411 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_186fe893_9e68_46c5_b533_b1089444e411">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a3285b3b_2a18_4054_9b28_e6ffdee65893"/>
+        <rdfs:label xml:lang="en">hydrogen_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_1b0f6967_ed7c_4fef_826c_c3b9fe0d23ba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_1b0f6967_ed7c_4fef_826c_c3b9fe0d23ba">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_09bbec00_b04d_4ef4_8d2a_39979d4c3be4"/>
+        <rdfs:label xml:lang="en">urbanRoad_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_24fe9817_764a_4280_abf4_d17c1b30c24e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_24fe9817_764a_4280_abf4_d17c1b30c24e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_15801faa_8d5b_4fe4_a1c9_9f4a0eaa2c92"/>
+        <rdfs:label xml:lang="en">smartGrid_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_268e4073_33a6_4d9e_9993_c1ec9cc1f11d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_268e4073_33a6_4d9e_9993_c1ec9cc1f11d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f0489621_376e_409d_8216_cd9ad9d242e0"/>
+        <rdfs:label xml:lang="en">river_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_28eb6a60_9bed_4f0f_b8bd_bc736e44642d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_28eb6a60_9bed_4f0f_b8bd_bc736e44642d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_00484c53_f7ef_4ca7_8bdf_b87951c641ac"/>
+        <rdfs:label xml:lang="en">electricity_domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_29a7a8d6_74b1_4e80_8591_8a761353a850 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_29a7a8d6_74b1_4e80_8591_8a761353a850">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_70847c64_8012_4f77_87ca_891f059635fa"/>
+        <rdfs:label xml:lang="en">cargoPort_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_2f7f1b40_84ab_4421_8f27_e30cdbd7db60 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_2f7f1b40_84ab_4421_8f27_e30cdbd7db60">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_09bbec00_b04d_4ef4_8d2a_39979d4c3be4"/>
+        <rdfs:label xml:lang="en">ruralRoad_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_334b9f0e_b547_41ed_9fb7_d07fe4eadcb8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_334b9f0e_b547_41ed_9fb7_d07fe4eadcb8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_70847c64_8012_4f77_87ca_891f059635fa"/>
+        <rdfs:label xml:lang="en">navalPort_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_35a0fb29_14ab_484a_b65e_b5cfb32aef05 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_35a0fb29_14ab_484a_b65e_b5cfb32aef05">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a9b9bad6_b516_4c8c_8cf6_fb895bb6d590"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fa1700c6_2e9d_4faa_a788_6a365b7219e5"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ed629dab_bd97_4ba8_8de2_6f52b61ee503"/>
+        <rdfs:label xml:lang="en">nuclearPlant_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_36077488_386a_49e2_88ba_494a049a409e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_36077488_386a_49e2_88ba_494a049a409e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7117aedf_c873_473f_a0e1_b77cc5f2e947"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:label xml:lang="en">extraction_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_391c9a9a_9f72_46ca_96df_5ff5233e15db -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_391c9a9a_9f72_46ca_96df_5ff5233e15db">
+        <rdfs:label xml:lang="en">water_infrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3a04b7b6_78f0_4e3d_a2cb_c8bdf59a85ea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3a04b7b6_78f0_4e3d_a2cb_c8bdf59a85ea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fa1700c6_2e9d_4faa_a788_6a365b7219e5"/>
+        <rdfs:label xml:lang="en">hydroelectric_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3a32da57_42e4_41a5_b652_eec995d9b007 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3a32da57_42e4_41a5_b652_eec995d9b007">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_680abf89_1f6e_4e1f_815a_3158290b2a49"/>
+        <rdfs:label xml:lang="en">lowVoltage_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3cea8523_593c_4cfd_aab3_483e5e3002b3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3cea8523_593c_4cfd_aab3_483e5e3002b3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_736deb6d_75ea_493f_9d3c_52e84950e797"/>
+        <rdfs:label xml:lang="en">batteryFarm_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3d454887_d381_4e92_9da2_a4ab7d88bd28 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3d454887_d381_4e92_9da2_a4ab7d88bd28">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0c49dc82_92c5_4c53_b25f_bf813c7a0f2b"/>
+        <rdfs:label xml:lang="en">channel_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3e77267a_af3d_4310_901b_bd8571f3ef23 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3e77267a_af3d_4310_901b_bd8571f3ef23">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a70a8e8a_0eef_4ffc_a478_8ecaed244393"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_4e0c5252_1970_47a7_af0e_1b71e0acf3ab"/>
+        <rdfs:label xml:lang="en">reuseAndRecycling_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3eb15a09_74b0_4f1d_a2b2_22422550f4eb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3eb15a09_74b0_4f1d_a2b2_22422550f4eb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_15801faa_8d5b_4fe4_a1c9_9f4a0eaa2c92"/>
+        <rdfs:label xml:lang="en">distribution_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3fcbc1c9_e704_4fd1_8443_80ca21d61e3e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3fcbc1c9_e704_4fd1_8443_80ca21d61e3e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_36077488_386a_49e2_88ba_494a049a409e"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8eb0137c_214e_49b8_99fb_af71ee41b486"/>
+        <rdfs:label xml:lang="en">oilPlatform_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3ff2a8a1_aa2c_4abb_a9b5_a70748ee62d6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3ff2a8a1_aa2c_4abb_a9b5_a70748ee62d6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c36b4ac7_714d_401b_868c_b819e5541353"/>
+        <rdfs:label xml:lang="en">heliport_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_40fea57e_e7bc_429f_905d_7690dfc9865a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_40fea57e_e7bc_429f_905d_7690dfc9865a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a3285b3b_2a18_4054_9b28_e6ffdee65893"/>
+        <rdfs:label xml:lang="en">carbonCapture_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_48c1afdc_b47f_4bf5_804a_c0acde86c55d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_48c1afdc_b47f_4bf5_804a_c0acde86c55d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fa1700c6_2e9d_4faa_a788_6a365b7219e5"/>
+        <rdfs:label xml:lang="en">naturalGas_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_48dee62f_d0da_45e5_9d6b_917791737d9e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_48dee62f_d0da_45e5_9d6b_917791737d9e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c4716e5f_aa09_40d5_b471_dbd434a3b13a"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_61ca4c7d_062b_4d80_99fc_ac2f69a51e68"/>
+        <rdfs:label xml:lang="en">governmentSpaceport_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_48f67643_3142_44b3_943e_4b6acc4cb56c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_48f67643_3142_44b3_943e_4b6acc4cb56c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7d5d7edb_b36f_43d6_86ac_d6e1c85c1a00"/>
+        <rdfs:label xml:lang="en">sourceDevelopment_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_4e0c5252_1970_47a7_af0e_1b71e0acf3ab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_4e0c5252_1970_47a7_af0e_1b71e0acf3ab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a70a8e8a_0eef_4ffc_a478_8ecaed244393"/>
+        <rdfs:label xml:lang="en">conservationMeasure_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_51c56e72_e39d_4023_bb4d_c1cfcbf2f2ff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_51c56e72_e39d_4023_bb4d_c1cfcbf2f2ff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7117aedf_c873_473f_a0e1_b77cc5f2e947"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7dd73c24_83d0_4fd4_a887_45479836df7a"/>
+        <rdfs:label xml:lang="en">pipeline_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5989df54_0e8e_4eae_a48d_57e0471fa86a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5989df54_0e8e_4eae_a48d_57e0471fa86a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_9c1de027_f5ad_4453_98f5_04283819368a"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c470e939_eebb_4a7d_84b7_98a50c1ec84c"/>
+        <rdfs:label xml:lang="en">bridge_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5abd9430_9d96_4673_9d31_f09482820c73 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5abd9430_9d96_4673_9d31_f09482820c73">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ed629dab_bd97_4ba8_8de2_6f52b61ee503"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c5e0fae9_7368_4d3f_8103_92517901fa4d"/>
+        <rdfs:label xml:lang="en">lowLevelWaste_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5afaca96_a592_4dad_acef_40649709b4e1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5afaca96_a592_4dad_acef_40649709b4e1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_9c1de027_f5ad_4453_98f5_04283819368a"/>
+        <rdfs:label xml:lang="en">parking_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5f79a111_57da_4ce1_8907_f0c11b484790 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5f79a111_57da_4ce1_8907_f0c11b484790">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_bbb9ccb7_f09f_4dc9_a815_d02e45e35423"/>
+        <rdfs:label xml:lang="en">domesticAirport_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_601a45bd_5613_4e22_a899_17e5b4033604 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_601a45bd_5613_4e22_a899_17e5b4033604">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fa1700c6_2e9d_4faa_a788_6a365b7219e5"/>
+        <rdfs:label xml:lang="en">coalFired_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_61ca4c7d_062b_4d80_99fc_ac2f69a51e68 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_61ca4c7d_062b_4d80_99fc_ac2f69a51e68">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c4716e5f_aa09_40d5_b471_dbd434a3b13a"/>
+        <rdfs:label xml:lang="en">commercialSpaceport_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_64d532c2_809a_42c3_82de_d96c1d73c4ad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_64d532c2_809a_42c3_82de_d96c1d73c4ad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f0489621_376e_409d_8216_cd9ad9d242e0"/>
+        <rdfs:label xml:lang="en">lake_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_658b6dc9_d45d_4413_9492_4c8d8d5aaa3a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_658b6dc9_d45d_4413_9492_4c8d8d5aaa3a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_51c56e72_e39d_4023_bb4d_c1cfcbf2f2ff"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_66365766_4adf_442c_a4b6_7dd55d3ac5ac"/>
+        <rdfs:label xml:lang="en">gasPipeline_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_66365766_4adf_442c_a4b6_7dd55d3ac5ac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_66365766_4adf_442c_a4b6_7dd55d3ac5ac">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_51c56e72_e39d_4023_bb4d_c1cfcbf2f2ff"/>
+        <rdfs:label xml:lang="en">oilPipeline_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_680abf89_1f6e_4e1f_815a_3158290b2a49 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_680abf89_1f6e_4e1f_815a_3158290b2a49">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_28eb6a60_9bed_4f0f_b8bd_bc736e44642d"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7dd73c24_83d0_4fd4_a887_45479836df7a"/>
+        <rdfs:label xml:lang="en">transmissionLines_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_6cd4221f_4ed6_4b07_9233_b95e540a162b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_6cd4221f_4ed6_4b07_9233_b95e540a162b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7117aedf_c873_473f_a0e1_b77cc5f2e947"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:label xml:lang="en">refinery_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_6d9583b8_3782_4789_beb1_9988d0210e47 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_6d9583b8_3782_4789_beb1_9988d0210e47">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_15801faa_8d5b_4fe4_a1c9_9f4a0eaa2c92"/>
+        <rdfs:label xml:lang="en">microgrid_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_6e5ae07c_11a9_40f8_a508_7e6e377fa30a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_6e5ae07c_11a9_40f8_a508_7e6e377fa30a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fd320b85_b86f_4412_b969_c7cba4c9e87a"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c77a54fa_ede1_43e9_810a_4414bc9bc485"/>
+        <rdfs:label xml:lang="en">oilTanks_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_70847c64_8012_4f77_87ca_891f059635fa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_70847c64_8012_4f77_87ca_891f059635fa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_1694c9e3_2f3a_4298_9562_0277275436b6"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:label xml:lang="en">port_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7117aedf_c873_473f_a0e1_b77cc5f2e947 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7117aedf_c873_473f_a0e1_b77cc5f2e947">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_00484c53_f7ef_4ca7_8bdf_b87951c641ac"/>
+        <rdfs:label xml:lang="en">oilAndGas_domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_736deb6d_75ea_493f_9d3c_52e84950e797 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_736deb6d_75ea_493f_9d3c_52e84950e797">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_28eb6a60_9bed_4f0f_b8bd_bc736e44642d"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:label xml:lang="en">electricityStorage_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7423a903_7518_4d04_a521_d0e708850cd6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7423a903_7518_4d04_a521_d0e708850cd6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7d5d7edb_b36f_43d6_86ac_d6e1c85c1a00"/>
+        <rdfs:label xml:lang="en">storageAndDistribution_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_74397884_b172_4389_bee8_06a5ce6cb394 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_74397884_b172_4389_bee8_06a5ce6cb394">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7dd73c24_83d0_4fd4_a887_45479836df7a"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_9c1de027_f5ad_4453_98f5_04283819368a"/>
+        <rdfs:label xml:lang="en">footpath_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7532b045_1589_4eda_8689_9419dc55343a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7532b045_1589_4eda_8689_9419dc55343a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0598b126_06f9_4f84_9190_3c7f6c12afd4"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b9994056_5edc_4895_b60a_e1185dee1742"/>
+        <rdfs:label xml:lang="en">railTunnel_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1">
+        <rdfs:label xml:lang="en">node_path</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_780c4058_2136_497c_b000_c1e8e6e425ea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_780c4058_2136_497c_b000_c1e8e6e425ea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7d5d7edb_b36f_43d6_86ac_d6e1c85c1a00"/>
+        <rdfs:label xml:lang="en">treatmentFacility_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7afa7d2b_f247_479e_95d6_beee6b1de5b5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7afa7d2b_f247_479e_95d6_beee6b1de5b5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b9994056_5edc_4895_b60a_e1185dee1742"/>
+        <rdfs:label xml:lang="en">highSpeedRail_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7bf62d5a_4df2_40d5_9d45_e5964943eff9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7bf62d5a_4df2_40d5_9d45_e5964943eff9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_09bbec00_b04d_4ef4_8d2a_39979d4c3be4"/>
+        <rdfs:label xml:lang="en">highway_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7d5d7edb_b36f_43d6_86ac_d6e1c85c1a00 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7d5d7edb_b36f_43d6_86ac_d6e1c85c1a00">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_391c9a9a_9f72_46ca_96df_5ff5233e15db"/>
+        <rdfs:label xml:lang="en">waterSupplyAndTreatment_domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7dd73c24_83d0_4fd4_a887_45479836df7a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7dd73c24_83d0_4fd4_a887_45479836df7a">
+        <rdfs:label xml:lang="en">route_path</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7fbd5092_e042_4708_a3b8_d1daecfe2358 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7fbd5092_e042_4708_a3b8_d1daecfe2358">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_70847c64_8012_4f77_87ca_891f059635fa"/>
+        <rdfs:label xml:lang="en">fishingPort_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_80192773_85a8_4ba6_9c74_7432b74b54a6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_80192773_85a8_4ba6_9c74_7432b74b54a6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5afaca96_a592_4dad_acef_40649709b4e1"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b2c75444_5767_4a57_a36b_33b059de20ea"/>
+        <rdfs:label xml:lang="en">carPark_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8207ea1f_0556_4b87_bee6_5bb5366547c2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8207ea1f_0556_4b87_bee6_5bb5366547c2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_28eb6a60_9bed_4f0f_b8bd_bc736e44642d"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:label xml:lang="en">powerFarm_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8297afae_cf05_47bb_afbb_0a176e9c77f7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8297afae_cf05_47bb_afbb_0a176e9c77f7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0c49dc82_92c5_4c53_b25f_bf813c7a0f2b"/>
+        <rdfs:label xml:lang="en">ocean_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_85f46684_e6c8_4868_a147_1ef0c9f04ffa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_85f46684_e6c8_4868_a147_1ef0c9f04ffa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_03735b07_9798_4435_977a_841c46fb42ca"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_dfece4f5_273a_4b2e_ad94_a71d48e414df"/>
+        <rdfs:label xml:lang="en">waterStorage_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8a354010_f34b_4053_8aa5_0ac624d9106d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8a354010_f34b_4053_8aa5_0ac624d9106d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_680abf89_1f6e_4e1f_815a_3158290b2a49"/>
+        <rdfs:label xml:lang="en">highVoltage_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8cb6c2f9_45ad_45c3_ba94_4b3854e683f5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8cb6c2f9_45ad_45c3_ba94_4b3854e683f5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b9994056_5edc_4895_b60a_e1185dee1742"/>
+        <rdfs:label xml:lang="en">lightRail_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8eb0137c_214e_49b8_99fb_af71ee41b486 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8eb0137c_214e_49b8_99fb_af71ee41b486">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_36077488_386a_49e2_88ba_494a049a409e"/>
+        <rdfs:label xml:lang="en">gasDrill_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_93367645_0b20_498e_a6ad_ad9c15b2cd38 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_93367645_0b20_498e_a6ad_ad9c15b2cd38">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f0489621_376e_409d_8216_cd9ad9d242e0"/>
+        <rdfs:label xml:lang="en">canal_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_946818cb_72db_48f6_9b9a_14bd0298027d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_946818cb_72db_48f6_9b9a_14bd0298027d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8207ea1f_0556_4b87_bee6_5bb5366547c2"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a0f868f9_8411_4115_ada4_a9d2a10a1884"/>
+        <rdfs:label xml:lang="en">solar_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_94c7f2f3_0fea_464d_95dd_2a8395061387 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_94c7f2f3_0fea_464d_95dd_2a8395061387">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5989df54_0e8e_4eae_a48d_57e0471fa86a"/>
+        <rdfs:label xml:lang="en">suspensionBridge_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_9c1de027_f5ad_4453_98f5_04283819368a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_9c1de027_f5ad_4453_98f5_04283819368a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e193db5f_b0c7_4e36_bcd3_4b8edad5a38e"/>
+        <rdfs:label xml:lang="en">land_domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_9e0122ed_924a_47e9_be5f_0cee6f0b04ff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_9e0122ed_924a_47e9_be5f_0cee6f0b04ff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_186fe893_9e68_46c5_b533_b1089444e411"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_d0825b94_19fa_4176_9bd7_4701e6e4dc92"/>
+        <rdfs:label xml:lang="en">hydrogenProductionPlant_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a0f868f9_8411_4115_ada4_a9d2a10a1884 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a0f868f9_8411_4115_ada4_a9d2a10a1884">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8207ea1f_0556_4b87_bee6_5bb5366547c2"/>
+        <rdfs:label xml:lang="en">wind_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a3285b3b_2a18_4054_9b28_e6ffdee65893 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a3285b3b_2a18_4054_9b28_e6ffdee65893">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_00484c53_f7ef_4ca7_8bdf_b87951c641ac"/>
+        <rdfs:label xml:lang="en">other_domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a3816d0e_7d49_4bb9_9ff6_2b8970d83910 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a3816d0e_7d49_4bb9_9ff6_2b8970d83910">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_40fea57e_e7bc_429f_905d_7690dfc9865a"/>
+        <rdfs:label xml:lang="en">carbonCapturePlant_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a70a8e8a_0eef_4ffc_a478_8ecaed244393 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a70a8e8a_0eef_4ffc_a478_8ecaed244393">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_391c9a9a_9f72_46ca_96df_5ff5233e15db"/>
+        <rdfs:label xml:lang="en">sustainabilityAndRegulation_domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a9b9bad6_b516_4c8c_8cf6_fb895bb6d590 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a9b9bad6_b516_4c8c_8cf6_fb895bb6d590">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_00484c53_f7ef_4ca7_8bdf_b87951c641ac"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:label xml:lang="en">nuclear_domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ac40ce50_c188_4e3d_86d4_ba12265375a8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ac40ce50_c188_4e3d_86d4_ba12265375a8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_15801faa_8d5b_4fe4_a1c9_9f4a0eaa2c92"/>
+        <rdfs:label xml:lang="en">transformers_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ac72e8dc_25e9_4007_a2b7_a8a0b27b83ab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ac72e8dc_25e9_4007_a2b7_a8a0b27b83ab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_083e3e39_a179_4097_a87c_f10e499be3e3"/>
+        <rdfs:label xml:lang="en">busTerminal_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_aeb1875a_46aa_45cf_93fe_9dc687c95e2f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_aeb1875a_46aa_45cf_93fe_9dc687c95e2f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b97f300d_c156_4cf5_8816_f8245cbab0ed"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e6e0cb44_3214_4b66_bd49_b80210951ebc"/>
+        <rdfs:label xml:lang="en">anaerobicDigestor_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b203685f_bf08_4479_b0fd_28a9a71ebfba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b203685f_bf08_4479_b0fd_28a9a71ebfba">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_6cd4221f_4ed6_4b07_9233_b95e540a162b"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fd2b5584_5034_4e9f_97f6_d4715e13063b"/>
+        <rdfs:label xml:lang="en">gasProcessingPlant_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b2c75444_5767_4a57_a36b_33b059de20ea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b2c75444_5767_4a57_a36b_33b059de20ea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5afaca96_a592_4dad_acef_40649709b4e1"/>
+        <rdfs:label xml:lang="en">bicycleParking_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b4fcbdd5_2dd8_4424_839d_091c3a563419 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b4fcbdd5_2dd8_4424_839d_091c3a563419">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_391c9a9a_9f72_46ca_96df_5ff5233e15db"/>
+        <rdfs:label xml:lang="en">stormwaterAndFloodManagement_domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b687b104_bf0c_4d72_b000_4f7122692fe3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b687b104_bf0c_4d72_b000_4f7122692fe3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_083e3e39_a179_4097_a87c_f10e499be3e3"/>
+        <rdfs:label xml:lang="en">busStop_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b804bbfa_71a8_446d_9625_7843f78da296 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b804bbfa_71a8_446d_9625_7843f78da296">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3ff2a8a1_aa2c_4abb_a9b5_a70748ee62d6"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_cc934a94_71c2_4c7d_babb_8066a16353f3"/>
+        <rdfs:label xml:lang="en">commercialHeliport_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b821bcf4_3694_477f_b1d1_e6d35b13176d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b821bcf4_3694_477f_b1d1_e6d35b13176d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0598b126_06f9_4f84_9190_3c7f6c12afd4"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_09bbec00_b04d_4ef4_8d2a_39979d4c3be4"/>
+        <rdfs:label xml:lang="en">roadTunnel_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b97f300d_c156_4cf5_8816_f8245cbab0ed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b97f300d_c156_4cf5_8816_f8245cbab0ed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a3285b3b_2a18_4054_9b28_e6ffdee65893"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fa1700c6_2e9d_4faa_a788_6a365b7219e5"/>
+        <rdfs:label xml:lang="en">bioenergy_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b9994056_5edc_4895_b60a_e1185dee1742 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b9994056_5edc_4895_b60a_e1185dee1742">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7dd73c24_83d0_4fd4_a887_45479836df7a"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_9c1de027_f5ad_4453_98f5_04283819368a"/>
+        <rdfs:label xml:lang="en">railway_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b9ffea7f_07a2_44de_ab58_a638da868c45 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b9ffea7f_07a2_44de_ab58_a638da868c45">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0c49dc82_92c5_4c53_b25f_bf813c7a0f2b"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f0489621_376e_409d_8216_cd9ad9d242e0"/>
+        <rdfs:label xml:lang="en">shippingRoute_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_bbb9ccb7_f09f_4dc9_a815_d02e45e35423 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_bbb9ccb7_f09f_4dc9_a815_d02e45e35423">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c36b4ac7_714d_401b_868c_b819e5541353"/>
+        <rdfs:label xml:lang="en">airport_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c0a4e533_436e_4fde_aaed_4700e6e23267 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c0a4e533_436e_4fde_aaed_4700e6e23267">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b9994056_5edc_4895_b60a_e1185dee1742"/>
+        <rdfs:label xml:lang="en">freightRail_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c36b4ac7_714d_401b_868c_b819e5541353 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c36b4ac7_714d_401b_868c_b819e5541353">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e193db5f_b0c7_4e36_bcd3_4b8edad5a38e"/>
+        <rdfs:label xml:lang="en">air_domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c470e939_eebb_4a7d_84b7_98a50c1ec84c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c470e939_eebb_4a7d_84b7_98a50c1ec84c">
+        <rdfs:label xml:lang="en">traverse_path</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c4716e5f_aa09_40d5_b471_dbd434a3b13a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c4716e5f_aa09_40d5_b471_dbd434a3b13a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c36b4ac7_714d_401b_868c_b819e5541353"/>
+        <rdfs:label xml:lang="en">spaceport_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c5e0fae9_7368_4d3f_8103_92517901fa4d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c5e0fae9_7368_4d3f_8103_92517901fa4d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ed629dab_bd97_4ba8_8de2_6f52b61ee503"/>
+        <rdfs:label xml:lang="en">highLevelWaste_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c77a54fa_ede1_43e9_810a_4414bc9bc485 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c77a54fa_ede1_43e9_810a_4414bc9bc485">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fd320b85_b86f_4412_b969_c7cba4c9e87a"/>
+        <rdfs:label xml:lang="en">gasStorage_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c7fc8671_b078_49a4_becf_bb11d6b20fa4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c7fc8671_b078_49a4_becf_bb11d6b20fa4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5989df54_0e8e_4eae_a48d_57e0471fa86a"/>
+        <rdfs:label xml:lang="en">archBridge_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c803d908_c95d_4e3e_a990_6b098ac81be5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c803d908_c95d_4e3e_a990_6b098ac81be5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fa1700c6_2e9d_4faa_a788_6a365b7219e5"/>
+        <rdfs:label xml:lang="en">geothermal_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_cc934a94_71c2_4c7d_babb_8066a16353f3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_cc934a94_71c2_4c7d_babb_8066a16353f3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3ff2a8a1_aa2c_4abb_a9b5_a70748ee62d6"/>
+        <rdfs:label xml:lang="en">hospitalHeliport_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_cef23181_fd71_4f58_aab1_fb4bc6971dfc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_cef23181_fd71_4f58_aab1_fb4bc6971dfc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_35a0fb29_14ab_484a_b65e_b5cfb32aef05"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f84eee37_3aa3_421d_ac26_31d55dd8db11"/>
+        <rdfs:label xml:lang="en">pressurisedWaterReactor_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_cf3f41f1_abe3_4c1e_80a2_d51805516dc6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_cf3f41f1_abe3_4c1e_80a2_d51805516dc6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0c49dc82_92c5_4c53_b25f_bf813c7a0f2b"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f0489621_376e_409d_8216_cd9ad9d242e0"/>
+        <rdfs:label xml:lang="en">irrigationRoute_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_d0825b94_19fa_4176_9bd7_4701e6e4dc92 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_d0825b94_19fa_4176_9bd7_4701e6e4dc92">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_186fe893_9e68_46c5_b533_b1089444e411"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:label xml:lang="en">hydrogenFuelingStation_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_d800f0f4_2281_4772_88da_7cc38f22b9a5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_d800f0f4_2281_4772_88da_7cc38f22b9a5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b4fcbdd5_2dd8_4424_839d_091c3a563419"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e8eda9ed_f770_442e_a4b7_30147c9a7bff"/>
+        <rdfs:label xml:lang="en">floodControlMeasure_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_d8f08e34_3aa2_4c0c_bcc8_41488d503dd3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_d8f08e34_3aa2_4c0c_bcc8_41488d503dd3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_bbb9ccb7_f09f_4dc9_a815_d02e45e35423"/>
+        <rdfs:label xml:lang="en">freightAirport_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_db76f7cf_85e8_4d47_92b0_fbe735fba87a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_db76f7cf_85e8_4d47_92b0_fbe735fba87a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_680abf89_1f6e_4e1f_815a_3158290b2a49"/>
+        <rdfs:label xml:lang="en">underground_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_dbe34309_f450_4b28_bde9_3784b455dd95 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_dbe34309_f450_4b28_bde9_3784b455dd95">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_bbb9ccb7_f09f_4dc9_a815_d02e45e35423"/>
+        <rdfs:label xml:lang="en">internationalAirport_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ddb0be6f_d1fa_44bb_aec2_2c43af610fbc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ddb0be6f_d1fa_44bb_aec2_2c43af610fbc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_736deb6d_75ea_493f_9d3c_52e84950e797"/>
+        <rdfs:label xml:lang="en">pumpedStorage_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_dfece4f5_273a_4b2e_ad94_a71d48e414df -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_dfece4f5_273a_4b2e_ad94_a71d48e414df">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_03735b07_9798_4435_977a_841c46fb42ca"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7dd73c24_83d0_4fd4_a887_45479836df7a"/>
+        <rdfs:label xml:lang="en">canalAndIrrigationSystem_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e193db5f_b0c7_4e36_bcd3_4b8edad5a38e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e193db5f_b0c7_4e36_bcd3_4b8edad5a38e">
+        <rdfs:label xml:lang="en">transportation_infrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e338b014_22ca_4979_9bc6_5e43d047d6dc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e338b014_22ca_4979_9bc6_5e43d047d6dc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_736deb6d_75ea_493f_9d3c_52e84950e797"/>
+        <rdfs:label xml:lang="en">alternativeStorage_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e3a7ed69_b6a9_40ca_b5dc_aab1c697d371 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e3a7ed69_b6a9_40ca_b5dc_aab1c697d371">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b9994056_5edc_4895_b60a_e1185dee1742"/>
+        <rdfs:label xml:lang="en">commuterRail_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e6e0cb44_3214_4b66_bd49_b80210951ebc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e6e0cb44_3214_4b66_bd49_b80210951ebc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b97f300d_c156_4cf5_8816_f8245cbab0ed"/>
+        <rdfs:label xml:lang="en">biomassPlant_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e8eda9ed_f770_442e_a4b7_30147c9a7bff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e8eda9ed_f770_442e_a4b7_30147c9a7bff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b4fcbdd5_2dd8_4424_839d_091c3a563419"/>
+        <rdfs:label xml:lang="en">drainageSystem_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ec31ad81_d545_4f70_997b_7ffc0d847dd3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ec31ad81_d545_4f70_997b_7ffc0d847dd3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_083e3e39_a179_4097_a87c_f10e499be3e3"/>
+        <rdfs:label xml:lang="en">trainStation_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ed3d03e3_2984_4c20_9a43_f10d999d7862 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ed3d03e3_2984_4c20_9a43_f10d999d7862">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_391c9a9a_9f72_46ca_96df_5ff5233e15db"/>
+        <rdfs:label xml:lang="en">wasteWaterManagement_domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ed629dab_bd97_4ba8_8de2_6f52b61ee503 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ed629dab_bd97_4ba8_8de2_6f52b61ee503">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a9b9bad6_b516_4c8c_8cf6_fb895bb6d590"/>
+        <rdfs:label xml:lang="en">wasteDisposal_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_edabac49_5d56_47a8_b158_c9fca13fbeb7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_edabac49_5d56_47a8_b158_c9fca13fbeb7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ed3d03e3_2984_4c20_9a43_f10d999d7862"/>
+        <rdfs:label xml:lang="en">dischargeAndDistribution_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f0489621_376e_409d_8216_cd9ad9d242e0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f0489621_376e_409d_8216_cd9ad9d242e0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_1694c9e3_2f3a_4298_9562_0277275436b6"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7dd73c24_83d0_4fd4_a887_45479836df7a"/>
+        <rdfs:label xml:lang="en">waterway_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f0aecf9d_6d7a_44fd_9787_29fac7a97ec2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f0aecf9d_6d7a_44fd_9787_29fac7a97ec2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0598b126_06f9_4f84_9190_3c7f6c12afd4"/>
+        <rdfs:label xml:lang="en">pedestrianTunnel_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f5c739bc_859a_4671_a8fe_d56eef19f7ce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f5c739bc_859a_4671_a8fe_d56eef19f7ce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ed3d03e3_2984_4c20_9a43_f10d999d7862"/>
+        <rdfs:label xml:lang="en">treatmentPlant_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f84eee37_3aa3_421d_ac26_31d55dd8db11 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f84eee37_3aa3_421d_ac26_31d55dd8db11">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_35a0fb29_14ab_484a_b65e_b5cfb32aef05"/>
+        <rdfs:label xml:lang="en">boilingWaterReactor_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fa1700c6_2e9d_4faa_a788_6a365b7219e5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fa1700c6_2e9d_4faa_a788_6a365b7219e5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_28eb6a60_9bed_4f0f_b8bd_bc736e44642d"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:label xml:lang="en">powerPlant_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fd1d8284_44d1_466e_8871_915f6490a098 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fd1d8284_44d1_466e_8871_915f6490a098">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_083e3e39_a179_4097_a87c_f10e499be3e3"/>
+        <rdfs:label xml:lang="en">interchange_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fd2b5584_5034_4e9f_97f6_d4715e13063b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fd2b5584_5034_4e9f_97f6_d4715e13063b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_6cd4221f_4ed6_4b07_9233_b95e540a162b"/>
+        <rdfs:label xml:lang="en">oilRefinery_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fd320b85_b86f_4412_b969_c7cba4c9e87a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fd320b85_b86f_4412_b969_c7cba4c9e87a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7117aedf_c873_473f_a0e1_b77cc5f2e947"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+        <rdfs:label xml:lang="en">storage_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_00484c53_f7ef_4ca7_8bdf_b87951c641ac"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_391c9a9a_9f72_46ca_96df_5ff5233e15db"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e193db5f_b0c7_4e36_bcd3_4b8edad5a38e"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_03735b07_9798_4435_977a_841c46fb42ca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7d5d7edb_b36f_43d6_86ac_d6e1c85c1a00"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a70a8e8a_0eef_4ffc_a478_8ecaed244393"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b4fcbdd5_2dd8_4424_839d_091c3a563419"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ed3d03e3_2984_4c20_9a43_f10d999d7862"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0598b126_06f9_4f84_9190_3c7f6c12afd4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_083e3e39_a179_4097_a87c_f10e499be3e3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_09bbec00_b04d_4ef4_8d2a_39979d4c3be4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5989df54_0e8e_4eae_a48d_57e0471fa86a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5afaca96_a592_4dad_acef_40649709b4e1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b9994056_5edc_4895_b60a_e1185dee1742"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0b469296_b426_4348_b4c4_2270266fce28"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_5f79a111_57da_4ce1_8907_f0c11b484790"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_d8f08e34_3aa2_4c0c_bcc8_41488d503dd3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_dbe34309_f450_4b28_bde9_3784b455dd95"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_0c49dc82_92c5_4c53_b25f_bf813c7a0f2b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_70847c64_8012_4f77_87ca_891f059635fa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f0489621_376e_409d_8216_cd9ad9d242e0"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_113235f8_6435_4b65_96a3_812a2204351a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_94c7f2f3_0fea_464d_95dd_2a8395061387"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c7fc8671_b078_49a4_becf_bb11d6b20fa4"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_16567118_179a_4b90_8947_e7769b9dd537"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3d454887_d381_4e92_9da2_a4ab7d88bd28"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8297afae_cf05_47bb_afbb_0a176e9c77f7"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_16567118_179a_4b90_8947_e7769b9dd537"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3d454887_d381_4e92_9da2_a4ab7d88bd28"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8297afae_cf05_47bb_afbb_0a176e9c77f7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b9ffea7f_07a2_44de_ab58_a638da868c45"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_cf3f41f1_abe3_4c1e_80a2_d51805516dc6"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_1694c9e3_2f3a_4298_9562_0277275436b6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_77e5f3bc_595d_4847_ab51_85d914e3daf1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7dd73c24_83d0_4fd4_a887_45479836df7a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_9c1de027_f5ad_4453_98f5_04283819368a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c36b4ac7_714d_401b_868c_b819e5541353"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c470e939_eebb_4a7d_84b7_98a50c1ec84c"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_1694c9e3_2f3a_4298_9562_0277275436b6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_9c1de027_f5ad_4453_98f5_04283819368a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c36b4ac7_714d_401b_868c_b819e5541353"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_17ada895_1400_4af6_9c38_ece1eb1e3e6f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_edabac49_5d56_47a8_b158_c9fca13fbeb7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f5c739bc_859a_4671_a8fe_d56eef19f7ce"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_186fe893_9e68_46c5_b533_b1089444e411"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_40fea57e_e7bc_429f_905d_7690dfc9865a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b97f300d_c156_4cf5_8816_f8245cbab0ed"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_1b0f6967_ed7c_4fef_826c_c3b9fe0d23ba"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_2f7f1b40_84ab_4421_8f27_e30cdbd7db60"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7bf62d5a_4df2_40d5_9d45_e5964943eff9"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_24fe9817_764a_4280_abf4_d17c1b30c24e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3eb15a09_74b0_4f1d_a2b2_22422550f4eb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_6d9583b8_3782_4789_beb1_9988d0210e47"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ac40ce50_c188_4e3d_86d4_ba12265375a8"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_268e4073_33a6_4d9e_9993_c1ec9cc1f11d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_64d532c2_809a_42c3_82de_d96c1d73c4ad"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_93367645_0b20_498e_a6ad_ad9c15b2cd38"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b9ffea7f_07a2_44de_ab58_a638da868c45"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_cf3f41f1_abe3_4c1e_80a2_d51805516dc6"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_28eb6a60_9bed_4f0f_b8bd_bc736e44642d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7117aedf_c873_473f_a0e1_b77cc5f2e947"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a3285b3b_2a18_4054_9b28_e6ffdee65893"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_a9b9bad6_b516_4c8c_8cf6_fb895bb6d590"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_29a7a8d6_74b1_4e80_8591_8a761353a850"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_334b9f0e_b547_41ed_9fb7_d07fe4eadcb8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7fbd5092_e042_4708_a3b8_d1daecfe2358"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_36077488_386a_49e2_88ba_494a049a409e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_51c56e72_e39d_4023_bb4d_c1cfcbf2f2ff"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_6cd4221f_4ed6_4b07_9233_b95e540a162b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fd320b85_b86f_4412_b969_c7cba4c9e87a"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3a32da57_42e4_41a5_b652_eec995d9b007"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8a354010_f34b_4053_8aa5_0ac624d9106d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_db76f7cf_85e8_4d47_92b0_fbe735fba87a"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3cea8523_593c_4cfd_aab3_483e5e3002b3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ddb0be6f_d1fa_44bb_aec2_2c43af610fbc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e338b014_22ca_4979_9bc6_5e43d047d6dc"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_3ff2a8a1_aa2c_4abb_a9b5_a70748ee62d6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_bbb9ccb7_f09f_4dc9_a815_d02e45e35423"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c4716e5f_aa09_40d5_b471_dbd434a3b13a"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_48f67643_3142_44b3_943e_4b6acc4cb56c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7423a903_7518_4d04_a521_d0e708850cd6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_780c4058_2136_497c_b000_c1e8e6e425ea"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_680abf89_1f6e_4e1f_815a_3158290b2a49"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_736deb6d_75ea_493f_9d3c_52e84950e797"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8207ea1f_0556_4b87_bee6_5bb5366547c2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fa1700c6_2e9d_4faa_a788_6a365b7219e5"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7532b045_1589_4eda_8689_9419dc55343a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b821bcf4_3694_477f_b1d1_e6d35b13176d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_f0aecf9d_6d7a_44fd_9787_29fac7a97ec2"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_7afa7d2b_f247_479e_95d6_beee6b1de5b5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_8cb6c2f9_45ad_45c3_ba94_4b3854e683f5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_c0a4e533_436e_4fde_aaed_4700e6e23267"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_e3a7ed69_b6a9_40ca_b5dc_aab1c697d371"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ac72e8dc_25e9_4007_a2b7_a8a0b27b83ab"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_b687b104_bf0c_4d72_b000_4f7122692fe3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_ec31ad81_d545_4f70_997b_7ffc0d847dd3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla_taxonomy#OWLClass_fd1d8284_44d1_466e_8871_915f6490a098"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
