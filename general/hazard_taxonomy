@@ -1,0 +1,1922 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy/"
+     xml:base="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy">
+        <rdfs:label></rdfs:label>
+        <rdfs:label>hazard_taxonomy</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_053490ac_6550_457d_b021_e53b08e37d6f -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_053490ac_6550_457d_b021_e53b08e37d6f">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_20d5d85e_5218_40b7_8c2d_38a991c70757"/>
+        <rdfs:label xml:lang="en">hasProbability</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_20d5d85e_5218_40b7_8c2d_38a991c70757 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_20d5d85e_5218_40b7_8c2d_38a991c70757">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasCharacteristic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_393e4fd2_e20b_4c0c_805c_6c03d84dbbe5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_393e4fd2_e20b_4c0c_805c_6c03d84dbbe5">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_20d5d85e_5218_40b7_8c2d_38a991c70757"/>
+        <rdfs:label xml:lang="en">hasNature</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_6a1c4309_2036_48ed_b17f_1e2ca9ab9658 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_6a1c4309_2036_48ed_b17f_1e2ca9ab9658">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_20d5d85e_5218_40b7_8c2d_38a991c70757"/>
+        <rdfs:label xml:lang="en">hasLocation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_84d3583d_f1ed_46fe_a2d5_f0d5377c931c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_84d3583d_f1ed_46fe_a2d5_f0d5377c931c">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_20d5d85e_5218_40b7_8c2d_38a991c70757"/>
+        <rdfs:label xml:lang="en">hasTiming</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_bd0a7b60_d073_4684_a670_fcc41db87b77 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_bd0a7b60_d073_4684_a670_fcc41db87b77">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_20d5d85e_5218_40b7_8c2d_38a991c70757"/>
+        <rdfs:label xml:lang="en">hasMagnitude</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_e04bc892_26a3_4483_ac9c_e05b0794e3a6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_e04bc892_26a3_4483_ac9c_e05b0794e3a6">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLObjectProperty_20d5d85e_5218_40b7_8c2d_38a991c70757"/>
+        <rdfs:label xml:lang="en">hasDuration</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_06bb61ed_6b33_443b_9de6_de305fd45d43 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_06bb61ed_6b33_443b_9de6_de305fd45d43">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_922540f6_a68d_408c_9866_436c996731a7"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_88f4d576_e6b2_493a_b186_cc8573c1ff98"/>
+        <rdfs:label xml:lang="en">grassFire_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_078af3e2_f7ed_4ca6_857a_9a9538473428 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_078af3e2_f7ed_4ca6_857a_9a9538473428">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2d126e9c_2d83_4fd0_810f_9ab7e149c932"/>
+        <rdfs:label xml:lang="en">flood_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_08bcfcf1_aaf8_431d_bc5f_b6cfe5054d2e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_08bcfcf1_aaf8_431d_bc5f_b6cfe5054d2e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_66604e5c_9476_4301_a967_67a79c503cb9"/>
+        <rdfs:label xml:lang="en">iceStorm_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_09050068_df86_472c_8fcd_c1d1067a924e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_09050068_df86_472c_8fcd_c1d1067a924e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b3428411_5d4b_448c_9711_2b915e2201dc"/>
+        <rdfs:label xml:lang="en">networkFailure_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_0d5e2815_6aa1_4748_9051_b8d33f1bdedf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_0d5e2815_6aa1_4748_9051_b8d33f1bdedf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a5978bf0_0e98_4db9_9082_c7d3183d6e01"/>
+        <rdfs:label xml:lang="en">lahar_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_0eb1380e_7093_4c1a_8be0_5d2056f3cb53 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_0eb1380e_7093_4c1a_8be0_5d2056f3cb53">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881"/>
+        <rdfs:label xml:lang="en">armedAttack_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_139b5902_db7a_46a2_992b_32a832984601 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_139b5902_db7a_46a2_992b_32a832984601">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a2aba2ef_4365_4fdf_8726_966d3b3d1e7a"/>
+        <rdfs:label xml:lang="en">lateralSpread_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_13b203ef_b01b_4323_9f19_b829209c5a3f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_13b203ef_b01b_4323_9f19_b829209c5a3f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_aa3eb942_a2f0_4f76_b593_00b424313bf6"/>
+        <rdfs:label xml:lang="en">emergencyLanding_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_15099e00_efc8_4466_b2c2_2fc84b320f6f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_15099e00_efc8_4466_b2c2_2fc84b320f6f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2d126e9c_2d83_4fd0_810f_9ab7e149c932"/>
+        <rdfs:label xml:lang="en">subsidence_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1539d7e1_2737_4462_9815_eea686db41de -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1539d7e1_2737_4462_9815_eea686db41de">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_89aeb5bd_3d0d_492a_8159_23a1de84aed6"/>
+        <rdfs:label xml:lang="en">physicalSpreading_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_17d328fa_8c0e_4ab3_bd83_a5c1172b215b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_17d328fa_8c0e_4ab3_bd83_a5c1172b215b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b221388e_2f66_4917_996f_dd093c8a55c4"/>
+        <rdfs:label xml:lang="en">corrosive_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1851d7f6_994d_4ad5_b2ee_58f19214e5ca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1851d7f6_994d_4ad5_b2ee_58f19214e5ca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_8d57b779_50d5_4ab5_9062_6a5fd98cde50"/>
+        <rdfs:label xml:lang="en">tornado_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_18c693ff_db9a_4080_9667_dc562e80127d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_18c693ff_db9a_4080_9667_dc562e80127d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a2aba2ef_4365_4fdf_8726_966d3b3d1e7a"/>
+        <rdfs:label xml:lang="en">slide_subsubtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881">
+        <rdfs:label xml:lang="en">human_event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bf236ae_62f7_4b72_8261_739b39075e7b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bf236ae_62f7_4b72_8261_739b39075e7b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881"/>
+        <rdfs:label xml:lang="en">sabotage_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1e5a8736_0676_4161_8aaf_10eede602fae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1e5a8736_0676_4161_8aaf_10eede602fae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d653cf4e_43d4_4b59_a8d7_56f25d8d582e"/>
+        <rdfs:label xml:lang="en">fireballBLEVE_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_20933fda_e139_4252_b200_d057931efe98 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_20933fda_e139_4252_b200_d057931efe98">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2eb7b93b_fccc_4200_9018_6f406bdb81e2"/>
+        <rdfs:label xml:lang="en">icePellets_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_220cf90c_3a65_4d34_9ca4_139536ac1247 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_220cf90c_3a65_4d34_9ca4_139536ac1247">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d653cf4e_43d4_4b59_a8d7_56f25d8d582e"/>
+        <rdfs:label xml:lang="en">fire_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2611f7b4_a874_49b2_b9f8_7cc46704efea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2611f7b4_a874_49b2_b9f8_7cc46704efea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_80bbcbde_0ebd_4c54_8738_c44a6234a111"/>
+        <rdfs:label xml:lang="en">geophysical_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_289c21bb_458f_4f0f_9c92_c6b99b303297 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_289c21bb_458f_4f0f_9c92_c6b99b303297">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_89aeb5bd_3d0d_492a_8159_23a1de84aed6"/>
+        <rdfs:label xml:lang="en">spreadingThroughFoodOrWater_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2a4104f5_bf6a_4dfd_bc18_192d0bbe142e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2a4104f5_bf6a_4dfd_bc18_192d0bbe142e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b221388e_2f66_4917_996f_dd093c8a55c4"/>
+        <rdfs:label xml:lang="en">explosiveRelease_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2b337841_b7bb_42bc_807e_9b174439fc40 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2b337841_b7bb_42bc_807e_9b174439fc40">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_18c693ff_db9a_4080_9667_dc562e80127d"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2dd83e02_fd35_48c2_a7d8_b4d45ea4e213"/>
+        <rdfs:label xml:lang="en">rotationalSlide_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2d126e9c_2d83_4fd0_810f_9ab7e149c932 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2d126e9c_2d83_4fd0_810f_9ab7e149c932">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_80bbcbde_0ebd_4c54_8738_c44a6234a111"/>
+        <rdfs:label xml:lang="en">hydrogeological_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2d406c30_5a5c_4046_9404_eb20fe9d46bf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2d406c30_5a5c_4046_9404_eb20fe9d46bf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_4e107bd9_1a7c_4bd4_82ea_9ff2b127735b"/>
+        <rdfs:label xml:lang="en">powderAvalanche_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2dd83e02_fd35_48c2_a7d8_b4d45ea4e213 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2dd83e02_fd35_48c2_a7d8_b4d45ea4e213">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_18c693ff_db9a_4080_9667_dc562e80127d"/>
+        <rdfs:label xml:lang="en">translationSlide_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2eb7b93b_fccc_4200_9018_6f406bdb81e2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2eb7b93b_fccc_4200_9018_6f406bdb81e2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3de35d3b_ab16_4c4e_a9db_937b86f0a620"/>
+        <rdfs:label xml:lang="en">precipitation_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_307a49b9_e813_48f5_bd4c_aa4d62cf2f5e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_307a49b9_e813_48f5_bd4c_aa4d62cf2f5e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_078af3e2_f7ed_4ca6_857a_9a9538473428"/>
+        <rdfs:label xml:lang="en">coastalFlood_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3109ede7_7267_472c_a6fb_79c809e80fb5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3109ede7_7267_472c_a6fb_79c809e80fb5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_6947dffe_3c4a_4fab_a05e_25f04dc62516"/>
+        <rdfs:label xml:lang="en">rockAvalanche_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_325be7a3_773e_4761_8425_d0b390bb712f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_325be7a3_773e_4761_8425_d0b390bb712f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b3428411_5d4b_448c_9711_2b915e2201dc"/>
+        <rdfs:label xml:lang="en">softwareError_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_353eeafa_8bf3_442d_a7a6_a83b73e7cd4c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_353eeafa_8bf3_442d_a7a6_a83b73e7cd4c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b3428411_5d4b_448c_9711_2b915e2201dc"/>
+        <rdfs:label xml:lang="en">hardwareFailure_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_35a9da0c_1b01_42a8_97a3_3a3ffebe607d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_35a9da0c_1b01_42a8_97a3_3a3ffebe607d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2d126e9c_2d83_4fd0_810f_9ab7e149c932"/>
+        <rdfs:label xml:lang="en">avalanche_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_38d2fb1e_eb15_40ec_8c90_54d34f53bd90 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_38d2fb1e_eb15_40ec_8c90_54d34f53bd90">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_35a9da0c_1b01_42a8_97a3_3a3ffebe607d"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_4e107bd9_1a7c_4bd4_82ea_9ff2b127735b"/>
+        <rdfs:label xml:lang="en">iceAvalanche_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_38f0fcbf_182c_4b15_842f_046eae524eb7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_38f0fcbf_182c_4b15_842f_046eae524eb7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f37869b1_e228_4aa2_82d6_4558b6df3019"/>
+        <rdfs:label xml:lang="en">technicalFailure_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3c4a4a3f_6f95_416e_8b82_d9c94cada594 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3c4a4a3f_6f95_416e_8b82_d9c94cada594">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dface032_a098_4fdb_9d9a_5decfa9eee4f"/>
+        <rdfs:label xml:lang="en">worm_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3c8f24bd_c312_4b9b_9b53_fbf048fff2a1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3c8f24bd_c312_4b9b_9b53_fbf048fff2a1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_078af3e2_f7ed_4ca6_857a_9a9538473428"/>
+        <rdfs:label xml:lang="en">lakeFlood_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3de35d3b_ab16_4c4e_a9db_937b86f0a620 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3de35d3b_ab16_4c4e_a9db_937b86f0a620">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_80bbcbde_0ebd_4c54_8738_c44a6234a111"/>
+        <rdfs:label xml:lang="en">atmospheric_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_435bbdd4_84f4_46c4_8020_92393ee6dee7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_435bbdd4_84f4_46c4_8020_92393ee6dee7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dface032_a098_4fdb_9d9a_5decfa9eee4f"/>
+        <rdfs:label xml:lang="en">logicBomb_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_4432da7f_579b_4eea_9932_35a16675709f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_4432da7f_579b_4eea_9932_35a16675709f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_38f0fcbf_182c_4b15_842f_046eae524eb7"/>
+        <rdfs:label xml:lang="en">electronicFailure_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_45f17890_f877_4b40_af37_916fd27a4d18 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_45f17890_f877_4b40_af37_916fd27a4d18">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_80bbcbde_0ebd_4c54_8738_c44a6234a111"/>
+        <rdfs:label xml:lang="en">biological_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_46a51771_b49e_4cdd_b463_aeca95f54ba7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_46a51771_b49e_4cdd_b463_aeca95f54ba7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dface032_a098_4fdb_9d9a_5decfa9eee4f"/>
+        <rdfs:label xml:lang="en">denialOfService_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_47f23c73_8ae0_404f_a9d9_00335ee86657 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_47f23c73_8ae0_404f_a9d9_00335ee86657">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b221388e_2f66_4917_996f_dd093c8a55c4"/>
+        <rdfs:label xml:lang="en">flammable_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_481b439e_9e2b_4d7d_b45d_11abbe4ae469 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_481b439e_9e2b_4d7d_b45d_11abbe4ae469">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_38f0fcbf_182c_4b15_842f_046eae524eb7"/>
+        <rdfs:label xml:lang="en">electricFailure_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_4916a829_00ca_450f_81d9_df5dc7b7fdf1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_4916a829_00ca_450f_81d9_df5dc7b7fdf1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b030e89b_4045_40e8_8e75_0f79829fd2c0"/>
+        <rdfs:label xml:lang="en">groundShaking_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_4e107bd9_1a7c_4bd4_82ea_9ff2b127735b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_4e107bd9_1a7c_4bd4_82ea_9ff2b127735b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_35a9da0c_1b01_42a8_97a3_3a3ffebe607d"/>
+        <rdfs:label xml:lang="en">snowAvalanche_subsubtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_4fa179eb_157b_4bc3_a9c1_1ff8d6a6db9b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_4fa179eb_157b_4bc3_a9c1_1ff8d6a6db9b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_8d57b779_50d5_4ab5_9062_6a5fd98cde50"/>
+        <rdfs:label xml:lang="en">thunderstorm_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_50489e35_cb75_4fa3_8658_733d2ffd0922 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_50489e35_cb75_4fa3_8658_733d2ffd0922">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_78c032c8_c41f_4bb5_8248_3298ab5a3e32"/>
+        <rdfs:label xml:lang="en">waterPollution_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_50f30ed6_d720_4795_ab53_820f1d758c8c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_50f30ed6_d720_4795_ab53_820f1d758c8c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dface032_a098_4fdb_9d9a_5decfa9eee4f"/>
+        <rdfs:label xml:lang="en">sniffer_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_526435ab_5c91_4ea5_b85f_be1f3336e590 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_526435ab_5c91_4ea5_b85f_be1f3336e590">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_66604e5c_9476_4301_a967_67a79c503cb9"/>
+        <rdfs:label xml:lang="en">fogMistHaze_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_579ab31c_963b_4eeb_ade6_2689837b3c88 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_579ab31c_963b_4eeb_ade6_2689837b3c88">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d653cf4e_43d4_4b59_a8d7_56f25d8d582e"/>
+        <rdfs:label xml:lang="en">explosion_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_589b2406_73b4_44ef_b7c9_6e8a5674a1ac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_589b2406_73b4_44ef_b7c9_6e8a5674a1ac">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_66604e5c_9476_4301_a967_67a79c503cb9"/>
+        <rdfs:label xml:lang="en">coldWave_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5958daf0_ed02_4786_a749_63b2edee6d52 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5958daf0_ed02_4786_a749_63b2edee6d52">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f37869b1_e228_4aa2_82d6_4558b6df3019"/>
+        <rdfs:label xml:lang="en">transportAccident_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5b870ef6_34db_4ef9_9ba5_fb4dd5761147 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5b870ef6_34db_4ef9_9ba5_fb4dd5761147">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3de35d3b_ab16_4c4e_a9db_937b86f0a620"/>
+        <rdfs:label xml:lang="en">lightning_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5d6461b0_fd80_4e7b_8f96_69e5f4c7d5fe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5d6461b0_fd80_4e7b_8f96_69e5f4c7d5fe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2d126e9c_2d83_4fd0_810f_9ab7e149c932"/>
+        <rdfs:label xml:lang="en">waterWaves_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5e15403b_cc05_42cf_b15c_633be3dfa4af -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5e15403b_cc05_42cf_b15c_633be3dfa4af">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a5978bf0_0e98_4db9_9082_c7d3183d6e01"/>
+        <rdfs:label xml:lang="en">tephraInjection_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5f210af5_755d_4dba_ae59_944f48929027 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5f210af5_755d_4dba_ae59_944f48929027">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881"/>
+        <rdfs:label xml:lang="en">kidnapping_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_633c2d4b_ebb5_4deb_9e2a_b6f57e551bc2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_633c2d4b_ebb5_4deb_9e2a_b6f57e551bc2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a5978bf0_0e98_4db9_9082_c7d3183d6e01"/>
+        <rdfs:label xml:lang="en">pyroclasticSurge_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_65944937_e8b0_4940_85df_e5d51c827efd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_65944937_e8b0_4940_85df_e5d51c827efd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_45f17890_f877_4b40_af37_916fd27a4d18"/>
+        <rdfs:label xml:lang="en">vegetal_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_662ea20d_c79d_4b8f_9b8e_42de0c068b57 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_662ea20d_c79d_4b8f_9b8e_42de0c068b57">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_15099e00_efc8_4466_b2c2_2fc84b320f6f"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_78de248b_b267_4c5b_8fca_bd877d70f00d"/>
+        <rdfs:label xml:lang="en">suddenSubsidence_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_66604e5c_9476_4301_a967_67a79c503cb9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_66604e5c_9476_4301_a967_67a79c503cb9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3de35d3b_ab16_4c4e_a9db_937b86f0a620"/>
+        <rdfs:label xml:lang="en">extremeWeatherCondition_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_66712552_d36f_4069_9d8e_c21718dd0620 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_66712552_d36f_4069_9d8e_c21718dd0620">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881"/>
+        <rdfs:label xml:lang="en">arson_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_683c9546_4c94_4ae5_b9b2_9506de3003b7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_683c9546_4c94_4ae5_b9b2_9506de3003b7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_66604e5c_9476_4301_a967_67a79c503cb9"/>
+        <rdfs:label xml:lang="en">heatWave_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_6947dffe_3c4a_4fab_a05e_25f04dc62516 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_6947dffe_3c4a_4fab_a05e_25f04dc62516">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a2aba2ef_4365_4fdf_8726_966d3b3d1e7a"/>
+        <rdfs:label xml:lang="en">flow_subsubtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_69caf290_7c0b_42b2_afb0_79a0d8eeb2f3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_69caf290_7c0b_42b2_afb0_79a0d8eeb2f3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_89aeb5bd_3d0d_492a_8159_23a1de84aed6"/>
+        <rdfs:label xml:lang="en">aerosolDissemination_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_6ca26123_c5ea_4c94_ac50_499e643fff6e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_6ca26123_c5ea_4c94_ac50_499e643fff6e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5958daf0_ed02_4786_a749_63b2edee6d52"/>
+        <rdfs:label xml:lang="en">inlandWaterwayAccident_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_6dc2c5bd_d4f1_4f6c_a9b2_034366d7da4e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_6dc2c5bd_d4f1_4f6c_a9b2_034366d7da4e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b030e89b_4045_40e8_8e75_0f79829fd2c0"/>
+        <rdfs:label xml:lang="en">soilCracking_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_70708f1b_2148_4ecb_b72c_fc5578f0cc23 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_70708f1b_2148_4ecb_b72c_fc5578f0cc23">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881"/>
+        <rdfs:label xml:lang="en">manifestationSocialUnrest_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_7087f4f7_c4d5_46ef_b90d_3c92c08bd630 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_7087f4f7_c4d5_46ef_b90d_3c92c08bd630">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_078af3e2_f7ed_4ca6_857a_9a9538473428"/>
+        <rdfs:label xml:lang="en">urbanFlood_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_72049a73_9803_4a31_9383_1cc5d71f8410 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_72049a73_9803_4a31_9383_1cc5d71f8410">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_89aeb5bd_3d0d_492a_8159_23a1de84aed6"/>
+        <rdfs:label xml:lang="en">spreadingThroughAnimals_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_78c032c8_c41f_4bb5_8248_3298ab5a3e32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_78c032c8_c41f_4bb5_8248_3298ab5a3e32">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9b40f27a_e916_4bd9_8d13_de3e24e2ec53"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b221388e_2f66_4917_996f_dd093c8a55c4"/>
+        <rdfs:label xml:lang="en">pollution_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_78de248b_b267_4c5b_8fca_bd877d70f00d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_78de248b_b267_4c5b_8fca_bd877d70f00d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_15099e00_efc8_4466_b2c2_2fc84b320f6f"/>
+        <rdfs:label xml:lang="en">longLastingSubsidence_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_7e46ebb6_29aa_4c05_b1c8_eb2f77efd91c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_7e46ebb6_29aa_4c05_b1c8_eb2f77efd91c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a5978bf0_0e98_4db9_9082_c7d3183d6e01"/>
+        <rdfs:label xml:lang="en">lazyPlumes_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_7e47c1b9_5302_4df4_8d1e_c09f0cab1dce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_7e47c1b9_5302_4df4_8d1e_c09f0cab1dce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881"/>
+        <rdfs:label xml:lang="en">murder_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_803a92df_4fb7_4e5d_a4fc_8bdc0e068a20 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_803a92df_4fb7_4e5d_a4fc_8bdc0e068a20">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881"/>
+        <rdfs:label xml:lang="en">strike_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_80bbcbde_0ebd_4c54_8738_c44a6234a111 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_80bbcbde_0ebd_4c54_8738_c44a6234a111">
+        <rdfs:label xml:lang="en">natural_event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_81b718eb_804c_49da_bd87_08600f1fc708 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_81b718eb_804c_49da_bd87_08600f1fc708">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dface032_a098_4fdb_9d9a_5decfa9eee4f"/>
+        <rdfs:label xml:lang="en">keyLogger_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_846c517f_0d0c_4333_8a26_f7c8f39bd352 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_846c517f_0d0c_4333_8a26_f7c8f39bd352">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2eb7b93b_fccc_4200_9018_6f406bdb81e2"/>
+        <rdfs:label xml:lang="en">freezingRain_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_87869658_608a_4564_a816_572e7481c4a7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_87869658_608a_4564_a816_572e7481c4a7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_aa3eb942_a2f0_4f76_b593_00b424313bf6"/>
+        <rdfs:label xml:lang="en">airportAccident_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_87eea433_d9ad_4ce2_b293_f232d6b27352 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_87eea433_d9ad_4ce2_b293_f232d6b27352">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881"/>
+        <rdfs:label xml:lang="en">hijacking_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_88f4d576_e6b2_493a_b186_cc8573c1ff98 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_88f4d576_e6b2_493a_b186_cc8573c1ff98">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_922540f6_a68d_408c_9866_436c996731a7"/>
+        <rdfs:label xml:lang="en">forestFire_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_89aeb5bd_3d0d_492a_8159_23a1de84aed6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_89aeb5bd_3d0d_492a_8159_23a1de84aed6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ab92cd6e_eb01_40e4_80c3_0eb0e552cc38"/>
+        <rdfs:label xml:lang="en">biologicalAttack_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_8d57b779_50d5_4ab5_9062_6a5fd98cde50 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_8d57b779_50d5_4ab5_9062_6a5fd98cde50">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3de35d3b_ab16_4c4e_a9db_937b86f0a620"/>
+        <rdfs:label xml:lang="en">storm_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_8e0350f4_0ed0_46ac_aaff_c8f685ee335c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_8e0350f4_0ed0_46ac_aaff_c8f685ee335c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_89aeb5bd_3d0d_492a_8159_23a1de84aed6"/>
+        <rdfs:label xml:lang="en">P2PDissemination_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_8e183aa9_2f8d_4ac1_8574_6b811f2794e9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_8e183aa9_2f8d_4ac1_8574_6b811f2794e9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b030e89b_4045_40e8_8e75_0f79829fd2c0"/>
+        <rdfs:label xml:lang="en">soilLiquefication_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9187755b_f053_4b9f_a7b6_9c1c8a229afe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9187755b_f053_4b9f_a7b6_9c1c8a229afe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b221388e_2f66_4917_996f_dd093c8a55c4"/>
+        <rdfs:label xml:lang="en">ecotoxic_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_922540f6_a68d_408c_9866_436c996731a7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_922540f6_a68d_408c_9866_436c996731a7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_80bbcbde_0ebd_4c54_8738_c44a6234a111"/>
+        <rdfs:label xml:lang="en">wildfire_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_927f5b87_2f91_415d_b30e_de475599fea8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_927f5b87_2f91_415d_b30e_de475599fea8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_66604e5c_9476_4301_a967_67a79c503cb9"/>
+        <rdfs:label xml:lang="en">drought_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9415311e_e59e_4bea_93b1_9ec1fb7b06e8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9415311e_e59e_4bea_93b1_9ec1fb7b06e8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dface032_a098_4fdb_9d9a_5decfa9eee4f"/>
+        <rdfs:label xml:lang="en">emailSpoofing_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_945df813_e2b7_43e4_a7c6_bebb0e8b0798 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_945df813_e2b7_43e4_a7c6_bebb0e8b0798">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5d6461b0_fd80_4e7b_8f96_69e5f4c7d5fe"/>
+        <rdfs:label xml:lang="en">stormSurge_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_95557289_cafe_4258_93cb_1a16dd72070c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_95557289_cafe_4258_93cb_1a16dd72070c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_078af3e2_f7ed_4ca6_857a_9a9538473428"/>
+        <rdfs:label xml:lang="en">flashFlood_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9717bf9a_f5ce_4398_a88a_60a8a9a78761 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9717bf9a_f5ce_4398_a88a_60a8a9a78761">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a5978bf0_0e98_4db9_9082_c7d3183d6e01"/>
+        <rdfs:label xml:lang="en">volcanicAsh_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_980f9f66_e963_46d2_b185_f82038dea508 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_980f9f66_e963_46d2_b185_f82038dea508">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2d126e9c_2d83_4fd0_810f_9ab7e149c932"/>
+        <rdfs:label xml:lang="en">permafrost_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_987ee694_b64c_4602_aea4_90eb2b775d1d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_987ee694_b64c_4602_aea4_90eb2b775d1d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dface032_a098_4fdb_9d9a_5decfa9eee4f"/>
+        <rdfs:label xml:lang="en">trojanHorse_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9928eafb_7bb7_4bad_9bd1_d3e4bba9cd25 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9928eafb_7bb7_4bad_9bd1_d3e4bba9cd25">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_65944937_e8b0_4940_85df_e5d51c827efd"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ccbc20ad_be20_4cd4_9835_483fcfddd882"/>
+        <rdfs:label xml:lang="en">treeRootAction_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9b0aa305_9477_4df2_aab8_1319b0c37d33 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9b0aa305_9477_4df2_aab8_1319b0c37d33">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_38f0fcbf_182c_4b15_842f_046eae524eb7"/>
+        <rdfs:label xml:lang="en">mechanicalFailure_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9b40f27a_e916_4bd9_8d13_de3e24e2ec53 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9b40f27a_e916_4bd9_8d13_de3e24e2ec53">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f37869b1_e228_4aa2_82d6_4558b6df3019"/>
+        <rdfs:label xml:lang="en">physical_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9c605468_a0e9_440d_93fb_0877765ced8b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9c605468_a0e9_440d_93fb_0877765ced8b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ab92cd6e_eb01_40e4_80c3_0eb0e552cc38"/>
+        <rdfs:label xml:lang="en">radiologicalAttack_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9ef511b7_66f7_4615_a4ed_a06aebbe752e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9ef511b7_66f7_4615_a4ed_a06aebbe752e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dface032_a098_4fdb_9d9a_5decfa9eee4f"/>
+        <rdfs:label xml:lang="en">IPAddressSpoofing_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9fa0b3e3_b901_4c52_bdeb_cdb17b172a2b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9fa0b3e3_b901_4c52_bdeb_cdb17b172a2b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_cb50055d_8715_4fce_8a2b_9e3f2e82c904"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_db5715ae_cbc7_4f95_bc93_8b5d3783f317"/>
+        <rdfs:label xml:lang="en">magenticFieldReversal_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a13fb1ff_30f6_4f01_a5e5_66f39721888f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a13fb1ff_30f6_4f01_a5e5_66f39721888f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ab92cd6e_eb01_40e4_80c3_0eb0e552cc38"/>
+        <rdfs:label xml:lang="en">chemicalAttack_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a2aba2ef_4365_4fdf_8726_966d3b3d1e7a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a2aba2ef_4365_4fdf_8726_966d3b3d1e7a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2d126e9c_2d83_4fd0_810f_9ab7e149c932"/>
+        <rdfs:label xml:lang="en">landslide_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a3e2062f_fde9_40af_a672_498e510b4cfa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a3e2062f_fde9_40af_a672_498e510b4cfa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d653cf4e_43d4_4b59_a8d7_56f25d8d582e"/>
+        <rdfs:label xml:lang="en">poolFire_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a4ddc43f_0af5_4464_bfbb_ddeac1ac7003 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a4ddc43f_0af5_4464_bfbb_ddeac1ac7003">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5958daf0_ed02_4786_a749_63b2edee6d52"/>
+        <rdfs:label xml:lang="en">roadAccident_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a5978bf0_0e98_4db9_9082_c7d3183d6e01 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a5978bf0_0e98_4db9_9082_c7d3183d6e01">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2611f7b4_a874_49b2_b9f8_7cc46704efea"/>
+        <rdfs:label xml:lang="en">volcanicEruption_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a8b6a67d_54e5_4e4e_a6cf_93154c6db18b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a8b6a67d_54e5_4e4e_a6cf_93154c6db18b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_4e107bd9_1a7c_4bd4_82ea_9ff2b127735b"/>
+        <rdfs:label xml:lang="en">wetAvalanche_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_aa3eb942_a2f0_4f76_b593_00b424313bf6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_aa3eb942_a2f0_4f76_b593_00b424313bf6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5958daf0_ed02_4786_a749_63b2edee6d52"/>
+        <rdfs:label xml:lang="en">airway_accident_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_aaad6468_b425_4318_b6bf_68f23561090d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_aaad6468_b425_4318_b6bf_68f23561090d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_78c032c8_c41f_4bb5_8248_3298ab5a3e32"/>
+        <rdfs:label xml:lang="en">groundwaterPollution_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ab92cd6e_eb01_40e4_80c3_0eb0e552cc38 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ab92cd6e_eb01_40e4_80c3_0eb0e552cc38">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881"/>
+        <rdfs:label xml:lang="en">CBRN_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ac08cbdf_e169_46e8_8319_8453a472cea6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ac08cbdf_e169_46e8_8319_8453a472cea6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_aa3eb942_a2f0_4f76_b593_00b424313bf6"/>
+        <rdfs:label xml:lang="en">aircrash_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ae7e198b_cb40_4bde_95ba_5ca5a84ff0ba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ae7e198b_cb40_4bde_95ba_5ca5a84ff0ba">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dda8dc09_8d9d_448c_8fad_2d8f2c7b8d37"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_de341641_1db6_40a9_81d7_b4d54bcc7aba"/>
+        <rdfs:label xml:lang="en">portAccident_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ae8e96b3_5b6a_4915_b8df_6e787a25a761 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ae8e96b3_5b6a_4915_b8df_6e787a25a761">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5d6461b0_fd80_4e7b_8f96_69e5f4c7d5fe"/>
+        <rdfs:label xml:lang="en">tsunami_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_afc269af_780e_4944_97e3_c434ae9c2da9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_afc269af_780e_4944_97e3_c434ae9c2da9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9c605468_a0e9_440d_93fb_0877765ced8b"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b60ae115_9ec0_4cbb_9409_7d1160be1138"/>
+        <rdfs:label xml:lang="en">dirtyBomb_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_afc7b52f_a50e_4fb1_ad28_835207bdb3ab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_afc7b52f_a50e_4fb1_ad28_835207bdb3ab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5d6461b0_fd80_4e7b_8f96_69e5f4c7d5fe"/>
+        <rdfs:label xml:lang="en">stormTide_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b030e89b_4045_40e8_8e75_0f79829fd2c0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b030e89b_4045_40e8_8e75_0f79829fd2c0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2611f7b4_a874_49b2_b9f8_7cc46704efea"/>
+        <rdfs:label xml:lang="en">earthquake_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b04e7f14_9c8b_4289_9682_8022bb55adb2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b04e7f14_9c8b_4289_9682_8022bb55adb2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881"/>
+        <rdfs:label xml:lang="en">intrusion_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b0ea7c7b_d566_4209_b8de_5c4a888fa3d3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b0ea7c7b_d566_4209_b8de_5c4a888fa3d3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_45f17890_f877_4b40_af37_916fd27a4d18"/>
+        <rdfs:label xml:lang="en">epidemic_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b0f02d0c_0cd2_4466_9bbf_ddabfd2b12b4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b0f02d0c_0cd2_4466_9bbf_ddabfd2b12b4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a5978bf0_0e98_4db9_9082_c7d3183d6e01"/>
+        <rdfs:label xml:lang="en">pyroclasticFlow_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b1c8e76f_8a5c_4795_8420_d274b92962ab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b1c8e76f_8a5c_4795_8420_d274b92962ab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_8d57b779_50d5_4ab5_9062_6a5fd98cde50"/>
+        <rdfs:label xml:lang="en">hurricane_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b221388e_2f66_4917_996f_dd093c8a55c4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b221388e_2f66_4917_996f_dd093c8a55c4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9b40f27a_e916_4bd9_8d13_de3e24e2ec53"/>
+        <rdfs:label xml:lang="en">dangerousMaterialRelease_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b28ad111_cb9b_4b1d_a0f4_c6631b935beb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b28ad111_cb9b_4b1d_a0f4_c6631b935beb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2d126e9c_2d83_4fd0_810f_9ab7e149c932"/>
+        <rdfs:label xml:lang="en">solifluction_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b3428411_5d4b_448c_9711_2b915e2201dc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b3428411_5d4b_448c_9711_2b915e2201dc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f37869b1_e228_4aa2_82d6_4558b6df3019"/>
+        <rdfs:label xml:lang="en">ICT_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b5151f2f_2e54_417c_b369_3a568c498b80 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b5151f2f_2e54_417c_b369_3a568c498b80">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_6947dffe_3c4a_4fab_a05e_25f04dc62516"/>
+        <rdfs:label xml:lang="en">debrisFlow_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b60ae115_9ec0_4cbb_9409_7d1160be1138 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b60ae115_9ec0_4cbb_9409_7d1160be1138">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9c605468_a0e9_440d_93fb_0877765ced8b"/>
+        <rdfs:label xml:lang="en">radioactiveMaterialDispersion_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b7327331_c282_4d95_8bbd_88b327c278f6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b7327331_c282_4d95_8bbd_88b327c278f6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_8d57b779_50d5_4ab5_9062_6a5fd98cde50"/>
+        <rdfs:label xml:lang="en">windStormGust_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b84fabfc_c79a_47f7_b2f6_3092ebc1b29a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b84fabfc_c79a_47f7_b2f6_3092ebc1b29a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_78c032c8_c41f_4bb5_8248_3298ab5a3e32"/>
+        <rdfs:label xml:lang="en">airPollution_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b8c4d5a3_9de2_486e_84ae_c31ae3d825b9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b8c4d5a3_9de2_486e_84ae_c31ae3d825b9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dface032_a098_4fdb_9d9a_5decfa9eee4f"/>
+        <rdfs:label xml:lang="en">zombie_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_bc733847_2c3d_4a2d_837e_accddf81e300 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_bc733847_2c3d_4a2d_837e_accddf81e300">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_8d57b779_50d5_4ab5_9062_6a5fd98cde50"/>
+        <rdfs:label xml:lang="en">dustStorm_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_bfef0ebd_bc77_416f_850c_d50587f239bf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_bfef0ebd_bc77_416f_850c_d50587f239bf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2eb7b93b_fccc_4200_9018_6f406bdb81e2"/>
+        <rdfs:label xml:lang="en">drizzle_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_c15195b5_6fd4_4901_9447_e60f2859cdd1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_c15195b5_6fd4_4901_9447_e60f2859cdd1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2eb7b93b_fccc_4200_9018_6f406bdb81e2"/>
+        <rdfs:label xml:lang="en">hail_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_c1841626_c808_4643_a24f_4792b15e371e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_c1841626_c808_4643_a24f_4792b15e371e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_78c032c8_c41f_4bb5_8248_3298ab5a3e32"/>
+        <rdfs:label xml:lang="en">electromagneticPollution_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_c7eda88f_48ab_409b_8c00_423b11c7ced7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_c7eda88f_48ab_409b_8c00_423b11c7ced7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2eb7b93b_fccc_4200_9018_6f406bdb81e2"/>
+        <rdfs:label xml:lang="en">snow_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_cb50055d_8715_4fce_8a2b_9e3f2e82c904 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_cb50055d_8715_4fce_8a2b_9e3f2e82c904">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2611f7b4_a874_49b2_b9f8_7cc46704efea"/>
+        <rdfs:label xml:lang="en">geomagneticActivity_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_cc73791c_2dfb_4090_be46_0322be8eb043 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_cc73791c_2dfb_4090_be46_0322be8eb043">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a2aba2ef_4365_4fdf_8726_966d3b3d1e7a"/>
+        <rdfs:label xml:lang="en">toppling_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ccbc20ad_be20_4cd4_9835_483fcfddd882 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ccbc20ad_be20_4cd4_9835_483fcfddd882">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_65944937_e8b0_4940_85df_e5d51c827efd"/>
+        <rdfs:label xml:lang="en">treeFall_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ccf93f5d_60fe_491f_b3d9_58478a9890fa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ccf93f5d_60fe_491f_b3d9_58478a9890fa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_45f17890_f877_4b40_af37_916fd27a4d18"/>
+        <rdfs:label xml:lang="en">animalInvasion_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_cd6b8255_7a13_4755_ba44_67566c56b950 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_cd6b8255_7a13_4755_ba44_67566c56b950">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_078af3e2_f7ed_4ca6_857a_9a9538473428"/>
+        <rdfs:label xml:lang="en">jokuhlaups_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d0ecefae_1379_41e1_94c3_6e5e0eeb33e6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d0ecefae_1379_41e1_94c3_6e5e0eeb33e6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a2aba2ef_4365_4fdf_8726_966d3b3d1e7a"/>
+        <rdfs:label xml:lang="en">rockfall_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d21fccf3_b71f_4d03_bbfd_b9d6810bee1c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d21fccf3_b71f_4d03_bbfd_b9d6810bee1c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a5978bf0_0e98_4db9_9082_c7d3183d6e01"/>
+        <rdfs:label xml:lang="en">gasRelease_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d2a07dbd_b3ad_41bd_8aa6_c224aeb4efba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d2a07dbd_b3ad_41bd_8aa6_c224aeb4efba">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881"/>
+        <rdfs:label xml:lang="en">falseAlarmWarning_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d3b0dca2_6236_4450_ad8a_35f05892509f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d3b0dca2_6236_4450_ad8a_35f05892509f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b3428411_5d4b_448c_9711_2b915e2201dc"/>
+        <rdfs:label xml:lang="en">overload_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d492641d_bf1d_40a8_9c6b_bdf9548cb1a9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d492641d_bf1d_40a8_9c6b_bdf9548cb1a9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dface032_a098_4fdb_9d9a_5decfa9eee4f"/>
+        <rdfs:label xml:lang="en">physicalAttack_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d653cf4e_43d4_4b59_a8d7_56f25d8d582e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d653cf4e_43d4_4b59_a8d7_56f25d8d582e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f37869b1_e228_4aa2_82d6_4558b6df3019"/>
+        <rdfs:label xml:lang="en">energyRelease_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d9a6c686_1ba3_43b4_8204_b2e867556560 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d9a6c686_1ba3_43b4_8204_b2e867556560">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b3428411_5d4b_448c_9711_2b915e2201dc"/>
+        <rdfs:label xml:lang="en">communicationFailure_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dae6e857_3366_48c3_ab32_6548dc6c1a3b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dae6e857_3366_48c3_ab32_6548dc6c1a3b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dface032_a098_4fdb_9d9a_5decfa9eee4f"/>
+        <rdfs:label xml:lang="en">virus_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_db5715ae_cbc7_4f95_bc93_8b5d3783f317 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_db5715ae_cbc7_4f95_bc93_8b5d3783f317">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_cb50055d_8715_4fce_8a2b_9e3f2e82c904"/>
+        <rdfs:label xml:lang="en">magneticStorm_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dc42fab4_3518_4428_91de_6e9d19d88ca2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dc42fab4_3518_4428_91de_6e9d19d88ca2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_78c032c8_c41f_4bb5_8248_3298ab5a3e32"/>
+        <rdfs:label xml:lang="en">soilPollution_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dd097897_8156_4bdc_80a9_f05c7219b6dd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dd097897_8156_4bdc_80a9_f05c7219b6dd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_078af3e2_f7ed_4ca6_857a_9a9538473428"/>
+        <rdfs:label xml:lang="en">slowRiverFlood_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dda8dc09_8d9d_448c_8fad_2d8f2c7b8d37 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dda8dc09_8d9d_448c_8fad_2d8f2c7b8d37">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5958daf0_ed02_4786_a749_63b2edee6d52"/>
+        <rdfs:label xml:lang="en">seaOceanAccident_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_de341641_1db6_40a9_81d7_b4d54bcc7aba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_de341641_1db6_40a9_81d7_b4d54bcc7aba">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dda8dc09_8d9d_448c_8fad_2d8f2c7b8d37"/>
+        <rdfs:label xml:lang="en">offshoreAccident_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dface032_a098_4fdb_9d9a_5decfa9eee4f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dface032_a098_4fdb_9d9a_5decfa9eee4f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881"/>
+        <rdfs:label xml:lang="en">cyberAttack_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dfb66642_5238_4767_adf3_8e65c268188f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dfb66642_5238_4767_adf3_8e65c268188f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b221388e_2f66_4917_996f_dd093c8a55c4"/>
+        <rdfs:label xml:lang="en">otherDangerousSubtances_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_e47148c3_9997_4db6_b22c_e58a2e434fd6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_e47148c3_9997_4db6_b22c_e58a2e434fd6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a5978bf0_0e98_4db9_9082_c7d3183d6e01"/>
+        <rdfs:label xml:lang="en">lavaFlow_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_e5ef1fb8_ab29_4ce3_bb72_910a913832d7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_e5ef1fb8_ab29_4ce3_bb72_910a913832d7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881"/>
+        <rdfs:label xml:lang="en">explosiveAttack_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_e93c76a0_4592_4fae_9042_cfb060049698 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_e93c76a0_4592_4fae_9042_cfb060049698">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d653cf4e_43d4_4b59_a8d7_56f25d8d582e"/>
+        <rdfs:label xml:lang="en">electromagneticWaves_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ea656b47_d203_4931_b4b3_0dbb27a741fe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ea656b47_d203_4931_b4b3_0dbb27a741fe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_8d57b779_50d5_4ab5_9062_6a5fd98cde50"/>
+        <rdfs:label xml:lang="en">snowStormBlizzard_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ee936208_9192_43f2_a3d8_e9d1968b106e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ee936208_9192_43f2_a3d8_e9d1968b106e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d653cf4e_43d4_4b59_a8d7_56f25d8d582e"/>
+        <rdfs:label xml:lang="en">UVCEVCE_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_eef94cef_fb80_4bd9_995c_64823a5bb326 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_eef94cef_fb80_4bd9_995c_64823a5bb326">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_6947dffe_3c4a_4fab_a05e_25f04dc62516"/>
+        <rdfs:label xml:lang="en">debrisAvalanche_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f194411d_4526_49aa_a96f_df8678537204 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f194411d_4526_49aa_a96f_df8678537204">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5958daf0_ed02_4786_a749_63b2edee6d52"/>
+        <rdfs:label xml:lang="en">railwayAccident_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f37869b1_e228_4aa2_82d6_4558b6df3019 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f37869b1_e228_4aa2_82d6_4558b6df3019">
+        <rdfs:label xml:lang="en">technological_event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f3c194c4_031b_4bde_a1fd_3eb070370462 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f3c194c4_031b_4bde_a1fd_3eb070370462">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_6947dffe_3c4a_4fab_a05e_25f04dc62516"/>
+        <rdfs:label xml:lang="en">soilCreep_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f48094ec_01eb_46e8_8d1b_e20dcd8a6840 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f48094ec_01eb_46e8_8d1b_e20dcd8a6840">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d653cf4e_43d4_4b59_a8d7_56f25d8d582e"/>
+        <rdfs:label xml:lang="en">flashFire_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f66d0b16_0de0_44d0_a0ff_6b852568a54d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f66d0b16_0de0_44d0_a0ff_6b852568a54d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ab92cd6e_eb01_40e4_80c3_0eb0e552cc38"/>
+        <rdfs:label xml:lang="en">nuclearBlast_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f8430e66_ee79_4dc9_a64f_1809d00bf84e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f8430e66_ee79_4dc9_a64f_1809d00bf84e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b221388e_2f66_4917_996f_dd093c8a55c4"/>
+        <rdfs:label xml:lang="en">toxic_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f9469684_4903_4a18_b2b9_21fd5d894891 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f9469684_4903_4a18_b2b9_21fd5d894891">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d653cf4e_43d4_4b59_a8d7_56f25d8d582e"/>
+        <rdfs:label xml:lang="en">jetFire_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f9ca8be1_2bd9_4e5e_ba66_ba088213499b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f9ca8be1_2bd9_4e5e_ba66_ba088213499b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5d6461b0_fd80_4e7b_8f96_69e5f4c7d5fe"/>
+        <rdfs:label xml:lang="en">lakeWaves_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_fa097029_b25a_4897_98f0_b62be2e6d860 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_fa097029_b25a_4897_98f0_b62be2e6d860">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5958daf0_ed02_4786_a749_63b2edee6d52"/>
+        <rdfs:label xml:lang="en">subwaysAccident_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_fb09ebf0_7ccc_4042_90c0_ed8eac58e0c5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_fb09ebf0_7ccc_4042_90c0_ed8eac58e0c5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_4e107bd9_1a7c_4bd4_82ea_9ff2b127735b"/>
+        <rdfs:label xml:lang="en">slabAvalanche_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_fb141a30_2387_4c5d_a10d_6e36a1ff2480 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_fb141a30_2387_4c5d_a10d_6e36a1ff2480">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_6947dffe_3c4a_4fab_a05e_25f04dc62516"/>
+        <rdfs:label xml:lang="en">rockFlow_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_fcf66b18_879b_461e_8d0a_2a89a13bf835 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_fcf66b18_879b_461e_8d0a_2a89a13bf835">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2eb7b93b_fccc_4200_9018_6f406bdb81e2"/>
+        <rdfs:label xml:lang="en">rain_hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_078af3e2_f7ed_4ca6_857a_9a9538473428"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_15099e00_efc8_4466_b2c2_2fc84b320f6f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_35a9da0c_1b01_42a8_97a3_3a3ffebe607d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5d6461b0_fd80_4e7b_8f96_69e5f4c7d5fe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_980f9f66_e963_46d2_b185_f82038dea508"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a2aba2ef_4365_4fdf_8726_966d3b3d1e7a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b28ad111_cb9b_4b1d_a0f4_c6631b935beb"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_08bcfcf1_aaf8_431d_bc5f_b6cfe5054d2e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_526435ab_5c91_4ea5_b85f_be1f3336e590"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_589b2406_73b4_44ef_b7c9_6e8a5674a1ac"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_683c9546_4c94_4ae5_b9b2_9506de3003b7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_927f5b87_2f91_415d_b30e_de475599fea8"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_09050068_df86_472c_8fcd_c1d1067a924e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_325be7a3_773e_4761_8425_d0b390bb712f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_353eeafa_8bf3_442d_a7a6_a83b73e7cd4c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d3b0dca2_6236_4450_ad8a_35f05892509f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d9a6c686_1ba3_43b4_8204_b2e867556560"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_0d5e2815_6aa1_4748_9051_b8d33f1bdedf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5e15403b_cc05_42cf_b15c_633be3dfa4af"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_633c2d4b_ebb5_4deb_9e2a_b6f57e551bc2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_7e46ebb6_29aa_4c05_b1c8_eb2f77efd91c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9717bf9a_f5ce_4398_a88a_60a8a9a78761"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b0f02d0c_0cd2_4466_9bbf_ddabfd2b12b4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d21fccf3_b71f_4d03_bbfd_b9d6810bee1c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_e47148c3_9997_4db6_b22c_e58a2e434fd6"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_0eb1380e_7093_4c1a_8be0_5d2056f3cb53"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bf236ae_62f7_4b72_8261_739b39075e7b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5f210af5_755d_4dba_ae59_944f48929027"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_66712552_d36f_4069_9d8e_c21718dd0620"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_70708f1b_2148_4ecb_b72c_fc5578f0cc23"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_7e47c1b9_5302_4df4_8d1e_c09f0cab1dce"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_803a92df_4fb7_4e5d_a4fc_8bdc0e068a20"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_87eea433_d9ad_4ce2_b293_f232d6b27352"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ab92cd6e_eb01_40e4_80c3_0eb0e552cc38"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b04e7f14_9c8b_4289_9682_8022bb55adb2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d2a07dbd_b3ad_41bd_8aa6_c224aeb4efba"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dface032_a098_4fdb_9d9a_5decfa9eee4f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_e5ef1fb8_ab29_4ce3_bb72_910a913832d7"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_139b5902_db7a_46a2_992b_32a832984601"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_18c693ff_db9a_4080_9667_dc562e80127d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_6947dffe_3c4a_4fab_a05e_25f04dc62516"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_cc73791c_2dfb_4090_be46_0322be8eb043"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d0ecefae_1379_41e1_94c3_6e5e0eeb33e6"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_13b203ef_b01b_4323_9f19_b829209c5a3f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_87869658_608a_4564_a816_572e7481c4a7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ac08cbdf_e169_46e8_8319_8453a472cea6"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1539d7e1_2737_4462_9815_eea686db41de"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_289c21bb_458f_4f0f_9c92_c6b99b303297"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_69caf290_7c0b_42b2_afb0_79a0d8eeb2f3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_72049a73_9803_4a31_9383_1cc5d71f8410"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_8e0350f4_0ed0_46ac_aaff_c8f685ee335c"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_17d328fa_8c0e_4ab3_bd83_a5c1172b215b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2a4104f5_bf6a_4dfd_bc18_192d0bbe142e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_47f23c73_8ae0_404f_a9d9_00335ee86657"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9187755b_f053_4b9f_a7b6_9c1c8a229afe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dfb66642_5238_4767_adf3_8e65c268188f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f8430e66_ee79_4dc9_a64f_1809d00bf84e"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1851d7f6_994d_4ad5_b2ee_58f19214e5ca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_4fa179eb_157b_4bc3_a9c1_1ff8d6a6db9b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b1c8e76f_8a5c_4795_8420_d274b92962ab"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b7327331_c282_4d95_8bbd_88b327c278f6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_bc733847_2c3d_4a2d_837e_accddf81e300"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ea656b47_d203_4931_b4b3_0dbb27a741fe"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1bd98788_f008_4bd9_957c_b3bf63bb1881"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_80bbcbde_0ebd_4c54_8738_c44a6234a111"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f37869b1_e228_4aa2_82d6_4558b6df3019"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_1e5a8736_0676_4161_8aaf_10eede602fae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_220cf90c_3a65_4d34_9ca4_139536ac1247"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_579ab31c_963b_4eeb_ade6_2689837b3c88"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a3e2062f_fde9_40af_a672_498e510b4cfa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_e93c76a0_4592_4fae_9042_cfb060049698"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ee936208_9192_43f2_a3d8_e9d1968b106e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f48094ec_01eb_46e8_8d1b_e20dcd8a6840"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f9469684_4903_4a18_b2b9_21fd5d894891"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_20933fda_e139_4252_b200_d057931efe98"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_846c517f_0d0c_4333_8a26_f7c8f39bd352"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_bfef0ebd_bc77_416f_850c_d50587f239bf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_c15195b5_6fd4_4901_9447_e60f2859cdd1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_c7eda88f_48ab_409b_8c00_423b11c7ced7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_fcf66b18_879b_461e_8d0a_2a89a13bf835"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2611f7b4_a874_49b2_b9f8_7cc46704efea"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2d126e9c_2d83_4fd0_810f_9ab7e149c932"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3de35d3b_ab16_4c4e_a9db_937b86f0a620"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_45f17890_f877_4b40_af37_916fd27a4d18"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_922540f6_a68d_408c_9866_436c996731a7"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2d406c30_5a5c_4046_9404_eb20fe9d46bf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a8b6a67d_54e5_4e4e_a6cf_93154c6db18b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_fb09ebf0_7ccc_4042_90c0_ed8eac58e0c5"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_2eb7b93b_fccc_4200_9018_6f406bdb81e2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5b870ef6_34db_4ef9_9ba5_fb4dd5761147"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_66604e5c_9476_4301_a967_67a79c503cb9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_8d57b779_50d5_4ab5_9062_6a5fd98cde50"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_307a49b9_e813_48f5_bd4c_aa4d62cf2f5e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3c8f24bd_c312_4b9b_9b53_fbf048fff2a1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_7087f4f7_c4d5_46ef_b90d_3c92c08bd630"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_95557289_cafe_4258_93cb_1a16dd72070c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_cd6b8255_7a13_4755_ba44_67566c56b950"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dd097897_8156_4bdc_80a9_f05c7219b6dd"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3109ede7_7267_472c_a6fb_79c809e80fb5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b5151f2f_2e54_417c_b369_3a568c498b80"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_eef94cef_fb80_4bd9_995c_64823a5bb326"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f3c194c4_031b_4bde_a1fd_3eb070370462"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_fb141a30_2387_4c5d_a10d_6e36a1ff2480"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_38f0fcbf_182c_4b15_842f_046eae524eb7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_5958daf0_ed02_4786_a749_63b2edee6d52"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9b40f27a_e916_4bd9_8d13_de3e24e2ec53"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b3428411_5d4b_448c_9711_2b915e2201dc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d653cf4e_43d4_4b59_a8d7_56f25d8d582e"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_3c4a4a3f_6f95_416e_8b82_d9c94cada594"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_435bbdd4_84f4_46c4_8020_92393ee6dee7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_46a51771_b49e_4cdd_b463_aeca95f54ba7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_50f30ed6_d720_4795_ab53_820f1d758c8c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_81b718eb_804c_49da_bd87_08600f1fc708"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9415311e_e59e_4bea_93b1_9ec1fb7b06e8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_987ee694_b64c_4602_aea4_90eb2b775d1d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9ef511b7_66f7_4615_a4ed_a06aebbe752e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b8c4d5a3_9de2_486e_84ae_c31ae3d825b9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_d492641d_bf1d_40a8_9c6b_bdf9548cb1a9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dae6e857_3366_48c3_ab32_6548dc6c1a3b"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_4432da7f_579b_4eea_9932_35a16675709f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_481b439e_9e2b_4d7d_b45d_11abbe4ae469"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9b0aa305_9477_4df2_aab8_1319b0c37d33"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_4916a829_00ca_450f_81d9_df5dc7b7fdf1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_6dc2c5bd_d4f1_4f6c_a9b2_034366d7da4e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_8e183aa9_2f8d_4ac1_8574_6b811f2794e9"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_50489e35_cb75_4fa3_8658_733d2ffd0922"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_aaad6468_b425_4318_b6bf_68f23561090d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b84fabfc_c79a_47f7_b2f6_3092ebc1b29a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_c1841626_c808_4643_a24f_4792b15e371e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dc42fab4_3518_4428_91de_6e9d19d88ca2"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_65944937_e8b0_4940_85df_e5d51c827efd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b0ea7c7b_d566_4209_b8de_5c4a888fa3d3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ccf93f5d_60fe_491f_b3d9_58478a9890fa"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_6ca26123_c5ea_4c94_ac50_499e643fff6e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a4ddc43f_0af5_4464_bfbb_ddeac1ac7003"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_aa3eb942_a2f0_4f76_b593_00b424313bf6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_dda8dc09_8d9d_448c_8fad_2d8f2c7b8d37"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f194411d_4526_49aa_a96f_df8678537204"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_fa097029_b25a_4897_98f0_b62be2e6d860"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_89aeb5bd_3d0d_492a_8159_23a1de84aed6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_9c605468_a0e9_440d_93fb_0877765ced8b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a13fb1ff_30f6_4f01_a5e5_66f39721888f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f66d0b16_0de0_44d0_a0ff_6b852568a54d"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_945df813_e2b7_43e4_a7c6_bebb0e8b0798"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_ae8e96b3_5b6a_4915_b8df_6e787a25a761"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_afc7b52f_a50e_4fb1_ad28_835207bdb3ab"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_f9ca8be1_2bd9_4e5e_ba66_ba088213499b"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_a5978bf0_0e98_4db9_9082_c7d3183d6e01"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_b030e89b_4045_40e8_8e75_0f79829fd2c0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/hazard_taxonomy#OWLClass_cb50055d_8715_4fce_8a2b_9e3f2e82c904"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
