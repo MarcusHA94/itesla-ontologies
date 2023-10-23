@@ -33,6 +33,26 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLObjectProperty_018a47aa_8ed4_4d13_ac83_0c12a9a10636 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLObjectProperty_018a47aa_8ed4_4d13_ac83_0c12a9a10636">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasA</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -277,7 +297,7 @@ water in most urban and suburban areas.</itesla-taxonomy:OWLAnnotationProperty_1
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_1334aa95_67cc_4b54_a07b_3f1bfb43d730 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_1334aa95_67cc_4b54_a07b_3f1bfb43d730">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_1060b8c6_f246_4e4c_9c22_5699ebffff5f"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b62cc062_5266_4c14_8e27_9498dcbc0f5a"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">High speed rotating machine in which fuel is burned continuously in a combustion chamber at high pressure and the combustion products are expanded through the turbine to produce shaft horsepower.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">gasTurbine_asset</rdfs:label>
     </owl:Class>
@@ -496,7 +516,6 @@ water in most urban and suburban areas.</itesla-taxonomy:OWLAnnotationProperty_1
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_212513e6_4625_4f1f_8140_7e819242f262">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_9260b99c_445c_4632_a84c_58dad02f5cdf"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_48c3068f_bc1d_4eb2_a469_ed36e0ed1b89"/>
         <rdfs:label xml:lang="en">oilPRIRegulatorInletValvePRIIV-RIV_asset</rdfs:label>
     </owl:Class>
     
@@ -684,6 +703,16 @@ water in most urban and suburban areas.</itesla-taxonomy:OWLAnnotationProperty_1
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2b7dcca6_bc83_49b3_8eea_9aac9480b743 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2b7dcca6_bc83_49b3_8eea_9aac9480b743">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_89a42754_d4e7_4b4a_9b11_54d78e7a9908"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f631b592_aace_4fd2_a7cb_522c5d2aee01"/>
+        <rdfs:label xml:lang="en">lowLevelWasteDisposalSite_asset</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2be9823b_6887_42f4_8296_371c41013cd4 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2be9823b_6887_42f4_8296_371c41013cd4">
@@ -819,6 +848,7 @@ water in most urban and suburban areas.</itesla-taxonomy:OWLAnnotationProperty_1
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_32cadc1d_f3e0_4fda_a546_e402b4188e7b -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_32cadc1d_f3e0_4fda_a546_e402b4188e7b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a24d632_90c5_4e82_b093_ee5587f0a58d"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_fec98a34_f48b_4c76_b9a8_3ec741b7f8e7"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e6876e5b_9bc2_4afe_b037_07fbb37613b2"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">An installation or area of land with a number of photovoltaic (also called solar) panels, which generate electricity from direct and indirect sunlight. They can sometimes rotate to direct themselves towards the direction of the sun.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
@@ -1267,6 +1297,15 @@ water in most urban and suburban areas.</itesla-taxonomy:OWLAnnotationProperty_1
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_4bdc78e5_1615_4112_8c3f_f3da2bfa01ef -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_4bdc78e5_1615_4112_8c3f_f3da2bfa01ef">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b62cc062_5266_4c14_8e27_9498dcbc0f5a"/>
+        <rdfs:label xml:lang="en">waterTurbine_asset</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_4be75b12_4c96_4dd9_b9c0_4db3b2f944a2 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_4be75b12_4c96_4dd9_b9c0_4db3b2f944a2">
@@ -1432,6 +1471,15 @@ tank, e.g. the amount available from a RO or distiller water storage tank.</ites
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5290cec9_bd1f_4521_b3c1_ad5dae9cbdec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5290cec9_bd1f_4521_b3c1_ad5dae9cbdec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e471f789_3876_402c_ad0e_ffa5a0e0070e"/>
+        <rdfs:label xml:lang="en">hydrogenStorageTank_asset</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_53520b7a_c74b_41d1_9daf_e25eb0fcdacf -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_53520b7a_c74b_41d1_9daf_e25eb0fcdacf">
@@ -1508,6 +1556,15 @@ tank, e.g. the amount available from a RO or distiller water storage tank.</ites
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a24d632_90c5_4e82_b093_ee5587f0a58d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a24d632_90c5_4e82_b093_ee5587f0a58d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5acac7ef_d2d2_49fd_83a8_028f3afce65d"/>
+        <rdfs:label xml:lang="en">nuclearRenewablePlant_type</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a31baf7_711c_42f6_9b25_38d5d4397fb0 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a31baf7_711c_42f6_9b25_38d5d4397fb0">
@@ -1542,6 +1599,15 @@ tank, e.g. the amount available from a RO or distiller water storage tank.</ites
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a8ab6be_ade0_4f11_be94_d285c2db83f7">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b57aea07_1fc8_47d9_ad18_8ac56ec030cd"/>
         <rdfs:label xml:lang="en">seaOrOcean_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5acac7ef_d2d2_49fd_83a8_028f3afce65d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5acac7ef_d2d2_49fd_83a8_028f3afce65d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_171d42fc_b333_40b9_8df0_b29b70c5d760"/>
+        <rdfs:label xml:lang="en">nuclearRenewable_domain</rdfs:label>
     </owl:Class>
     
 
@@ -1587,7 +1653,14 @@ tank, e.g. the amount available from a RO or distiller water storage tank.</ites
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_60a1a53c_ca65_457c_96ae_7fb71dbec708 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_60a1a53c_ca65_457c_96ae_7fb71dbec708">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a24d632_90c5_4e82_b093_ee5587f0a58d"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_fec98a34_f48b_4c76_b9a8_3ec741b7f8e7"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLObjectProperty_018a47aa_8ed4_4d13_ac83_0c12a9a10636"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_4bdc78e5_1615_4112_8c3f_f3da2bfa01ef"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Plant that uses the forces generated by the natural rise and fall of ocean tides to drive turbines, paddles, and other machinery, which generates electricity.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">tidalPlant_asset</rdfs:label>
     </owl:Class>
@@ -1613,6 +1686,15 @@ tank, e.g. the amount available from a RO or distiller water storage tank.</ites
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_61efca4e_ffb9_4d55_9994_cee7c1fbc3c2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_61efca4e_ffb9_4d55_9994_cee7c1fbc3c2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a24d632_90c5_4e82_b093_ee5587f0a58d"/>
+        <rdfs:label xml:lang="en">hydrogenProductionPlant_asset</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6270fa0f_227c_4599_bb91_64c6917e3f74 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6270fa0f_227c_4599_bb91_64c6917e3f74">
@@ -1628,6 +1710,15 @@ tank, e.g. the amount available from a RO or distiller water storage tank.</ites
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_34776bf3_88ad_4fe2_be30_a79e254bac65"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">An advanced electric meter that records consumption in intervals of an hour or less and communicates that information back to the utility for monitoring and billing purposes.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">smartMeter_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_647245d5_b82c_4bd9_85eb_421cd76a44f4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_647245d5_b82c_4bd9_85eb_421cd76a44f4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e471f789_3876_402c_ad0e_ffa5a0e0070e"/>
+        <rdfs:label xml:lang="en">biomassStorage_subtype</rdfs:label>
     </owl:Class>
     
 
@@ -1712,6 +1803,15 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6b43f637_ddc1_4f38_bc97_6327b4594af0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6b43f637_ddc1_4f38_bc97_6327b4594af0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a4f155bf_03f0_431c_baef_d80a4ed541ae"/>
+        <rdfs:label xml:lang="en">wasteVessel_asset</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6bebc97d_b75c_4661_9797_eb285b15e042 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6bebc97d_b75c_4661_9797_eb285b15e042">
@@ -1765,6 +1865,15 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_708a6e76_2aa3_4ae3_b056_12d224a00006">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_72b5aadb_0a14_4dcd_8200_91a257cc91ba"/>
         <rdfs:label xml:lang="en">roadPath_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_708f19b3_a8a9_4acf_87aa_bdbc284c5083 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_708f19b3_a8a9_4acf_87aa_bdbc284c5083">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e471f789_3876_402c_ad0e_ffa5a0e0070e"/>
+        <rdfs:label xml:lang="en">hydrogenDistributionPipeline_asset</rdfs:label>
     </owl:Class>
     
 
@@ -1909,10 +2018,27 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_7bbab6da_9791_4707_9a2d_8567dbddf23a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_7bbab6da_9791_4707_9a2d_8567dbddf23a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_dcab8169_ca76_4337_b38d_e5993fdbc85f"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_c0aa1d15_826f_4c0d_a7c8_1ec8aa754223"/>
+        <rdfs:label xml:lang="en">pressurisedWaterNuclearReactor_asset</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_7bbf153b_c4af_4106_b261_991220fb845e -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_7bbf153b_c4af_4106_b261_991220fb845e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a24d632_90c5_4e82_b093_ee5587f0a58d"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_fec98a34_f48b_4c76_b9a8_3ec741b7f8e7"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLObjectProperty_018a47aa_8ed4_4d13_ac83_0c12a9a10636"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_4bdc78e5_1615_4112_8c3f_f3da2bfa01ef"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Plant that uses the weight or motion of water as a force to drive a turbine or other machinery.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">hydropowerPlant_asset</rdfs:label>
     </owl:Class>
@@ -2115,6 +2241,15 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_89a42754_d4e7_4b4a_9b11_54d78e7a9908 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_89a42754_d4e7_4b4a_9b11_54d78e7a9908">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a4f155bf_03f0_431c_baef_d80a4ed541ae"/>
+        <rdfs:label xml:lang="en">wasteDisposalSite_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_8ab10624_9ece_4d1e_8ebe_fd488237f8af -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_8ab10624_9ece_4d1e_8ebe_fd488237f8af">
@@ -2149,6 +2284,15 @@ integration of operating devices and enables the running of specific application
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_8b86a663_c8d2_462e_ab92_5dfa3319e8dd">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f391ae42_08af_4127_8783_ba8eba73e1c2"/>
         <rdfs:label xml:lang="en">railPath_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_8b9930ff_16f0_4456_897b_1374e95cf50a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_8b9930ff_16f0_4456_897b_1374e95cf50a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e471f789_3876_402c_ad0e_ffa5a0e0070e"/>
+        <rdfs:label xml:lang="en">biomassTransportVehicle_asset</rdfs:label>
     </owl:Class>
     
 
@@ -2429,6 +2573,15 @@ integration of operating devices and enables the running of specific application
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_9dc14c7b_879f_4375_aa65_f205c1fd0022 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_9dc14c7b_879f_4375_aa65_f205c1fd0022">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a24d632_90c5_4e82_b093_ee5587f0a58d"/>
+        <rdfs:label xml:lang="en">geothermalPlant_asset</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_9df2ee44_04e0_4794_aea9_43d966b9a79c -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_9df2ee44_04e0_4794_aea9_43d966b9a79c">
@@ -2554,6 +2707,15 @@ integration of operating devices and enables the running of specific application
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a4f155bf_03f0_431c_baef_d80a4ed541ae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a4f155bf_03f0_431c_baef_d80a4ed541ae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5acac7ef_d2d2_49fd_83a8_028f3afce65d"/>
+        <rdfs:label xml:lang="en">wasteManagementSystem_type</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a5613997_47a2_4512_b717_1ab03f5c9084 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a5613997_47a2_4512_b717_1ab03f5c9084">
@@ -2625,6 +2787,15 @@ integration of operating devices and enables the running of specific application
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a96815a7_24a5_40be_b64f_018640ff8e7a">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6270fa0f_227c_4599_bb91_64c6917e3f74"/>
         <rdfs:label xml:lang="en">carriageDepot_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a9a87786_b620_468f_a3a5_2dead25acb03 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a9a87786_b620_468f_a3a5_2dead25acb03">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a24d632_90c5_4e82_b093_ee5587f0a58d"/>
+        <rdfs:label xml:lang="en">biomassPlant_asset</rdfs:label>
     </owl:Class>
     
 
@@ -2837,6 +3008,15 @@ integration of operating devices and enables the running of specific application
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b62cc062_5266_4c14_8e27_9498dcbc0f5a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b62cc062_5266_4c14_8e27_9498dcbc0f5a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_1060b8c6_f246_4e4c_9c22_5699ebffff5f"/>
+        <rdfs:label xml:lang="en">turbine_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b69b3005_65b3_40e1_9785_e103d6ff417e -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b69b3005_65b3_40e1_9785_e103d6ff417e">
@@ -2880,8 +3060,7 @@ integration of operating devices and enables the running of specific application
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b8fc218e_fb30_494a_bf40_7fecfb2d49a2">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_1060b8c6_f246_4e4c_9c22_5699ebffff5f"/>
-        <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Technically, the generator is the part of the power plant that converts the
-mechanical power of a spinning shaft to electricity.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
+        <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Technically, the generator is the part of the power plant that converts the mechanical power of a spinning shaft to electricity.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">generator_asset</rdfs:label>
     </owl:Class>
     
@@ -2920,7 +3099,7 @@ mechanical power of a spinning shaft to electricity.</itesla-taxonomy:OWLAnnotat
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_bbd97cb7_b376_4e80_a585_3532d6dbb433">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_fec98a34_f48b_4c76_b9a8_3ec741b7f8e7"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Plant that uses geothermal heat from underground to generate steam which drives a turbine or other machinery.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
-        <rdfs:label xml:lang="en">geothermalPlant_asset</rdfs:label>
+        <rdfs:label xml:lang="en">geothermalElectricPlant_asset</rdfs:label>
     </owl:Class>
     
 
@@ -2969,6 +3148,25 @@ mechanical power of a spinning shaft to electricity.</itesla-taxonomy:OWLAnnotat
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_c048ed52_e0e1_4bda_bd07_34f58ace818d">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_fc9c3cb3_dbb0_4a3b_93a4_e455e57c9382"/>
         <rdfs:label xml:lang="en">water_infrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_c0a8482a_e719_4a41_ba79_f26de6e56dd0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_c0a8482a_e719_4a41_ba79_f26de6e56dd0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_647245d5_b82c_4bd9_85eb_421cd76a44f4"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_dee12fe2_4d60_4c86_9134_08ab73b70e9f"/>
+        <rdfs:label xml:lang="en">biomassPile_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_c0aa1d15_826f_4c0d_a7c8_1ec8aa754223 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_c0aa1d15_826f_4c0d_a7c8_1ec8aa754223">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_dcab8169_ca76_4337_b38d_e5993fdbc85f"/>
+        <rdfs:label xml:lang="en">boilingWaterNuclearReactor_asset</rdfs:label>
     </owl:Class>
     
 
@@ -3361,6 +3559,15 @@ water treatment facility.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_4
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_dcab8169_ca76_4337_b38d_e5993fdbc85f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_dcab8169_ca76_4337_b38d_e5993fdbc85f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a24d632_90c5_4e82_b093_ee5587f0a58d"/>
+        <rdfs:label xml:lang="en">nuclearReactor_subtype</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_dd235e8f_883d_4fa7_a09c_2fceaebab2bf -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_dd235e8f_883d_4fa7_a09c_2fceaebab2bf">
@@ -3417,6 +3624,15 @@ water treatment facility.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_4
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_dee12fe2_4d60_4c86_9134_08ab73b70e9f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_dee12fe2_4d60_4c86_9134_08ab73b70e9f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_647245d5_b82c_4bd9_85eb_421cd76a44f4"/>
+        <rdfs:label xml:lang="en">biomassSilo_asset</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e02721dc_db62_482b_9715_32bf03c8be24 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e02721dc_db62_482b_9715_32bf03c8be24">
@@ -3433,6 +3649,15 @@ water treatment facility.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_4
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_27a72690_b1b7_42e3_aa95_1b4a97c1be16"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Installation in which the primary purpose is to provide one or more passages beneath or above an obstruction.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">crossingInDistributionSystem_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e0c5a1e6_0a1c_4c1b_8ab5_baae00c231ee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e0c5a1e6_0a1c_4c1b_8ab5_baae00c231ee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5acac7ef_d2d2_49fd_83a8_028f3afce65d"/>
+        <rdfs:label xml:lang="en">alarmSystem_type</rdfs:label>
     </owl:Class>
     
 
@@ -3550,6 +3775,15 @@ water treatment facility.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_4
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e471f789_3876_402c_ad0e_ffa5a0e0070e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e471f789_3876_402c_ad0e_ffa5a0e0070e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5acac7ef_d2d2_49fd_83a8_028f3afce65d"/>
+        <rdfs:label xml:lang="en">resourceManagementSystem_type</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e54144ff_3a0e_4056_81e2_d8a724149df8 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e54144ff_3a0e_4056_81e2_d8a724149df8">
@@ -3562,6 +3796,7 @@ water treatment facility.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_4
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e6876e5b_9bc2_4afe_b037_07fbb37613b2 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e6876e5b_9bc2_4afe_b037_07fbb37613b2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a24d632_90c5_4e82_b093_ee5587f0a58d"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_fec98a34_f48b_4c76_b9a8_3ec741b7f8e7"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">An installation or area of land with a number of wind turbines, which generate electricity from wind. They can sometimes rotate to direct themselves towards the direction of the wind.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">windFarm_asset</rdfs:label>
@@ -3680,7 +3915,7 @@ water treatment facility.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_4
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ed689816_ec82_407c_8d03_a1ae5c86538c -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ed689816_ec82_407c_8d03_a1ae5c86538c">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_1060b8c6_f246_4e4c_9c22_5699ebffff5f"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b62cc062_5266_4c14_8e27_9498dcbc0f5a"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Is a device that extracts thermal energy from pressurized steam and uses it to do mechanical work on a rotating output shaft.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">steamTurbine_asset</rdfs:label>
     </owl:Class>
@@ -3797,11 +4032,29 @@ water treatment facility.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_4
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f631b592_aace_4fd2_a7cb_522c5d2aee01 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f631b592_aace_4fd2_a7cb_522c5d2aee01">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_89a42754_d4e7_4b4a_9b11_54d78e7a9908"/>
+        <rdfs:label xml:lang="en">highLevelWasteDisposalSite_asset</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f63675a0_fca0_4a87_9e70_eed45fbd2c61 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f63675a0_fca0_4a87_9e70_eed45fbd2c61">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_46db0019_cfc6_458a_be6a_4c448c04349d"/>
         <rdfs:label xml:lang="en">oilAirBox_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f6bfafb5_eff3_44bb_bf88_f5225cc672d0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f6bfafb5_eff3_44bb_bf88_f5225cc672d0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a4f155bf_03f0_431c_baef_d80a4ed541ae"/>
+        <rdfs:label xml:lang="en">wasteTransportVehicle_asset</rdfs:label>
     </owl:Class>
     
 
@@ -4232,6 +4485,16 @@ or other.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_1334aa95_67cc_4b54_a07b_3f1bfb43d730"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b62cc062_5266_4c14_8e27_9498dcbc0f5a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b8fc218e_fb30_494a_bf40_7fecfb2d49a2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ed689816_ec82_407c_8d03_a1ae5c86538c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_fec98a34_f48b_4c76_b9a8_3ec741b7f8e7"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_14224461_d380_4cb5_b421_b41cd42420a2"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_394fa578_d5a2_4b61_80f7_3d125388d3c6"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_db03feb1_f131_46c7_a83f_31d52687860e"/>
@@ -4481,6 +4744,17 @@ or other.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_32cadc1d_f3e0_4fda_a546_e402b4188e7b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_61efca4e_ffb9_4d55_9994_cee7c1fbc3c2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_9dc14c7b_879f_4375_aa65_f205c1fd0022"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a9a87786_b620_468f_a3a5_2dead25acb03"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_dcab8169_ca76_4337_b38d_e5993fdbc85f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e6876e5b_9bc2_4afe_b037_07fbb37613b2"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_38899537_54aa_448e_895a_e8e21f771667"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_3e475f39_121b_4f3b_8a23_3f81fd6cf93e"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_4be75b12_4c96_4dd9_b9c0_4db3b2f944a2"/>
@@ -4574,6 +4848,15 @@ or other.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5290cec9_bd1f_4521_b3c1_ad5dae9cbdec"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_647245d5_b82c_4bd9_85eb_421cd76a44f4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_708f19b3_a8a9_4acf_87aa_bdbc284c5083"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_8b9930ff_16f0_4456_897b_1374e95cf50a"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_53520b7a_c74b_41d1_9daf_e25eb0fcdacf"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ebcc0d5a_a5f4_4248_b05c_095b417db898"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ecd36c7b_f84f_4f5b_a289_91431f006d00"/>
@@ -4602,6 +4885,14 @@ or other.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_82931e33_ed22_472a_bd4b_4897230e7bc7"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_96cb5303_309a_41be_bebb_3e8960452150"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ac4b56d6_b1e3_4dde_b9a0_183b99f6a7ae"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a24d632_90c5_4e82_b093_ee5587f0a58d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a4f155bf_03f0_431c_baef_d80a4ed541ae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e471f789_3876_402c_ad0e_ffa5a0e0070e"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -4666,6 +4957,14 @@ or other.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_60a49b34_ae3e_4ba5_806a_6c2c9315f819"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_9308c62b_c244_44df_9a04_6ff28fd02eab"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ee6699b6_5623_409f_b595_370afaa99686"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6b43f637_ddc1_4f38_bc97_6327b4594af0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_89a42754_d4e7_4b4a_9b11_54d78e7a9908"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f6bfafb5_eff3_44bb_bf88_f5225cc672d0"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
