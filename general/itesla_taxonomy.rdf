@@ -92,9 +92,9 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_061237de_b7ed_4dbd_9031_bb492eb8723b">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_507b76b8_3668_4806_bc37_9928cb0fdbfb"/>
-        <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Uses microwave frequencies to transmit programming to a small antenna
-(about the size of an open newspaper) at subscriber homes.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
-        <rdfs:label xml:lang="en">wirelessCable_asset</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_59cb8624_7936_41a3_bf77_dc5add9539c6"/>
+        <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Uses microwave frequencies to transmit programming to a small antenna (about the size of an open newspaper) at subscriber homes.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
+        <rdfs:label xml:lang="en">mobileWirelessCable_asset</rdfs:label>
     </owl:Class>
     
 
@@ -452,10 +452,20 @@ water in most urban and suburban areas.</itesla-taxonomy:OWLAnnotationProperty_1
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_1fa8598f_783c_45e0_9ae3_703372f20fa2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_1fa8598f_783c_45e0_9ae3_703372f20fa2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2702dd3e_c107_4655_82f5_95be0b26c33e"/>
+        <rdfs:label xml:lang="en">roadFO_domain</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_1fc2693a_5408_415e_9dc4_fada99725c8a -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_1fc2693a_5408_415e_9dc4_fada99725c8a">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_94f9e829_e002_4b03_a4a6_fd4f74d22a1c"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a03bb469_4dc5_44e5_8ed4_fc4f19dfb9d6"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Integrated Services Digital Network. Switched network providing end - to -end digital connectivity for simultaneous transmission of voice and/or data over multiple multiplexed communications channels and employing transmission and out-of-band signaling protocols that conform to internationally defined standards.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">fixedISDN_asset</rdfs:label>
     </owl:Class>
@@ -524,6 +534,7 @@ water in most urban and suburban areas.</itesla-taxonomy:OWLAnnotationProperty_1
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_23588ac7_6bd7_42c4_bdd8_72d738a00e3e">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_507b76b8_3668_4806_bc37_9928cb0fdbfb"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_934ff07e_3393_483c_80c0_f432b5be4030"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Determines the rate at which information can be transmitted across that a medium. The rates are measured in bits (bps), kilobits (kbps), megabits (Mbps), or gigabits per second (Gbps). Typical transmission services are 64 kbps, 1.544 mbps (T1), and 45 Mbps (T3). The space between the top and bottom limit of airwave frequencies that are transmitted over a communications channel. The maximum frequency (range), measured in Hertz, between the two limiting frequencies of a transmission channel; the range of frequencies that can be carried by a transmission medium without undue distortion. Narrowband uses lower frequency signals such as telephone frequencies of about 3,000 Hertz and radio subcarrier signals of about 15,000 Hertz. Broadband uses a wide range of frequencies (broadcast and cable TV, microwave and satellite; carries a great deal of information in a short time; more expensive to use. C band is in the 4 to 6 giga-Hertz (gHz) Ku Band is 12 and 14 gHz .14.0 and 14.5 gHz are used to uplink; 11.7 and 12.2 gHz are used to downlink. A receiver with dual band capability can receive C and Ku band signals.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">mobileBandwidth_asset</rdfs:label>
     </owl:Class>
@@ -581,6 +592,15 @@ water in most urban and suburban areas.</itesla-taxonomy:OWLAnnotationProperty_1
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_26785365_51e9_4cde_a966_269e83b8056d">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b8861ef6_b811_4f2d_ab56_ab8460839373"/>
         <rdfs:label xml:lang="en">railWaysideDetectionDevice_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2702dd3e_c107_4655_82f5_95be0b26c33e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2702dd3e_c107_4655_82f5_95be0b26c33e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_d0d2b3c3_63ca_4672_9215_4307c9607664"/>
+        <rdfs:label xml:lang="en">transportFO_infrastructure</rdfs:label>
     </owl:Class>
     
 
@@ -693,6 +713,24 @@ water in most urban and suburban areas.</itesla-taxonomy:OWLAnnotationProperty_1
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2cb39d97_6690_43d3_ad61_35bd01fe6bfa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2cb39d97_6690_43d3_ad61_35bd01fe6bfa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a115efee_d558_412f_a591_d0e3a2f7107a"/>
+        <rdfs:label xml:lang="en">oilFO_domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2d205ce2_6881_4b12_82eb_d6989b4e84d5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2d205ce2_6881_4b12_82eb_d6989b4e84d5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a115efee_d558_412f_a591_d0e3a2f7107a"/>
+        <rdfs:label xml:lang="en">electricityFO_domain</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2d20a425_b8ab_46fa_bd35_9310416aed12 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2d20a425_b8ab_46fa_bd35_9310416aed12">
@@ -706,9 +744,10 @@ water in most urban and suburban areas.</itesla-taxonomy:OWLAnnotationProperty_1
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2d4a855a_77f0_4e56_b9fe_8b76e2f794ab -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2d4a855a_77f0_4e56_b9fe_8b76e2f794ab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a881713e_cf7d_40fb_b679_2d4019cbb70f"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_af1b4451_168f_4ca3_bc86_14008dba922e"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">An organization that provides Internet access for individuals or other organizations, often for a fee.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
-        <rdfs:label xml:lang="en">satellitePublicAccessProvider_asset</rdfs:label>
+        <rdfs:label xml:lang="en">satellitePAP_asset</rdfs:label>
     </owl:Class>
     
 
@@ -908,10 +947,10 @@ water in most urban and suburban areas.</itesla-taxonomy:OWLAnnotationProperty_1
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_395c2db6_d159_49d2_b2a1_4faf61541db5 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_395c2db6_d159_49d2_b2a1_4faf61541db5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_8b2efc75_eb0f_462b_8678_cbd8d0b501bb"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_94f9e829_e002_4b03_a4a6_fd4f74d22a1c"/>
-        <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">A special program in the communications CPU or computer that controls the
-integration of operating devices and enables the running of specific applications software - which is software developed to perform specific jobs.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
-        <rdfs:label xml:lang="en">fixedOperatingSystemOS_asset</rdfs:label>
+        <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">A special program in the communications CPU or computer that controls the integration of operating devices and enables the running of specific applications software - which is software developed to perform specific jobs.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
+        <rdfs:label xml:lang="en">fixedOS_asset</rdfs:label>
     </owl:Class>
     
 
@@ -1211,6 +1250,7 @@ integration of operating devices and enables the running of specific application
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_4af54bfe_4df6_434a_8910_1a5e61a53027 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_4af54bfe_4df6_434a_8910_1a5e61a53027">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_7718b919_837a_4786_904e_7916676f5b43"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_94f9e829_e002_4b03_a4a6_fd4f74d22a1c"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Any system designed to provide one or more access paths for communications between users at different geographic locations that may include designs for voice, data, facsimile images and/or video images.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">fixedNetwork_asset</rdfs:label>
@@ -1458,6 +1498,16 @@ tank, e.g. the amount available from a RO or distiller water storage tank.</ites
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_59cb8624_7936_41a3_bf77_dc5add9539c6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_59cb8624_7936_41a3_bf77_dc5add9539c6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6cef6439_2e90_4a97_b66c_ce9bc210dc11"/>
+        <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Uses microwave frequencies to transmit programming to a small antenna (about the size of an open newspaper) at subscriber homes.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
+        <rdfs:label xml:lang="en">wirelessCable</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a31baf7_711c_42f6_9b25_38d5d4397fb0 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_5a31baf7_711c_42f6_9b25_38d5d4397fb0">
@@ -1595,6 +1645,7 @@ tank, e.g. the amount available from a RO or distiller water storage tank.</ites
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6542b2ea_e225_47bc_acc2_472a9c3301d2">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_507b76b8_3668_4806_bc37_9928cb0fdbfb"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a03bb469_4dc5_44e5_8ed4_fc4f19dfb9d6"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Switched network providing end - to -end digital connectivity for simultaneous transmission of voice and/or data over multiple multiplexed communications channels and employing transmission and out-of-band signaling protocols that conform to internationally defined standards.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">mobileISDN_asset</rdfs:label>
     </owl:Class>
@@ -1670,6 +1721,15 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6cef6439_2e90_4a97_b66c_ce9bc210dc11 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6cef6439_2e90_4a97_b66c_ce9bc210dc11">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_4e4ceeee_7fc0_46cd_861b_15acbe4a094b"/>
+        <rdfs:label xml:lang="en">sharedTele_types</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6eac30ef_52f5_4fb3_8d9c_e8e4ff381730 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6eac30ef_52f5_4fb3_8d9c_e8e4ff381730">
@@ -1684,8 +1744,9 @@ where the telephone devices and/or inside wiring of the subscriber are connected
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6f1406c1_7a33_48f7_94b7_d4b423f29953">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_507b76b8_3668_4806_bc37_9928cb0fdbfb"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a881713e_cf7d_40fb_b679_2d4019cbb70f"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">An organization that provides Internet access for individuals or other organizations, often for a fee.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
-        <rdfs:label xml:lang="en">mobilePublicAccessProvider_asset</rdfs:label>
+        <rdfs:label xml:lang="en">mobilePAP_asset</rdfs:label>
     </owl:Class>
     
 
@@ -1745,6 +1806,26 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_73a5af48_c325_4dce_8ce6_565ab053abf5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_73a5af48_c325_4dce_8ce6_565ab053abf5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2d205ce2_6881_4b12_82eb_d6989b4e84d5"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_861f013e_2092_429d_9bd0_290c8ebad21a"/>
+        <rdfs:label xml:lang="en">distribution_operations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_75063fc0_7684_4f85_b30c_de6a10be4ac3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_75063fc0_7684_4f85_b30c_de6a10be4ac3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6cef6439_2e90_4a97_b66c_ce9bc210dc11"/>
+        <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Terminal that transmits and receives.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
+        <rdfs:label xml:lang="en">transceiver</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_75d79b44_925a_4ed8_8fb0_bae293a0493e -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_75d79b44_925a_4ed8_8fb0_bae293a0493e">
@@ -1760,6 +1841,16 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_7711c671_f2bb_4860_8981_57a62ee3f76e">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_8b86a663_c8d2_462e_ab92_5dfa3319e8dd"/>
         <rdfs:label xml:lang="en">trackSegment_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_7718b919_837a_4786_904e_7916676f5b43 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_7718b919_837a_4786_904e_7916676f5b43">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6cef6439_2e90_4a97_b66c_ce9bc210dc11"/>
+        <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Any system designed to provide one or more access paths for communications between users at different geographic locations that may include designs for voice, data, facsimile images and/or video images.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
+        <rdfs:label xml:lang="en">network</rdfs:label>
     </owl:Class>
     
 
@@ -1953,8 +2044,18 @@ where the telephone devices and/or inside wiring of the subscriber are connected
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_85e564f0_1a04_4fe3_88f9_a336847fa57f">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_507b76b8_3668_4806_bc37_9928cb0fdbfb"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_7718b919_837a_4786_904e_7916676f5b43"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Any system designed to provide one or more access paths for communications between users at different geographic locations that may include designs for voice, data, facsimile images and/or video images.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">mobileNetwork_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_861f013e_2092_429d_9bd0_290c8ebad21a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_861f013e_2092_429d_9bd0_290c8ebad21a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2d205ce2_6881_4b12_82eb_d6989b4e84d5"/>
+        <rdfs:label xml:lang="en">transmission_operations</rdfs:label>
     </owl:Class>
     
 
@@ -2019,6 +2120,17 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_8ab10624_9ece_4d1e_8ebe_fd488237f8af">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_c0150e26_01cc_4727_9aaa_3668e5355d55"/>
         <rdfs:label xml:lang="en">minorHighway_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_8b2efc75_eb0f_462b_8678_cbd8d0b501bb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_8b2efc75_eb0f_462b_8678_cbd8d0b501bb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6cef6439_2e90_4a97_b66c_ce9bc210dc11"/>
+        <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">A special program in the communications CPU or computer that controls the
+integration of operating devices and enables the running of specific applications software - which is software developed to perform specific jobs.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
+        <rdfs:label xml:lang="en">operatingSystemOS</rdfs:label>
     </owl:Class>
     
 
@@ -2184,6 +2296,16 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_934ff07e_3393_483c_80c0_f432b5be4030 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_934ff07e_3393_483c_80c0_f432b5be4030">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6cef6439_2e90_4a97_b66c_ce9bc210dc11"/>
+        <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Determines the rate at which information can be transmitted across that a medium. The rates are measured in bits (bps), kilobits (kbps), megabits (Mbps), or gigabits per second (Gbps). Typical transmission services are 64 kbps, 1.544 mbps (T1), and 45 Mbps (T3). The space between the top and bottom limit of airwave frequencies that are transmitted over a communications channel. The maximum frequency (range), measured in Hertz, between the two limiting frequencies of a transmission channel; the range of frequencies that can be carried by a transmission medium without undue distortion. Narrowband uses lower frequency signals such as telephone frequencies of about 3,000 Hertz and radio subcarrier signals of about 15,000 Hertz. Broadband uses a wide range of frequencies (broadcast and cable TV, microwave and satellite; carries a great deal of information in a short time; more expensive to use. C band is in the 4 to 6 giga-Hertz (gHz) Ku Band is 12 and 14 gHz .14.0 and 14.5 gHz are used to uplink; 11.7 and 12.2  gHz are used to downlink. A receiver with dual band capability can receive C and Ku band signals</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
+        <rdfs:label xml:lang="en">bandwidth</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_94ea48c1_07a2_4b8d_a919_adc6b389c6ff -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_94ea48c1_07a2_4b8d_a919_adc6b389c6ff">
@@ -2207,6 +2329,15 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_94f9e829_e002_4b03_a4a6_fd4f74d22a1c">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_4e4ceeee_7fc0_46cd_861b_15acbe4a094b"/>
         <rdfs:label xml:lang="en">fixedTelecommunication_domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_9530c52a_ce01_4dab_9dd3_f79f78c8c197 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_9530c52a_ce01_4dab_9dd3_f79f78c8c197">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a115efee_d558_412f_a591_d0e3a2f7107a"/>
+        <rdfs:label xml:lang="en">gasFO_domain</rdfs:label>
     </owl:Class>
     
 
@@ -2280,6 +2411,7 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_9d7e46e3_aa38_4aba_9e47_692e92adf14b -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_9d7e46e3_aa38_4aba_9e47_692e92adf14b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_75063fc0_7684_4f85_b30c_de6a10be4ac3"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_af1b4451_168f_4ca3_bc86_14008dba922e"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Terminal that transmits and receives.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">satelliteTransceiver_asset</rdfs:label>
@@ -2342,6 +2474,16 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a03bb469_4dc5_44e5_8ed4_fc4f19dfb9d6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a03bb469_4dc5_44e5_8ed4_fc4f19dfb9d6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6cef6439_2e90_4a97_b66c_ce9bc210dc11"/>
+        <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Integrated Services Digital Network. Switched network providing end - to -end digital connectivity for simultaneous transmission of voice and/or data over multiple multiplexed communications channels and employing transmission and out-of-band signaling protocols that conform to internationally defined standards.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
+        <rdfs:label xml:lang="en">integratedDigitalServicesNetworkISDN</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a0836c91_4345_43b9_a870_0f8f07f4a3b1 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a0836c91_4345_43b9_a870_0f8f07f4a3b1">
@@ -2362,6 +2504,15 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a115efee_d558_412f_a591_d0e3a2f7107a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a115efee_d558_412f_a591_d0e3a2f7107a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_d0d2b3c3_63ca_4672_9215_4307c9607664"/>
+        <rdfs:label xml:lang="en">energyFO_infrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a2ac1f01_0a54_405a_89d8_8294db683a0f -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a2ac1f01_0a54_405a_89d8_8294db683a0f">
@@ -2375,8 +2526,9 @@ where the telephone devices and/or inside wiring of the subscriber are connected
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a36b63c3_46d4_4160_bb30_2eccb61a739c">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_94f9e829_e002_4b03_a4a6_fd4f74d22a1c"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a881713e_cf7d_40fb_b679_2d4019cbb70f"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">An organization that provides Internet access for individuals or other organizations, often for a fee.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
-        <rdfs:label xml:lang="en">fixedPublicAccessProvider_asset</rdfs:label>
+        <rdfs:label xml:lang="en">fixedPAP_asset</rdfs:label>
     </owl:Class>
     
 
@@ -2394,6 +2546,7 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a4914668_9058_4eb2_9a33_1f35879f55db -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a4914668_9058_4eb2_9a33_1f35879f55db">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_59cb8624_7936_41a3_bf77_dc5add9539c6"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_af1b4451_168f_4ca3_bc86_14008dba922e"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Uses microwave frequencies to transmit programming to a small antenna (about the size of an open newspaper) at subscriber homes.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">satelliteWirelessCable_asset</rdfs:label>
@@ -2434,6 +2587,25 @@ where the telephone devices and/or inside wiring of the subscriber are connected
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_de80476c_694d_4fe6_af93_219a82473f5c"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">One or more circuits of a distribution system either direct-buried, in conduit or on the same line of poles or supporting structures, operating at relative low voltage as compared with transmission lines.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">distributionLine_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a881713e_cf7d_40fb_b679_2d4019cbb70f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a881713e_cf7d_40fb_b679_2d4019cbb70f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6cef6439_2e90_4a97_b66c_ce9bc210dc11"/>
+        <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">An organization that provides Internet access for individuals or other organizations, often for a fee.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
+        <rdfs:label xml:lang="en">publicAccessProviderPAP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a8d7b6b7_e7d0_4e8a_aa23_ce0e0ca24f37 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a8d7b6b7_e7d0_4e8a_aa23_ce0e0ca24f37">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_d0d2b3c3_63ca_4672_9215_4307c9607664"/>
+        <rdfs:label xml:lang="en">waterFO_infrastructure</rdfs:label>
     </owl:Class>
     
 
@@ -2514,6 +2686,15 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ad4833e9_32aa_472f_93b9_eacc9e729baf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ad4833e9_32aa_472f_93b9_eacc9e729baf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2702dd3e_c107_4655_82f5_95be0b26c33e"/>
+        <rdfs:label xml:lang="en">railFO_domain</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_adee2867_399f_4046_b0fc_9a356d3fb278 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_adee2867_399f_4046_b0fc_9a356d3fb278">
@@ -2527,9 +2708,10 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ae1cc7c7_6362_4030_a40a_86fc659f0912 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ae1cc7c7_6362_4030_a40a_86fc659f0912">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_8b2efc75_eb0f_462b_8678_cbd8d0b501bb"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_af1b4451_168f_4ca3_bc86_14008dba922e"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">A special program in the communications CPU or computer that controls the integration of operating devices and enables the running of specific applications software - which is software developed to perform specific jobs.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
-        <rdfs:label xml:lang="en">satelliteOperatingSystem_asset</rdfs:label>
+        <rdfs:label xml:lang="en">satelliteOS_asset</rdfs:label>
     </owl:Class>
     
 
@@ -2593,6 +2775,7 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_af2fa547_fd5e_4752_9df1_02562f7c4b8f -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_af2fa547_fd5e_4752_9df1_02562f7c4b8f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_75063fc0_7684_4f85_b30c_de6a10be4ac3"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_94f9e829_e002_4b03_a4a6_fd4f74d22a1c"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Terminal that transmits and receives.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">fixedTransceiver_asset</rdfs:label>
@@ -2605,6 +2788,15 @@ where the telephone devices and/or inside wiring of the subscriber are connected
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_afce959f_1f68_4a18_9773_a4c3a1b3469a">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b8861ef6_b811_4f2d_ab56_ab8460839373"/>
         <rdfs:label xml:lang="en">railFuellingFacility_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b25d5233_6b77_4251_ae70_e4655db09d99 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b25d5233_6b77_4251_ae70_e4655db09d99">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2702dd3e_c107_4655_82f5_95be0b26c33e"/>
+        <rdfs:label xml:lang="en">airFO_domain</rdfs:label>
     </owl:Class>
     
 
@@ -2701,6 +2893,15 @@ mechanical power of a spinning shaft to electricity.</itesla-taxonomy:OWLAnnotat
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_94f9e829_e002_4b03_a4a6_fd4f74d22a1c"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">A network element interconnecting two otherwise incompatible networks, network nodes, subnetworks or devices.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">gateway_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_bb0333ae_5aa7_4656_9d42_7d267ccc0e21 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_bb0333ae_5aa7_4656_9d42_7d267ccc0e21">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_d0d2b3c3_63ca_4672_9215_4307c9607664"/>
+        <rdfs:label xml:lang="en">telecommunicationFO_infrastructure</rdfs:label>
     </owl:Class>
     
 
@@ -2805,6 +3006,7 @@ water treatment facility.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_4
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_c2a57086_2e4a_4326_8224_1d5c824078fb -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_c2a57086_2e4a_4326_8224_1d5c824078fb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_934ff07e_3393_483c_80c0_f432b5be4030"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_94f9e829_e002_4b03_a4a6_fd4f74d22a1c"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Determines the rate at which information can be transmitted across that a medium. The rates are measured in bits (bps), kilobits (kbps), megabits (Mbps), or gigabits per second (Gbps). Typical transmission services are 64 kbps, 1.544 mbps (T1), and 45 Mbps (T3). The space between the top and bottom limit of airwave frequencies that are transmitted over a communications channel. The maximum frequency (range), measured in Hertz, between the two limiting frequencies of a transmission channel; the range of frequencies that can be carried by a transmission medium without undue distortion. Narrowband uses lower frequency signals such as telephone frequencies of about 3,000 Hertz and radio subcarrier signals of about 15,000 Hertz. Broadband uses a wide range of frequencies (broadcast and cable TV, microwave and satellite; carries a great deal of information in a short time; more expensive to use. C band is in the 4 to 6 giga-Hertz (gHz) Ku Band is 12 and 14 gHz .14.0 and 14.5 gHz are used to uplink; 11.7 and 12.2  gHz are used to downlink. A receiver with dual band capability can receive C and Ku band signals.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">fixedBandwidth_asset</rdfs:label>
@@ -2918,8 +3120,19 @@ water treatment facility.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_4
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_cd157aab_f03a_4d70_af55_934f67d66405">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_507b76b8_3668_4806_bc37_9928cb0fdbfb"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_8b2efc75_eb0f_462b_8678_cbd8d0b501bb"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">A special program in the communications CPU or computer that controls the integration of operating devices and enables the running of specific applications software - which is software developed to perform specific jobs.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
-        <rdfs:label xml:lang="en">mobileOperatingSystemOS_asset</rdfs:label>
+        <rdfs:label xml:lang="en">mobileOS_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ce338d19_e322_4d21_8a0f_13871ee3b866 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ce338d19_e322_4d21_8a0f_13871ee3b866">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_6cef6439_2e90_4a97_b66c_ce9bc210dc11"/>
+        <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">A format or set of rules and conventions that control the format and relative timing of message transmission between two points on a computer network.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
+        <rdfs:label xml:lang="en">protocol</rdfs:label>
     </owl:Class>
     
 
@@ -2947,6 +3160,14 @@ water treatment facility.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_4
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_d05c468d_8535_4eac_a3c1_f004f64df87b">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_c0150e26_01cc_4727_9aaa_3668e5355d55"/>
         <rdfs:label xml:lang="en">street_asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_d0d2b3c3_63ca_4672_9215_4307c9607664 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_d0d2b3c3_63ca_4672_9215_4307c9607664">
+        <rdfs:label xml:lang="en">functionsAndOperations_network</rdfs:label>
     </owl:Class>
     
 
@@ -3057,6 +3278,7 @@ water treatment facility.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_4
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_d7b3213c_2821_4c72_90dd_4d6e8e1be6dd">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_507b76b8_3668_4806_bc37_9928cb0fdbfb"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ce338d19_e322_4d21_8a0f_13871ee3b866"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">A format or set of rules and conventions that control the format and relative timing of message transmission between two points on a computer network.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">mobileProtocol_asset</rdfs:label>
     </owl:Class>
@@ -3131,6 +3353,7 @@ water treatment facility.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_4
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_dc69c4d0_083a_430f_9a33_140738a10ce9 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_dc69c4d0_083a_430f_9a33_140738a10ce9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_934ff07e_3393_483c_80c0_f432b5be4030"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_af1b4451_168f_4ca3_bc86_14008dba922e"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Determines the rate at which information can be transmitted across that a medium. The rates are measured in bits (bps), kilobits (kbps), megabits (Mbps), or gigabits per second (Gbps). Typical transmission services are 64 kbps, 1.544 mbps (T1), and 45 Mbps (T3). The space between the top and bottom limit of airwave frequencies that are transmitted over a communications channel. The maximum frequency (range), measured in Hertz, between the two limiting frequencies of a transmission channel; the range of frequencies that can be carried by a transmission medium without undue distortion. Narrowband uses lower frequency signals such as telephone frequencies of about 3,000 Hertz and radio subcarrier signals of about 15,000 Hertz. Broadband uses a wide range of frequencies (broadcast and cable TV, microwave and satellite; carries a great deal of information in a short time; more expensive to use. C band is in the 4 to 6 giga-Hertz (gHz) Ku Band is 12 and 14 gHz .14.0 and 14.5 gHz are used to uplink; 11.7 and 12.2 gHz are used to downlink. A receiver with dual band capability can receive C and Ku band signals.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">satelliteBandwidth_asset</rdfs:label>
@@ -3265,6 +3488,7 @@ water treatment facility.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_4
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_e2900605_6094_4cfb_86ca_c1b2748fe829">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_94f9e829_e002_4b03_a4a6_fd4f74d22a1c"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ce338d19_e322_4d21_8a0f_13871ee3b866"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">A format or set of rules and conventions that control the format and relative timing of message transmission between two points on a computer network.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">fixedProtocol_asset</rdfs:label>
     </owl:Class>
@@ -3517,6 +3741,15 @@ water treatment facility.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_4
     
 
 
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f0c3b78a_9f0f_4df9_b4bc_cf7bc82160e9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f0c3b78a_9f0f_4df9_b4bc_cf7bc82160e9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2702dd3e_c107_4655_82f5_95be0b26c33e"/>
+        <rdfs:label xml:lang="en">waterwayFo_domain</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f2c95375_11e9_41d1_9f9a_3321373deba0 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f2c95375_11e9_41d1_9f9a_3321373deba0">
@@ -3645,6 +3878,7 @@ water treatment facility.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_4
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_fc3cc406_f096_4be3_a130_8f362c599092">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_af1b4451_168f_4ca3_bc86_14008dba922e"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ce338d19_e322_4d21_8a0f_13871ee3b866"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">A format or set of rules and conventions that control the format and relative timing of message transmission between two points on a computer network.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">satelliteProtocol_asset</rdfs:label>
     </owl:Class>
@@ -3759,6 +3993,7 @@ or other.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8
 
     <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ff770db3_409b_41fb_85a1_40fb4d2f8190">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_507b76b8_3668_4806_bc37_9928cb0fdbfb"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_75063fc0_7684_4f85_b30c_de6a10be4ac3"/>
         <itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb xml:lang="en">Terminal that transmits and receives.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8e6cbb>
         <rdfs:label xml:lang="en">mobileTransceiver_asset</rdfs:label>
     </owl:Class>
@@ -4079,6 +4314,15 @@ or other.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_1fa8598f_783c_45e0_9ae3_703372f20fa2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ad4833e9_32aa_472f_93b9_eacc9e729baf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_b25d5233_6b77_4251_ae70_e4655db09d99"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f0c3b78a_9f0f_4df9_b4bc_cf7bc82160e9"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_1fc2693a_5408_415e_9dc4_fada99725c8a"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_25dedee4_8fcf_4af4_a15e_af1a375b84a4"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_33a892f3_8bc4_429d_b5d4_5f1179453c91"/>
@@ -4141,6 +4385,15 @@ or other.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2702dd3e_c107_4655_82f5_95be0b26c33e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a115efee_d558_412f_a591_d0e3a2f7107a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a8d7b6b7_e7d0_4e8a_aa23_ce0e0ca24f37"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_bb0333ae_5aa7_4656_9d42_7d267ccc0e21"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_275f48cb_d1fe_4f4a_b606_4c335bf1910f"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2d4a855a_77f0_4e56_b9fe_8b76e2f794ab"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_33306d6e_9a7b_4d33_8321_554bfaaef098"/>
@@ -4197,6 +4450,14 @@ or other.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_d5159c0a_c02b_4f4d_804d_ca65def2f7bf"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f2c95375_11e9_41d1_9f9a_3321373deba0"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_f8f28761_936b_4d3c_afd0_9bdcadc91699"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2cb39d97_6690_43d3_ad61_35bd01fe6bfa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_2d205ce2_6881_4b12_82eb_d6989b4e84d5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_9530c52a_ce01_4dab_9dd3_f79f78c8c197"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -4405,6 +4666,18 @@ or other.</itesla-taxonomy:OWLAnnotationProperty_1d46dbf9_ee27_405b_8938_6be2ff8
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_60a49b34_ae3e_4ba5_806a_6c2c9315f819"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_9308c62b_c244_44df_9a04_6ff28fd02eab"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ee6699b6_5623_409f_b595_370afaa99686"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_75063fc0_7684_4f85_b30c_de6a10be4ac3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_7718b919_837a_4786_904e_7916676f5b43"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_8b2efc75_eb0f_462b_8678_cbd8d0b501bb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_934ff07e_3393_483c_80c0_f432b5be4030"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a03bb469_4dc5_44e5_8ed4_fc4f19dfb9d6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_a881713e_cf7d_40fb_b679_2d4019cbb70f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/8/itesla-taxonomy#OWLClass_ce338d19_e322_4d21_8a0f_13871ee3b866"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
