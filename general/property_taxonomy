@@ -1,0 +1,2734 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies/"
+     xml:base="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:property-ontologies="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies">
+        <rdfs:label>property-ontologies</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLAnnotationProperty_8c8150ba_d394_4cf8_ac13_7640a4c7198f -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLAnnotationProperty_8c8150ba_d394_4cf8_ac13_7640a4c7198f">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://schema.org/dayOfWeek -->
+
+    <rdfs:Datatype rdf:about="http://schema.org/dayOfWeek"/>
+    
+
+
+    <!-- http://schema.org/month -->
+
+    <rdfs:Datatype rdf:about="http://schema.org/month"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gYear -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gYear"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#time -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#time"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_03be2db2_16bc_4e35_a165_cdd2e66478af -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_03be2db2_16bc_4e35_a165_cdd2e66478af">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_15dc8a4a_1fb7_4854_bd74_ea609d8d7325"/>
+        <rdfs:label xml:lang="en">usedInOccurence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_05d8c382_2ec6_427d_aeb2_be9734852e66 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_05d8c382_2ec6_427d_aeb2_be9734852e66">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_15dc8a4a_1fb7_4854_bd74_ea609d8d7325"/>
+        <rdfs:label xml:lang="en">capacityInUse</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_0ade44d9_1d36_4251_8b43_d372d3caad08 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_0ade44d9_1d36_4251_8b43_d372d3caad08">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:inTimePosition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_0ed03eec_8139_474c_a23f_05b2bb21f851 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_0ed03eec_8139_474c_a23f_05b2bb21f851">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a203f064_d230_4897_949f_1282ce04cbfd"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:label xml:lang="en">geo:sfTouches</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_1042837c_e74b_4ad1_9505_79addaa4747d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_1042837c_e74b_4ad1_9505_79addaa4747d">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9af98ea3_65e4_45a6_9d78_6e775c033db7"/>
+        <rdfs:label xml:lang="en">hasDenominator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_15dc8a4a_1fb7_4854_bd74_ea609d8d7325 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_15dc8a4a_1fb7_4854_bd74_ea609d8d7325">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">resource</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_1622242d_52af_4f9d_ac2f_468dd8ec434b -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_1622242d_52af_4f9d_ac2f_468dd8ec434b">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">causes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_165fef5f_e192_4539_b683_269d78cd9103 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_165fef5f_e192_4539_b683_269d78cd9103">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_15dc8a4a_1fb7_4854_bd74_ea609d8d7325"/>
+        <rdfs:label xml:lang="en">hasCapacity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_18e612d9_3487_44ca_b00d_b55aa98a17a6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_18e612d9_3487_44ca_b00d_b55aa98a17a6">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:meets</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_1a5d1c64_4d43_452c_9d43_22487178c077 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_1a5d1c64_4d43_452c_9d43_22487178c077">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c9d15243_92d3_4130_b9d2_f4c9489b6d7a"/>
+        <rdfs:label xml:lang="en">time:before</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_1aa0a083_cd25_487d_9af1_e1fdc2ed610b -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_1aa0a083_cd25_487d_9af1_e1fdc2ed610b">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a203f064_d230_4897_949f_1282ce04cbfd"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:label xml:lang="en">geo:sfEquals</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_1c7c411f_c1d0_492e_a20b_aea2c7b7495a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_1c7c411f_c1d0_492e_a20b_aea2c7b7495a">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">sosa:observes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_35d204bc_6aea_473f_a244_2f8a1008fd65 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_35d204bc_6aea_473f_a244_2f8a1008fd65">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a203f064_d230_4897_949f_1282ce04cbfd"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:label xml:lang="en">geo:sfCrosses</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_389476f7_0075_42fe_a437_96293b8c9136 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_389476f7_0075_42fe_a437_96293b8c9136">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a203f064_d230_4897_949f_1282ce04cbfd"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:label xml:lang="en">geo:sfContains</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_38dbbef0_e971_4db1_8dd8_52088d695184 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_38dbbef0_e971_4db1_8dd8_52088d695184">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:minute</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_39260803_4b8f_4be9_a459_c2e554c60fdf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_39260803_4b8f_4be9_a459_c2e554c60fdf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_15dc8a4a_1fb7_4854_bd74_ea609d8d7325"/>
+        <rdfs:label xml:lang="en">hasAvailableCapacity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3a4c2966_4154_44de_ae1b_3bf4cd27c1b9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3a4c2966_4154_44de_ae1b_3bf4cd27c1b9">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f38c26b3_7577_416f_b732_9c8ed1dd99f6"/>
+        <rdfs:label xml:lang="en">containedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3ad81c64_6b3a_477f_a869_2d5b5c4c5dce -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3ad81c64_6b3a_477f_a869_2d5b5c4c5dce">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:inXSDDateTimeStamp</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3aef8d1a_0f2e_4c0c_b1e8_a7c5886e0039 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3aef8d1a_0f2e_4c0c_b1e8_a7c5886e0039">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:equals</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3b1adc63_77b6_406f_811d_59382651db9c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3b1adc63_77b6_406f_811d_59382651db9c">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9af98ea3_65e4_45a6_9d78_6e775c033db7"/>
+        <rdfs:label xml:lang="en">hasUnit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3d460905_6138_4aa9_8417_85d1cc5f7a1a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3d460905_6138_4aa9_8417_85d1cc5f7a1a">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:overlaps</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_40ef7bc2_8b78_4fe3_a8b1_4a078be691d1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_40ef7bc2_8b78_4fe3_a8b1_4a078be691d1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:hasEnd</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_4a73b4a7_9686_4553_874c_9b03220b9da1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_4a73b4a7_9686_4553_874c_9b03220b9da1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">ssn:hasProperty</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_52c64ccf_7407_4651_a1a3_8f36cd0d73ee -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_52c64ccf_7407_4651_a1a3_8f36cd0d73ee">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f38c26b3_7577_416f_b732_9c8ed1dd99f6"/>
+        <rdfs:label xml:lang="en">properPartOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_55681a3c_16fb_43d2_83d6_5642dbbbec6a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_55681a3c_16fb_43d2_83d6_5642dbbbec6a">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3a4c2966_4154_44de_ae1b_3bf4cd27c1b9"/>
+        <rdfs:label xml:lang="en">immediatelyContainedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_57b55f3e_3b08_4f0e_9919_61ce8851c7cb -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_57b55f3e_3b08_4f0e_9919_61ce8851c7cb">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">hasSubactivity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_582b27ba_80de_42b4_baaa_81aee4e3068b -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_582b27ba_80de_42b4_baaa_81aee4e3068b">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a203f064_d230_4897_949f_1282ce04cbfd"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_e8f2d07d_fe55_4b3b_a9bd_60b1a5ee7586"/>
+        <rdfs:label xml:lang="en">hasLocation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_6076d1f3_4093_4267_9175_ce0e54e6e8c2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_6076d1f3_4093_4267_9175_ce0e54e6e8c2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">beginOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_6687ab25_6f99_477f_9064_3516a280af66 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_6687ab25_6f99_477f_9064_3516a280af66">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e55468eb_a818_453b_862b_f3eae0d31425"/>
+        <rdfs:label xml:lang="en">hasSubRecurringEvent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_68cacb3b_c4b9_40a9_82ec_eaeb605c8534 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_68cacb3b_c4b9_40a9_82ec_eaeb605c8534">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">hasSubstate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_69d3a630_e373_433f_be7a_0f3b38e0fd85 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_69d3a630_e373_433f_be7a_0f3b38e0fd85">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_7afb5bf7_1ce3_4373_bc7e_2c6ec31b9cea"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a2302091_852b_44eb_8e4c_e9d80d7a7255"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasManifestation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_6e714907_678d_41fc_bf62_2a5d1ba0d993 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_6e714907_678d_41fc_bf62_2a5d1ba0d993">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">causedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_6f7e7206_b6b0_4bba_ac73_9c61c43700e0 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_6f7e7206_b6b0_4bba_ac73_9c61c43700e0">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">obs:observes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_70db4077_d307_47c9_aa97_41d3bfde4399 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_70db4077_d307_47c9_aa97_41d3bfde4399">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:during</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_73e4f029_d362_4ad9_82f5_cd5d735041af -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_73e4f029_d362_4ad9_82f5_cd5d735041af">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:month</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">activity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_75c84bf7_07a4_43fe_87fe_b3178664c55e -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_75c84bf7_07a4_43fe_87fe_b3178664c55e">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:finishes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_76cb505d_7290_4507_9395_8a9cbd2d9a52 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_76cb505d_7290_4507_9395_8a9cbd2d9a52">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a203f064_d230_4897_949f_1282ce04cbfd"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_e8f2d07d_fe55_4b3b_a9bd_60b1a5ee7586"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b292076f_51d6_41bc_8124_809d7b98634a"/>
+        <rdfs:label xml:lang="en">geo:hasGeometry</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_79c6a122_4ca7_4295_9b93_3616787ce5bf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_79c6a122_4ca7_4295_9b93_3616787ce5bf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">sosa:hasFeatureOfInterest</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_7afb5bf7_1ce3_4373_bc7e_2c6ec31b9cea -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_7afb5bf7_1ce3_4373_bc7e_2c6ec31b9cea">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">change</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_7fdd2d3f_44bf_49ea_92a5_05f55755d187 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_7fdd2d3f_44bf_49ea_92a5_05f55755d187">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:dayOfWeek</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_83087b37_b5f5_4fd4_86f7_655a0efe2602 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_83087b37_b5f5_4fd4_86f7_655a0efe2602">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:second</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_87fa1fec_b7a6_47ac_b1c2_8fa16f543b1c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_87fa1fec_b7a6_47ac_b1c2_8fa16f543b1c">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">hasPrecondition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8bb7df43_cd13_4f14_b535_817866727c7d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8bb7df43_cd13_4f14_b535_817866727c7d">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a203f064_d230_4897_949f_1282ce04cbfd"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:label xml:lang="en">geo:sfIntersects</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8d4f1a0a_f8e7_40e4_aef0_9f2e9ee1ecc1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8d4f1a0a_f8e7_40e4_aef0_9f2e9ee1ecc1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">sosa:hasResult</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8dc1381b_5017_485d_8b72_cd62f859f0b2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8dc1381b_5017_485d_8b72_cd62f859f0b2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">sosa:isObservedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8eda02ff_3fdf_40a5_bcd1_cb9bebc07f84 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8eda02ff_3fdf_40a5_bcd1_cb9bebc07f84">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a203f064_d230_4897_949f_1282ce04cbfd"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b292076f_51d6_41bc_8124_809d7b98634a"/>
+        <rdfs:label xml:lang="en">as_nDLatLon</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8f5db45f_0055_46c9_8084_8c7db5b74bce -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8f5db45f_0055_46c9_8084_8c7db5b74bce">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">ssn:wasOriginatedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8f902a93_4a1c_48e7_a08c_4f5253293aac -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8f902a93_4a1c_48e7_a08c_4f5253293aac">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">sosa:madeObservation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_919d4c30_56cb_485a_8479_07521868ecd1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_919d4c30_56cb_485a_8479_07521868ecd1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">preconditionOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_91d46c7d_3be5_4690_a03c_c7cd554ba10f -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_91d46c7d_3be5_4690_a03c_c7cd554ba10f">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:starts</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_92157ed8_3d69_4366_96f8_c5de97d7e6ab -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_92157ed8_3d69_4366_96f8_c5de97d7e6ab">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">endOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_97e1d266_3007_412d_b59c_ac5c759edb90 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_97e1d266_3007_412d_b59c_ac5c759edb90">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f38c26b3_7577_416f_b732_9c8ed1dd99f6"/>
+        <rdfs:label xml:lang="en">hasProperPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_991f6336_b51f_4490_bda3_c1ae85b8ae4d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_991f6336_b51f_4490_bda3_c1ae85b8ae4d">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a203f064_d230_4897_949f_1282ce04cbfd"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_e8f2d07d_fe55_4b3b_a9bd_60b1a5ee7586"/>
+        <rdfs:label xml:lang="en">associatedLocation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9af98ea3_65e4_45a6_9d78_6e775c033db7 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9af98ea3_65e4_45a6_9d78_6e775c033db7">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">unitOfMeasure</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9f666e7b_e0d5_46be_9bc6_90ed5b74acea -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9f666e7b_e0d5_46be_9bc6_90ed5b74acea">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e55468eb_a818_453b_862b_f3eae0d31425"/>
+        <rdfs:label xml:lang="en">beginsRecurring</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9feacaa0_ffd6_4a60_8beb_0cfbfc6eacdf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9feacaa0_ffd6_4a60_8beb_0cfbfc6eacdf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">occursBefore</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9ff850c0_d029_4c22_9db0_e41c1c5ff912 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9ff850c0_d029_4c22_9db0_e41c1c5ff912">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">achievedAt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a122eb6b_57ed_4468_bf8c_5bd7f4c2e9d7 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a122eb6b_57ed_4468_bf8c_5bd7f4c2e9d7">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:hour</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a203f064_d230_4897_949f_1282ce04cbfd -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a203f064_d230_4897_949f_1282ce04cbfd">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a2302091_852b_44eb_8e4c_e9d80d7a7255 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a2302091_852b_44eb_8e4c_e9d80d7a7255">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_7afb5bf7_1ce3_4373_bc7e_2c6ec31b9cea"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="en">manifestationOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a2e99f14_ce86_4e62_ad61_3f96d1a4f62d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a2e99f14_ce86_4e62_ad61_3f96d1a4f62d">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a203f064_d230_4897_949f_1282ce04cbfd"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:label xml:lang="en">geo:sfWithin</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a3a5682d_2d05_47d7_9268_a3f16b3ef09d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a3a5682d_2d05_47d7_9268_a3f16b3ef09d">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9af98ea3_65e4_45a6_9d78_6e775c033db7"/>
+        <rdfs:label xml:lang="en">cardinalityOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ae0b5230_3d6a_475b_8a0d_e93ff7ae6a81 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ae0b5230_3d6a_475b_8a0d_e93ff7ae6a81">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_97e1d266_3007_412d_b59c_ac5c759edb90"/>
+        <rdfs:label xml:lang="en">hasComponent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ae102091_a687_4e5d_a646_42808101b04c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ae102091_a687_4e5d_a646_42808101b04c">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">sosa:isResultOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b2a0ddfb_eeff_49c0_95b2_5dbd6ef04213 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b2a0ddfb_eeff_49c0_95b2_5dbd6ef04213">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">enables</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b2c6e190_112b_4319_bdbe_ba57386a7ec1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b2c6e190_112b_4319_bdbe_ba57386a7ec1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a203f064_d230_4897_949f_1282ce04cbfd"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:label xml:lang="en">geo:sfOverlaps</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b2e4057e_dd45_4db6_8fe9_c790daa97011 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b2e4057e_dd45_4db6_8fe9_c790daa97011">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ef7d34a1_570a_45e8_b3dd_28ee764828d3"/>
+        <rdfs:label xml:lang="en">immediateComponentOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b5ace686_796a_4aca_ba55_f39a7b7992d2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b5ace686_796a_4aca_ba55_f39a7b7992d2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">hasDecomp</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b5aeb7bb_df93_4141_bbc6_55a314d5b386 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b5aeb7bb_df93_4141_bbc6_55a314d5b386">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_15dc8a4a_1fb7_4854_bd74_ea609d8d7325"/>
+        <rdfs:label xml:lang="en">consumedInOccurence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b6a080b8_d6ce_4965_867d_96a5ed012839 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b6a080b8_d6ce_4965_867d_96a5ed012839">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:hasDuration</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b9cd8d0e_5dab_4eb0_b3cb_1b81233aa7e6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b9cd8d0e_5dab_4eb0_b3cb_1b81233aa7e6">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">enabledBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ba5fe689_f2c2_499d_b8ef_97465e890a23 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ba5fe689_f2c2_499d_b8ef_97465e890a23">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_7afb5bf7_1ce3_4373_bc7e_2c6ec31b9cea"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801"/>
+        <rdfs:label xml:lang="en">existsAt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_bb4b19e5_d9e0_4592_815d_f5b82bb5362c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_bb4b19e5_d9e0_4592_815d_f5b82bb5362c">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:inside</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_be267e5f_3014_4b3a_be74_1abe3b014f76 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_be267e5f_3014_4b3a_be74_1abe3b014f76">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">effectOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_be77a78f_c4f2_4ddc_98fb_2f17a3b72fa2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_be77a78f_c4f2_4ddc_98fb_2f17a3b72fa2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">ssn:detects</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_befde0c1_0fcf_4244_8e16_a1f0082f66c1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_befde0c1_0fcf_4244_8e16_a1f0082f66c1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">occursDirectlyBefore</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c0d51bf5_a5f9_46fc_8e68_7fdea0b524c9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c0d51bf5_a5f9_46fc_8e68_7fdea0b524c9">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9af98ea3_65e4_45a6_9d78_6e775c033db7"/>
+        <rdfs:label xml:lang="en">hasNumerator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c16032ce_c739_4a79_b39c_0cc0e4a11177 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c16032ce_c739_4a79_b39c_0cc0e4a11177">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a203f064_d230_4897_949f_1282ce04cbfd"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:label xml:lang="en">geo:sfDisjoint</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c2bfcb9c_9d69_438a_8d6b_2d60b7564401 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c2bfcb9c_9d69_438a_8d6b_2d60b7564401">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e55468eb_a818_453b_862b_f3eae0d31425"/>
+        <rdfs:label xml:lang="en">endsRecurring</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c7d1f766_6f81_4c9a_bc81_f81d90d478b5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c7d1f766_6f81_4c9a_bc81_f81d90d478b5">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">occursAt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c7e49197_1bb2_44ef_856a_26f39f61db11 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c7e49197_1bb2_44ef_856a_26f39f61db11">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">sosa:resultTime</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c83b6c37_ec81_4813_8bc1_1c1b8ff626c6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c83b6c37_ec81_4813_8bc1_1c1b8ff626c6">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9af98ea3_65e4_45a6_9d78_6e775c033db7"/>
+        <rdfs:label xml:lang="en">hasRelativeYear</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c9d15243_92d3_4130_b9d2_f4c9489b6d7a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c9d15243_92d3_4130_b9d2_f4c9489b6d7a">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:after</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_cb5d526b_829c_47b5_9f02_da811a675beb -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_cb5d526b_829c_47b5_9f02_da811a675beb">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_15dc8a4a_1fb7_4854_bd74_ea609d8d7325"/>
+        <rdfs:label xml:lang="en">usedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_cc97f481_39b5_4a61_8651_411903ed3ed0 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_cc97f481_39b5_4a61_8651_411903ed3ed0">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">hasParticipant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ccfd984c_997d_446c_94b5_952bfde127b4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ccfd984c_997d_446c_94b5_952bfde127b4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">sosa:observedProperty</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_d499d517_3f10_4426_82e1_b85b77377eb3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_d499d517_3f10_4426_82e1_b85b77377eb3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">hasProxy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_d7ff0134_15e7_427c_b77c_e4bbe986b7fc -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_d7ff0134_15e7_427c_b77c_e4bbe986b7fc">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f38c26b3_7577_416f_b732_9c8ed1dd99f6"/>
+        <rdfs:label xml:lang="en">contains</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_d886d6b3_e3b4_4d5e_9985_4a3bd321d344 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_d886d6b3_e3b4_4d5e_9985_4a3bd321d344">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:day</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">time</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dfc4b76c_0b8f_41c2_b893_54ec4e303be5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dfc4b76c_0b8f_41c2_b893_54ec4e303be5">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">sosa:madeBySensor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e04c86ed_58a4_4615_8ded_61d85b337f27 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e04c86ed_58a4_4615_8ded_61d85b337f27">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">sosa:phenomenonTime</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e08d0710_19b8_4ebb_8547_25bd93b47fec -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e08d0710_19b8_4ebb_8547_25bd93b47fec">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:hasBeginning</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">observation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e55468eb_a818_453b_862b_f3eae0d31425 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e55468eb_a818_453b_862b_f3eae0d31425">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">recurringEvent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e7f510f6_c166_4a01_9d83_351134dfb9d4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e7f510f6_c166_4a01_9d83_351134dfb9d4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e55468eb_a818_453b_862b_f3eae0d31425"/>
+        <rdfs:label xml:lang="en">recursExcept</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e95807ec_58bb_4279_b5b7_a6ee0bf384c2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e95807ec_58bb_4279_b5b7_a6ee0bf384c2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9af98ea3_65e4_45a6_9d78_6e775c033db7"/>
+        <rdfs:label xml:lang="en">hasValue</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ef7d34a1_570a_45e8_b3dd_28ee764828d3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ef7d34a1_570a_45e8_b3dd_28ee764828d3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_52c64ccf_7407_4651_a1a3_8f36cd0d73ee"/>
+        <rdfs:label xml:lang="en">componentOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f0ea4b08_0c60_465d_ab35_a0124047866b -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f0ea4b08_0c60_465d_ab35_a0124047866b">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">participatesIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f38c26b3_7577_416f_b732_9c8ed1dd99f6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f38c26b3_7577_416f_b732_9c8ed1dd99f6">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">parthood</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f5904b65_0ba2_4850_a467_2ed5cd7ea8d5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f5904b65_0ba2_4850_a467_2ed5cd7ea8d5">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e55468eb_a818_453b_862b_f3eae0d31425"/>
+        <rdfs:label xml:lang="en">recursAddition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f69fd006_a30c_4956_a4ac_cc6621a1d690 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f69fd006_a30c_4956_a4ac_cc6621a1d690">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_74293e05_1aae_4b3f_ab13_e043a98826c2"/>
+        <rdfs:label xml:lang="en">hasEffect</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f99156ae_d99d_4aa4_849c_901cc039bcd5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f99156ae_d99d_4aa4_849c_901cc039bcd5">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e55468eb_a818_453b_862b_f3eae0d31425"/>
+        <rdfs:label xml:lang="en">hasOccurence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f99e36ac_e92b_4191_9caa_4e4f6c15a202 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f99e36ac_e92b_4191_9caa_4e4f6c15a202">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e2311df8_0270_4fcc_984c_3338bf29ffea"/>
+        <rdfs:label xml:lang="en">obs:observedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_fe1edb00_afb5_43bc_95cd_1d0c886e9719 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_fe1edb00_afb5_43bc_95cd_1d0c886e9719">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dc15e254_cce7_445e_b9a9_4408eb04d98d"/>
+        <rdfs:label xml:lang="en">time:dayOfYear</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_073b9f63_1490_4c71_b529_109a1ab1c3c7 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_073b9f63_1490_4c71_b529_109a1ab1c3c7">
+        <rdfs:label xml:lang="en">observations</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_08bbb0e1_b4bf_4374_aa42_8c1565da740c -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_08bbb0e1_b4bf_4374_aa42_8c1565da740c">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_1d402d4b_f598_4f8c_96f2_d648d7cb36dd"/>
+        <rdfs:label xml:lang="en">time:dayOfWeek</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_1ae3599e_79bb_48f7_9ba1_e59704f28aba -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_1ae3599e_79bb_48f7_9ba1_e59704f28aba">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_96d8d834_d319_46d7_939e_85e7cc6dd512"/>
+        <rdfs:label xml:lang="en">startTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_1d402d4b_f598_4f8c_96f2_d648d7cb36dd -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_1d402d4b_f598_4f8c_96f2_d648d7cb36dd">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">time</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_2a521c84_2030_47cd_84e9_fa3f7fecd812 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_2a521c84_2030_47cd_84e9_fa3f7fecd812">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_96d8d834_d319_46d7_939e_85e7cc6dd512"/>
+        <rdfs:label xml:lang="en">endDayOfMonth</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_2f99116c_e780_4aaa_89b8_22d7ec9a2bc6 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_2f99116c_e780_4aaa_89b8_22d7ec9a2bc6">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_96d8d834_d319_46d7_939e_85e7cc6dd512"/>
+        <rdfs:label xml:lang="en">endTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_3320d63c_ff08_4f83_b734_496cfe5ea055 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_3320d63c_ff08_4f83_b734_496cfe5ea055">
+        <rdfs:label xml:lang="en">unitOfMeasure</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_3cef9d51_07bb_4228_b63e_1a4b2e2e5fbe -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_3cef9d51_07bb_4228_b63e_1a4b2e2e5fbe">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_073b9f63_1490_4c71_b529_109a1ab1c3c7"/>
+        <rdfs:label xml:lang="en">sosa:resultTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_7d52a519_d2e8_44b2_9e24_24c7b9cf8687 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_7d52a519_d2e8_44b2_9e24_24c7b9cf8687">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_96d8d834_d319_46d7_939e_85e7cc6dd512"/>
+        <rdfs:label xml:lang="en">startDayOfMonth</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_96d8d834_d319_46d7_939e_85e7cc6dd512 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_96d8d834_d319_46d7_939e_85e7cc6dd512">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">recurringEvent</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_9edf1976_06e7_4b30_a144_faf5d3ea3a3d -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_9edf1976_06e7_4b30_a144_faf5d3ea3a3d">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_1d402d4b_f598_4f8c_96f2_d648d7cb36dd"/>
+        <rdfs:label xml:lang="en">time:inTimePosition</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_9f3480e2_bc20_475d_be82_2dbf18b61713 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_9f3480e2_bc20_475d_be82_2dbf18b61713">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_96d8d834_d319_46d7_939e_85e7cc6dd512"/>
+        <rdfs:label xml:lang="en">hasMonth</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_b783ba3a_047a_42d4_be00_134be3bef3bd -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_b783ba3a_047a_42d4_be00_134be3bef3bd">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_96d8d834_d319_46d7_939e_85e7cc6dd512"/>
+        <rdfs:label xml:lang="en">endMonth</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_d983f0e0_367b_46f7_ba74_86bc40cf2b07 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_d983f0e0_367b_46f7_ba74_86bc40cf2b07">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_3320d63c_ff08_4f83_b734_496cfe5ea055"/>
+        <rdfs:label xml:lang="en">hasRelativeYear</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_ea7a68c0_1aca_489f_abf8_39d64907e46e -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_ea7a68c0_1aca_489f_abf8_39d64907e46e">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_96d8d834_d319_46d7_939e_85e7cc6dd512"/>
+        <rdfs:label xml:lang="en">startDayOfWeek</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_ed9493d9_0313_4097_b6e2_f6c905efd3f7 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_ed9493d9_0313_4097_b6e2_f6c905efd3f7">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_96d8d834_d319_46d7_939e_85e7cc6dd512"/>
+        <rdfs:label xml:lang="en">endDayOfWeek</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#day -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#day">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_1d402d4b_f598_4f8c_96f2_d648d7cb36dd"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#dayOfYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#dayOfYear">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_1d402d4b_f598_4f8c_96f2_d648d7cb36dd"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hour -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#hour">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_1d402d4b_f598_4f8c_96f2_d648d7cb36dd"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inXSDDateTimeStamp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#inXSDDateTimeStamp">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_1d402d4b_f598_4f8c_96f2_d648d7cb36dd"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#minute -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#minute">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_1d402d4b_f598_4f8c_96f2_d648d7cb36dd"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#month -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#month">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_1d402d4b_f598_4f8c_96f2_d648d7cb36dd"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#second -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#second">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_1d402d4b_f598_4f8c_96f2_d648d7cb36dd"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_00747e00_0330_4843_97b4_bb027e3176cc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_00747e00_0330_4843_97b4_bb027e3176cc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_4122a66f_3cfb_41a2_a5e6_d4945389198b"/>
+        <rdfs:label xml:lang="en">cardinality_unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_05844021_fe81_4156_bd56_e2a2fcbf7e98 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_05844021_fe81_4156_bd56_e2a2fcbf7e98">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_bb4b19e5_d9e0_4592_815d_f5b82bb5362c"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1754cde8_469e_4667_bcc0_87bea04601e7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_0ade44d9_1d36_4251_8b43_d372d3caad08"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.w3.org/2006/time#TimePosition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#inXSDDateTimeStamp"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801"/>
+        <rdfs:label xml:lang="en">time:instant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1754cde8_469e_4667_bcc0_87bea04601e7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1754cde8_469e_4667_bcc0_87bea04601e7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_18e612d9_3487_44ca_b00d_b55aa98a17a6"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1754cde8_469e_4667_bcc0_87bea04601e7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3aef8d1a_0f2e_4c0c_b1e8_a7c5886e0039"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1754cde8_469e_4667_bcc0_87bea04601e7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3d460905_6138_4aa9_8417_85d1cc5f7a1a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1754cde8_469e_4667_bcc0_87bea04601e7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_70db4077_d307_47c9_aa97_41d3bfde4399"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1754cde8_469e_4667_bcc0_87bea04601e7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_75c84bf7_07a4_43fe_87fe_b3178664c55e"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1754cde8_469e_4667_bcc0_87bea04601e7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_91d46c7d_3be5_4690_a03c_c7cd554ba10f"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1754cde8_469e_4667_bcc0_87bea04601e7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">time:interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1f1cd5d3_d492_4207_8627_3dfda6d27534 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1f1cd5d3_d492_4207_8627_3dfda6d27534">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3739c3c7_9cbe_46ec_a7a7_856325d43d90"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8dc1381b_5017_485d_8b72_cd62f859f0b2"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_f083ef39_05b7_4e4b_9121_027276fa0824"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_d499d517_3f10_4426_82e1_b85b77377eb3"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_72a501eb_8d94_400b_8c10_d9fb4f382da4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ccfd984c_997d_446c_94b5_952bfde127b4"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_56fe8973_911a_4642_8f52_817612430332"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">sosa:observableProperty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_21933c4a_2403_43f4_bf81_cb8ed0eb4c3f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_21933c4a_2403_43f4_bf81_cb8ed0eb4c3f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_584a89f1_f3d1_4fcf_b9b5_79a5ecf33dbd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_39260803_4b8f_4be9_a459_c2e554c60fdf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_d48fa112_677c_4bb9_a163_c0f20694318b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_7dcdc152_d852_42f6_b6fb_129c08dc2786"/>
+        <rdfs:label xml:lang="en">divisibleResource</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a0eae6fb_655c_43bf_853f_c429bd8a80b6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_1a5d1c64_4d43_452c_9d43_22487178c077"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_40ef7bc2_8b78_4fe3_a8b1_4a078be691d1"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_05844021_fe81_4156_bd56_e2a2fcbf7e98"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b6a080b8_d6ce_4965_867d_96a5ed012839"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1754cde8_469e_4667_bcc0_87bea04601e7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c9d15243_92d3_4130_b9d2_f4c9489b6d7a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e08d0710_19b8_4ebb_8547_25bd93b47fec"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_05844021_fe81_4156_bd56_e2a2fcbf7e98"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">time:temporalEntity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3739c3c7_9cbe_46ec_a7a7_856325d43d90 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3739c3c7_9cbe_46ec_a7a7_856325d43d90">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_bdbc4669_1aca_4aff_bc57_172856b4dd91"/>
+        <rdfs:label xml:lang="en">ssn:Property</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3933342b_1ba5_4c9b_841c_0029c3ada25f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3933342b_1ba5_4c9b_841c_0029c3ada25f">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_69d3a630_e373_433f_be7a_0f3b38e0fd85"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3eb51b60_48aa_4e4a_8050_39ff23ae93a4"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_69d3a630_e373_433f_be7a_0f3b38e0fd85"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3eb51b60_48aa_4e4a_8050_39ff23ae93a4"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_f00f56df_0621_43ee_9324_2cb60abbeea5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_69d3a630_e373_433f_be7a_0f3b38e0fd85"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3eb51b60_48aa_4e4a_8050_39ff23ae93a4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ba5fe689_f2c2_499d_b8ef_97465e890a23"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1754cde8_469e_4667_bcc0_87bea04601e7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">timeVaryingConcept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3c5d4f7c_59cb_4c98_b2b3_ca24fc1a1191 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3c5d4f7c_59cb_4c98_b2b3_ca24fc1a1191">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_cb2f7695_425f_444f_87e3_df09ab469c60"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_6e714907_678d_41fc_bf62_2a5d1ba0d993"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a21346a9_9dff_46cd_862f_c95695bb9045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_919d4c30_56cb_485a_8479_07521868ecd1"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a21346a9_9dff_46cd_862f_c95695bb9045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9ff850c0_d029_4c22_9db0_e41c1c5ff912"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b2a0ddfb_eeff_49c0_95b2_5dbd6ef04213"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a21346a9_9dff_46cd_862f_c95695bb9045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_be267e5f_3014_4b3a_be74_1abe3b014f76"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a21346a9_9dff_46cd_862f_c95695bb9045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_cb2f7695_425f_444f_87e3_df09ab469c60"/>
+        <rdfs:label xml:lang="en">state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3d634748_fbb9_4179_a09d_c991cfddb85c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3d634748_fbb9_4179_a09d_c991cfddb85c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3c5d4f7c_59cb_4c98_b2b3_ca24fc1a1191"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_68cacb3b_c4b9_40a9_82ec_eaeb605c8534"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3c5d4f7c_59cb_4c98_b2b3_ca24fc1a1191"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b5ace686_796a_4aca_ba55_f39a7b7992d2"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3c5d4f7c_59cb_4c98_b2b3_ca24fc1a1191"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b5ace686_796a_4aca_ba55_f39a7b7992d2"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3c5d4f7c_59cb_4c98_b2b3_ca24fc1a1191"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_5360de2b_b53d_4c0d_9cbf_ee20eecc3660"/>
+        <rdfs:label xml:lang="en">nonTerminalState</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3eb51b60_48aa_4e4a_8050_39ff23ae93a4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3eb51b60_48aa_4e4a_8050_39ff23ae93a4">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a2302091_852b_44eb_8e4c_e9d80d7a7255"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3933342b_1ba5_4c9b_841c_0029c3ada25f"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a2302091_852b_44eb_8e4c_e9d80d7a7255"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3933342b_1ba5_4c9b_841c_0029c3ada25f"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_f00f56df_0621_43ee_9324_2cb60abbeea5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_a2302091_852b_44eb_8e4c_e9d80d7a7255"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3933342b_1ba5_4c9b_841c_0029c3ada25f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ba5fe689_f2c2_499d_b8ef_97465e890a23"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">manifestation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_4122a66f_3cfb_41a2_a5e6_d4945389198b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_4122a66f_3cfb_41a2_a5e6_d4945389198b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9ae184a4_b395_4128_9345_67c5d76f153b"/>
+        <rdfs:label xml:lang="en">unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_41aa9a81_b690_4fd9_b7e6_ed0dca4e40a9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_41aa9a81_b690_4fd9_b7e6_ed0dca4e40a9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9ae184a4_b395_4128_9345_67c5d76f153b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e95807ec_58bb_4279_b5b7_a6ee0bf384c2"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9c5d5602_b595_41aa_a8bf_6aedfe99e9a2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">quantity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_42fcc890_79b1_469e_9c8b_f26890863061 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_42fcc890_79b1_469e_9c8b_f26890863061">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3d634748_fbb9_4179_a09d_c991cfddb85c"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_8264a01c_1a42_4674_97db_8f45833caee4"/>
+        <rdfs:label xml:lang="en">conjuctiveState</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_5360de2b_b53d_4c0d_9cbf_ee20eecc3660 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_5360de2b_b53d_4c0d_9cbf_ee20eecc3660">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3c5d4f7c_59cb_4c98_b2b3_ca24fc1a1191"/>
+        <rdfs:label xml:lang="en">terminalState</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_56fe8973_911a_4642_8f52_817612430332 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_56fe8973_911a_4642_8f52_817612430332">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_ba2d3bd9_414e_4770_9041_60841f48ba69"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_79c6a122_4ca7_4295_9b93_3616787ce5bf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9c836992_1e20_4a15_a8a6_12f4f01c5049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8d4f1a0a_f8e7_40e4_aef0_9f2e9ee1ecc1"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_e594c230_8e84_4b70_80c0_4f4c4a13beee"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8f5db45f_0055_46c9_8084_8c7db5b74bce"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_72a501eb_8d94_400b_8c10_d9fb4f382da4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ccfd984c_997d_446c_94b5_952bfde127b4"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1f1cd5d3_d492_4207_8627_3dfda6d27534"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_79c6a122_4ca7_4295_9b93_3616787ce5bf"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8d4f1a0a_f8e7_40e4_aef0_9f2e9ee1ecc1"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8f5db45f_0055_46c9_8084_8c7db5b74bce"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ccfd984c_997d_446c_94b5_952bfde127b4"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_dfc4b76c_0b8f_41c2_b893_54ec4e303be5"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_f083ef39_05b7_4e4b_9121_027276fa0824"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e04c86ed_58a4_4615_8ded_61d85b337f27"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_3cef9d51_07bb_4228_b63e_1a4b2e2e5fbe"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_f083ef39_05b7_4e4b_9121_027276fa0824"/>
+        <rdfs:label xml:lang="en">sosa:observation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_584a89f1_f3d1_4fcf_b9b5_79a5ecf33dbd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_584a89f1_f3d1_4fcf_b9b5_79a5ecf33dbd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3eb51b60_48aa_4e4a_8050_39ff23ae93a4"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c0479289_85ac_4b27_a920_e2a8fda5c155"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_03be2db2_16bc_4e35_a165_cdd2e66478af"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a21346a9_9dff_46cd_862f_c95695bb9045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_05d8c382_2ec6_427d_aeb2_be9734852e66"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_d48fa112_677c_4bb9_a163_c0f20694318b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_165fef5f_e192_4539_b683_269d78cd9103"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_d48fa112_677c_4bb9_a163_c0f20694318b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b5aeb7bb_df93_4141_bbc6_55a314d5b386"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a21346a9_9dff_46cd_862f_c95695bb9045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f0ea4b08_0c60_465d_ab35_a0124047866b"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a21346a9_9dff_46cd_862f_c95695bb9045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_582b27ba_80de_42b4_baaa_81aee4e3068b"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_e8f2d07d_fe55_4b3b_a9bd_60b1a5ee7586"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ba5fe689_f2c2_499d_b8ef_97465e890a23"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">resource</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_58e2e9f6_9ac6_4bbc_979d_fc5ba938645b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_58e2e9f6_9ac6_4bbc_979d_fc5ba938645b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_4122a66f_3cfb_41a2_a5e6_d4945389198b"/>
+        <rdfs:label xml:lang="en">volume_unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_59a26c4e_ee69_4838_9304_8690f484eeda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_59a26c4e_ee69_4838_9304_8690f484eeda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_41aa9a81_b690_4fd9_b7e6_ed0dca4e40a9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e95807ec_58bb_4279_b5b7_a6ee0bf384c2"/>
+                <owl:allValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3b1adc63_77b6_406f_811d_59382651db9c"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_6c146927_634c_4956_a114_1657a5d2da1e"/>
+                    </owl:Restriction>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_5a226d06_4f28_4676_8f13_8c55a5171239 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_5a226d06_4f28_4676_8f13_8c55a5171239">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b108a28b_7311_4fc1_9226_7538f628dc7c"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_7d52a519_d2e8_44b2_9e24_24c7b9cf8687"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_9f3480e2_bc20_475d_be82_2dbf18b61713"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://schema.org/month"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">yearlyRecurringEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_5a883412_1d1c_4d8b_9be3_bb622f69e16b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_5a883412_1d1c_4d8b_9be3_bb622f69e16b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b108a28b_7311_4fc1_9226_7538f628dc7c"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_7d52a519_d2e8_44b2_9e24_24c7b9cf8687"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">monthlyRecurringEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_696eb83a_ea2a_4ef0_b832_cd2c6341dc2e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_696eb83a_ea2a_4ef0_b832_cd2c6341dc2e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_41aa9a81_b690_4fd9_b7e6_ed0dca4e40a9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e95807ec_58bb_4279_b5b7_a6ee0bf384c2"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b6e284a1_8c0e_4a6e_a3e6_5725fb920344"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">populationSize</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_6c146927_634c_4956_a114_1657a5d2da1e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_6c146927_634c_4956_a114_1657a5d2da1e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_4122a66f_3cfb_41a2_a5e6_d4945389198b"/>
+        <rdfs:label xml:lang="en">area_unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_72a501eb_8d94_400b_8c10_d9fb4f382da4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_72a501eb_8d94_400b_8c10_d9fb4f382da4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_bdbc4669_1aca_4aff_bc57_172856b4dd91"/>
+        <rdfs:label xml:lang="en">ssn:stimulus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_76882940_4d53_47d6_a5ae_e6f5e54177a3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_76882940_4d53_47d6_a5ae_e6f5e54177a3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_bdbc4669_1aca_4aff_bc57_172856b4dd91"/>
+        <rdfs:label xml:lang="en">sosa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_78c7705f_6cab_4fc7_9485_6bfd9184dcaf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_78c7705f_6cab_4fc7_9485_6bfd9184dcaf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_4122a66f_3cfb_41a2_a5e6_d4945389198b"/>
+        <rdfs:label xml:lang="en">amountOfMoney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_7a7ee799_00fa_451a_ba13_6949167bacbd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_7a7ee799_00fa_451a_ba13_6949167bacbd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b108a28b_7311_4fc1_9226_7538f628dc7c"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_1ae3599e_79bb_48f7_9ba1_e59704f28aba"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">dailyRecurringEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_7dcdc152_d852_42f6_b6fb_129c08dc2786 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_7dcdc152_d852_42f6_b6fb_129c08dc2786">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_584a89f1_f3d1_4fcf_b9b5_79a5ecf33dbd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_cb5d526b_829c_47b5_9f02_da811a675beb"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a21346a9_9dff_46cd_862f_c95695bb9045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">nonDivisibleResource</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_7eef2940_ebd3_4d38_ad3b_910c12f174c5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_7eef2940_ebd3_4d38_ad3b_910c12f174c5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_4122a66f_3cfb_41a2_a5e6_d4945389198b"/>
+        <rdfs:label xml:lang="en">time_unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_8264a01c_1a42_4674_97db_8f45833caee4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_8264a01c_1a42_4674_97db_8f45833caee4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3d634748_fbb9_4179_a09d_c991cfddb85c"/>
+        <rdfs:label xml:lang="en">disjunctiveState</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_83b48aa1_a6bc_4bb2_8339_d450f0218a5e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_83b48aa1_a6bc_4bb2_8339_d450f0218a5e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_4122a66f_3cfb_41a2_a5e6_d4945389198b"/>
+        <rdfs:label xml:lang="en">length_unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_840b2c19_7fe2_4e01_afd3_a1820efb0c06 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_840b2c19_7fe2_4e01_afd3_a1820efb0c06">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_41aa9a81_b690_4fd9_b7e6_ed0dca4e40a9"/>
+        <rdfs:label xml:lang="en">capacityRate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_8fcd7314_b7e9_4a4a_9579_b4ccd0a6a54e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_8fcd7314_b7e9_4a4a_9579_b4ccd0a6a54e">
+        <rdfs:label xml:lang="en">recurringEvents</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_91dd5556_78d7_420d_b621_fd648220765e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_91dd5556_78d7_420d_b621_fd648220765e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_41aa9a81_b690_4fd9_b7e6_ed0dca4e40a9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e95807ec_58bb_4279_b5b7_a6ee0bf384c2"/>
+                <owl:allValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3b1adc63_77b6_406f_811d_59382651db9c"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_93628d93_1a76_404e_afb8_6ed41ef68927"/>
+                    </owl:Restriction>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">acceleration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_93628d93_1a76_404e_afb8_6ed41ef68927 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_93628d93_1a76_404e_afb8_6ed41ef68927">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_4122a66f_3cfb_41a2_a5e6_d4945389198b"/>
+        <rdfs:label xml:lang="en">acceleration_unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9a57b65e_9711_4322_bd72_9e47d7275566 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9a57b65e_9711_4322_bd72_9e47d7275566">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_41aa9a81_b690_4fd9_b7e6_ed0dca4e40a9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e95807ec_58bb_4279_b5b7_a6ee0bf384c2"/>
+                <owl:allValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3b1adc63_77b6_406f_811d_59382651db9c"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_d414bd4b_afaf_478f_9758_6daceed74949"/>
+                    </owl:Restriction>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9ae184a4_b395_4128_9345_67c5d76f153b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9ae184a4_b395_4128_9345_67c5d76f153b">
+        <rdfs:label xml:lang="en">unitOfMeasure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9c5d5602_b595_41aa_a8bf_6aedfe99e9a2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9c5d5602_b595_41aa_a8bf_6aedfe99e9a2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9ae184a4_b395_4128_9345_67c5d76f153b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3b1adc63_77b6_406f_811d_59382651db9c"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_4122a66f_3cfb_41a2_a5e6_d4945389198b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">measure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9c836992_1e20_4a15_a8a6_12f4f01c5049 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9c836992_1e20_4a15_a8a6_12f4f01c5049">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_76882940_4d53_47d6_a5ae_e6f5e54177a3"/>
+        <rdfs:label xml:lang="en">sosa:featureOfInterest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9ef1d482_4614_42af_a41c_463b52b3a99c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9ef1d482_4614_42af_a41c_463b52b3a99c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_4122a66f_3cfb_41a2_a5e6_d4945389198b"/>
+        <rdfs:label xml:lang="en">geoPosition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a01c47d5_7b67_4440_a67a_c78b92255fec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a01c47d5_7b67_4440_a67a_c78b92255fec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_bdbc4669_1aca_4aff_bc57_172856b4dd91"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_4a73b4a7_9686_4553_874c_9b03220b9da1"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3739c3c7_9cbe_46ec_a7a7_856325d43d90"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_4a73b4a7_9686_4553_874c_9b03220b9da1"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">sosa:featureofInterest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a0bb5fc3_5f2e_4a59_9495_297bbd669e41 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a0bb5fc3_5f2e_4a59_9495_297bbd669e41">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_41aa9a81_b690_4fd9_b7e6_ed0dca4e40a9"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_78c7705f_6cab_4fc7_9485_6bfd9184dcaf"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e95807ec_58bb_4279_b5b7_a6ee0bf384c2"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b972be9d_b48c_4972_989a_f1b4c882bdb4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">valueOfMoney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a0eae6fb_655c_43bf_853f_c429bd8a80b6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a0eae6fb_655c_43bf_853f_c429bd8a80b6">
+        <rdfs:label xml:lang="en">time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a21346a9_9dff_46cd_862f_c95695bb9045 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a21346a9_9dff_46cd_862f_c95695bb9045">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_cb2f7695_425f_444f_87e3_df09ab469c60"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_6076d1f3_4093_4267_9175_ce0e54e6e8c2"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_05844021_fe81_4156_bd56_e2a2fcbf7e98"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_92157ed8_3d69_4366_96f8_c5de97d7e6ab"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_05844021_fe81_4156_bd56_e2a2fcbf7e98"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c7d1f766_6f81_4c9a_bc81_f81d90d478b5"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1754cde8_469e_4667_bcc0_87bea04601e7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_1622242d_52af_4f9d_ac2f_468dd8ec434b"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3c5d4f7c_59cb_4c98_b2b3_ca24fc1a1191"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_57b55f3e_3b08_4f0e_9919_61ce8851c7cb"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a21346a9_9dff_46cd_862f_c95695bb9045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_582b27ba_80de_42b4_baaa_81aee4e3068b"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_e8f2d07d_fe55_4b3b_a9bd_60b1a5ee7586"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_87fa1fec_b7a6_47ac_b1c2_8fa16f543b1c"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3c5d4f7c_59cb_4c98_b2b3_ca24fc1a1191"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9feacaa0_ffd6_4a60_8beb_0cfbfc6eacdf"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a21346a9_9dff_46cd_862f_c95695bb9045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_b9cd8d0e_5dab_4eb0_b3cb_1b81233aa7e6"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3c5d4f7c_59cb_4c98_b2b3_ca24fc1a1191"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_befde0c1_0fcf_4244_8e16_a1f0082f66c1"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a21346a9_9dff_46cd_862f_c95695bb9045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_cc97f481_39b5_4a61_8651_411903ed3ed0"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3eb51b60_48aa_4e4a_8050_39ff23ae93a4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f69fd006_a30c_4956_a4ac_cc6621a1d690"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3c5d4f7c_59cb_4c98_b2b3_ca24fc1a1191"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a71e0c4a_aa59_425f_92db_8b6bb22daa78 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a71e0c4a_aa59_425f_92db_8b6bb22daa78">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b36e1659_45a3_4af9_8f73_9b5eefa05e89"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_1042837c_e74b_4ad1_9505_79addaa4747d"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_7eef2940_ebd3_4d38_ad3b_910c12f174c5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c0d51bf5_a5f9_46fc_8e68_7fdea0b524c9"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_00747e00_0330_4843_97b4_bb027e3176cc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">cardinalityUnitPerTime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b108a28b_7311_4fc1_9226_7538f628dc7c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b108a28b_7311_4fc1_9226_7538f628dc7c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_8fcd7314_b7e9_4a4a_9579_b4ccd0a6a54e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_6687ab25_6f99_477f_9064_3516a280af66"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b108a28b_7311_4fc1_9226_7538f628dc7c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_991f6336_b51f_4490_bda3_c1ae85b8ae4d"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_e8f2d07d_fe55_4b3b_a9bd_60b1a5ee7586"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_9f666e7b_e0d5_46be_9bc6_90ed5b74acea"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_c2bfcb9c_9d69_438a_8d6b_2d60b7564401"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e7f510f6_c166_4a01_9d83_351134dfb9d4"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f5904b65_0ba2_4850_a467_2ed5cd7ea8d5"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f99156ae_d99d_4aa4_849c_901cc039bcd5"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a21346a9_9dff_46cd_862f_c95695bb9045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_1ae3599e_79bb_48f7_9ba1_e59704f28aba"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_2a521c84_2030_47cd_84e9_fa3f7fecd812"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_2f99116c_e780_4aaa_89b8_22d7ec9a2bc6"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_7d52a519_d2e8_44b2_9e24_24c7b9cf8687"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_9f3480e2_bc20_475d_be82_2dbf18b61713"/>
+                <owl:allValuesFrom rdf:resource="http://schema.org/month"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_b783ba3a_047a_42d4_be00_134be3bef3bd"/>
+                <owl:allValuesFrom rdf:resource="http://schema.org/month"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_ea7a68c0_1aca_489f_abf8_39d64907e46e"/>
+                <owl:allValuesFrom rdf:resource="http://schema.org/dayOfWeek"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_ed9493d9_0313_4097_b6e2_f6c905efd3f7"/>
+                <owl:allValuesFrom rdf:resource="http://schema.org/dayOfWeek"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">recurringEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b292076f_51d6_41bc_8124_809d7b98634a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b292076f_51d6_41bc_8124_809d7b98634a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_e8f2d07d_fe55_4b3b_a9bd_60b1a5ee7586"/>
+        <rdfs:label xml:lang="en">spatial:geometry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b36e1659_45a3_4af9_8f73_9b5eefa05e89 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b36e1659_45a3_4af9_8f73_9b5eefa05e89">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_4122a66f_3cfb_41a2_a5e6_d4945389198b"/>
+        <rdfs:label xml:lang="en">unitDivision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b431d6ad_4b93_4ffc_9b17_37950ba547ff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b431d6ad_4b93_4ffc_9b17_37950ba547ff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_bdbc4669_1aca_4aff_bc57_172856b4dd91"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_f99e36ac_e92b_4191_9caa_4e4f6c15a202"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_ba2d3bd9_414e_4770_9041_60841f48ba69"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">obs:observation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b52c05e1_5fb1_431d_af74_0cd0032beff7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b52c05e1_5fb1_431d_af74_0cd0032beff7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b108a28b_7311_4fc1_9226_7538f628dc7c"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_ea7a68c0_1aca_489f_abf8_39d64907e46e"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://schema.org/dayOfWeek"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">weeklyRecurringEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b6e284a1_8c0e_4a6e_a3e6_5725fb920344 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b6e284a1_8c0e_4a6e_a3e6_5725fb920344">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9c5d5602_b595_41aa_a8bf_6aedfe99e9a2"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_f9fad4ea_d2e7_4c1b_ab2a_aa995f474931"/>
+        <rdfs:label xml:lang="en">population_measure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b972be9d_b48c_4972_989a_f1b4c882bdb4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b972be9d_b48c_4972_989a_f1b4c882bdb4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9c5d5602_b595_41aa_a8bf_6aedfe99e9a2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3b1adc63_77b6_406f_811d_59382651db9c"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_78c7705f_6cab_4fc7_9485_6bfd9184dcaf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLDataProperty_d983f0e0_367b_46f7_ba74_86bc40cf2b07"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">monetaryValue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_ba2d3bd9_414e_4770_9041_60841f48ba69 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_ba2d3bd9_414e_4770_9041_60841f48ba69">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_bdbc4669_1aca_4aff_bc57_172856b4dd91"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_6f7e7206_b6b0_4bba_ac73_9c61c43700e0"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b431d6ad_4b93_4ffc_9b17_37950ba547ff"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">obs:observer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_bdbc4669_1aca_4aff_bc57_172856b4dd91 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_bdbc4669_1aca_4aff_bc57_172856b4dd91">
+        <rdfs:label xml:lang="en">observations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c0479289_85ac_4b27_a920_e2a8fda5c155 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c0479289_85ac_4b27_a920_e2a8fda5c155">
+        <rdfs:label xml:lang="en">resources</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6">
+        <rdfs:label xml:lang="en">spatial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c519de20_5963_43f3_99bd_583eb4196709 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c519de20_5963_43f3_99bd_583eb4196709">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_41aa9a81_b690_4fd9_b7e6_ed0dca4e40a9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e95807ec_58bb_4279_b5b7_a6ee0bf384c2"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9c5d5602_b595_41aa_a8bf_6aedfe99e9a2"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3b1adc63_77b6_406f_811d_59382651db9c"/>
+                                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_83b48aa1_a6bc_4bb2_8339_d450f0218a5e"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c5220c4c_e87c_416e_aafc_e828b06f4ed5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c5220c4c_e87c_416e_aafc_e828b06f4ed5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_41aa9a81_b690_4fd9_b7e6_ed0dca4e40a9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e95807ec_58bb_4279_b5b7_a6ee0bf384c2"/>
+                <owl:allValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3b1adc63_77b6_406f_811d_59382651db9c"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_d3ef8084_cfc0_42de_81b4_17242019ce89"/>
+                    </owl:Restriction>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">speed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_cb2f7695_425f_444f_87e3_df09ab469c60 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_cb2f7695_425f_444f_87e3_df09ab469c60">
+        <rdfs:label xml:lang="en">activities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_d3ef8084_cfc0_42de_81b4_17242019ce89 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_d3ef8084_cfc0_42de_81b4_17242019ce89">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_4122a66f_3cfb_41a2_a5e6_d4945389198b"/>
+        <rdfs:label xml:lang="en">speed_unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_d414bd4b_afaf_478f_9758_6daceed74949 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_d414bd4b_afaf_478f_9758_6daceed74949">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_4122a66f_3cfb_41a2_a5e6_d4945389198b"/>
+        <rdfs:label xml:lang="en">mass_unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_d48fa112_677c_4bb9_a163_c0f20694318b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_d48fa112_677c_4bb9_a163_c0f20694318b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_41aa9a81_b690_4fd9_b7e6_ed0dca4e40a9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e95807ec_58bb_4279_b5b7_a6ee0bf384c2"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_f9fad4ea_d2e7_4c1b_ab2a_aa995f474931"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">capacitySize</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_e594c230_8e84_4b70_80c0_4f4c4a13beee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_e594c230_8e84_4b70_80c0_4f4c4a13beee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_76882940_4d53_47d6_a5ae_e6f5e54177a3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_ae102091_a687_4e5d_a646_42808101b04c"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">sosa:result</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_e8f2d07d_fe55_4b3b_a9bd_60b1a5ee7586 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_e8f2d07d_fe55_4b3b_a9bd_60b1a5ee7586">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c2977ef9_2a25_4e64_8c9b_59118673a6d6"/>
+        <rdfs:label xml:lang="en">spatial:feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_ee9f98bd_d79b_40e0_8e27_928f7ab27bb0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_ee9f98bd_d79b_40e0_8e27_928f7ab27bb0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a0eae6fb_655c_43bf_853f_c429bd8a80b6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_7fdd2d3f_44bf_49ea_92a5_05f55755d187"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <property-ontologies:OWLAnnotationProperty_8c8150ba_d394_4cf8_ac13_7640a4c7198f>Description of date and time structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of year, month, day properties restricted to corresponding XML Schema types xsd:gYear, xsd:gMonth and xsd:gDay, respectively.</property-ontologies:OWLAnnotationProperty_8c8150ba_d394_4cf8_ac13_7640a4c7198f>
+        <rdfs:label xml:lang="en">time:dateTimeDescription</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_f00f56df_0621_43ee_9324_2cb60abbeea5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_f00f56df_0621_43ee_9324_2cb60abbeea5">
+        <rdfs:label xml:lang="en">change</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_f083ef39_05b7_4e4b_9121_027276fa0824 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_f083ef39_05b7_4e4b_9121_027276fa0824">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_ba2d3bd9_414e_4770_9041_60841f48ba69"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_1c7c411f_c1d0_492e_a20b_aea2c7b7495a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1f1cd5d3_d492_4207_8627_3dfda6d27534"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_8f902a93_4a1c_48e7_a08c_4f5253293aac"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_56fe8973_911a_4642_8f52_817612430332"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_be77a78f_c4f2_4ddc_98fb_2f17a3b72fa2"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_72a501eb_8d94_400b_8c10_d9fb4f382da4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">sosa:sensor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_f9fad4ea_d2e7_4c1b_ab2a_aa995f474931 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_f9fad4ea_d2e7_4c1b_ab2a_aa995f474931">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9c5d5602_b595_41aa_a8bf_6aedfe99e9a2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3b1adc63_77b6_406f_811d_59382651db9c"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_00747e00_0330_4843_97b4_bb027e3176cc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">cardinality_measure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_fbe5d594_e381_44fc_9036_6ca60c1dcb00 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_fbe5d594_e381_44fc_9036_6ca60c1dcb00">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_41aa9a81_b690_4fd9_b7e6_ed0dca4e40a9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_e95807ec_58bb_4279_b5b7_a6ee0bf384c2"/>
+                <owl:allValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLObjectProperty_3b1adc63_77b6_406f_811d_59382651db9c"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_58e2e9f6_9ac6_4bbc_979d_fc5ba938645b"/>
+                    </owl:Restriction>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TimePosition -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#TimePosition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a0eae6fb_655c_43bf_853f_c429bd8a80b6"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_00747e00_0330_4843_97b4_bb027e3176cc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_58e2e9f6_9ac6_4bbc_979d_fc5ba938645b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_6c146927_634c_4956_a114_1657a5d2da1e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_78c7705f_6cab_4fc7_9485_6bfd9184dcaf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_83b48aa1_a6bc_4bb2_8339_d450f0218a5e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_93628d93_1a76_404e_afb8_6ed41ef68927"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9ef1d482_4614_42af_a41c_463b52b3a99c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b36e1659_45a3_4af9_8f73_9b5eefa05e89"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_d3ef8084_cfc0_42de_81b4_17242019ce89"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_d414bd4b_afaf_478f_9758_6daceed74949"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_05844021_fe81_4156_bd56_e2a2fcbf7e98"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_1754cde8_469e_4667_bcc0_87bea04601e7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_ee9f98bd_d79b_40e0_8e27_928f7ab27bb0"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_2df0239c_46bf_478d_ada3_72b9bda73801"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3933342b_1ba5_4c9b_841c_0029c3ada25f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3eb51b60_48aa_4e4a_8050_39ff23ae93a4"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3739c3c7_9cbe_46ec_a7a7_856325d43d90"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_72a501eb_8d94_400b_8c10_d9fb4f382da4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a01c47d5_7b67_4440_a67a_c78b92255fec"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b431d6ad_4b93_4ffc_9b17_37950ba547ff"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_ba2d3bd9_414e_4770_9041_60841f48ba69"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_e594c230_8e84_4b70_80c0_4f4c4a13beee"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_3739c3c7_9cbe_46ec_a7a7_856325d43d90"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a01c47d5_7b67_4440_a67a_c78b92255fec"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b431d6ad_4b93_4ffc_9b17_37950ba547ff"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_ba2d3bd9_414e_4770_9041_60841f48ba69"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_e594c230_8e84_4b70_80c0_4f4c4a13beee"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_4122a66f_3cfb_41a2_a5e6_d4945389198b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_41aa9a81_b690_4fd9_b7e6_ed0dca4e40a9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9c5d5602_b595_41aa_a8bf_6aedfe99e9a2"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_59a26c4e_ee69_4838_9304_8690f484eeda"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_696eb83a_ea2a_4ef0_b832_cd2c6341dc2e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_840b2c19_7fe2_4e01_afd3_a1820efb0c06"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_91dd5556_78d7_420d_b621_fd648220765e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_9a57b65e_9711_4322_bd72_9e47d7275566"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_a0bb5fc3_5f2e_4a59_9495_297bbd669e41"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c519de20_5963_43f3_99bd_583eb4196709"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_c5220c4c_e87c_416e_aafc_e828b06f4ed5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_d48fa112_677c_4bb9_a163_c0f20694318b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_fbe5d594_e381_44fc_9036_6ca60c1dcb00"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_5a226d06_4f28_4676_8f13_8c55a5171239"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_5a883412_1d1c_4d8b_9be3_bb622f69e16b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_7a7ee799_00fa_451a_ba13_6949167bacbd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_8fcd7314_b7e9_4a4a_9579_b4ccd0a6a54e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b52c05e1_5fb1_431d_af74_0cd0032beff7"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b6e284a1_8c0e_4a6e_a3e6_5725fb920344"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_b972be9d_b48c_4972_989a_f1b4c882bdb4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marcus/ontologies/2023/9/property-ontologies#OWLClass_f9fad4ea_d2e7_4c1b_ab2a_aa995f474931"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
